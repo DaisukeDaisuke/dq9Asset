@@ -24,3 +24,8 @@ sourceforge.net/projects/luabinaries/files/5.1.5/Tools%20Executables/lua-5.1.5_W
 Execution result of table.lua  
 table.luaの実行結果  
   
+## enc.lua (jp)
+This is an encounter display
+
+## enc.png
+Example of how enc.lua works
