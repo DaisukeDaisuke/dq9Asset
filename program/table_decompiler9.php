@@ -1,5 +1,6 @@
 <?php
 
+const IS_EN = false;
 
 class s{
 	public static function get(int $id){
@@ -884,9 +885,7 @@ class s{
 			0x384 => "サンドバッグくん",
 		];
 
-		$isEn = false;
-
-		if($isEn){
+		if(IS_EN){
 			return $list_en[$id] ?? dechex($id);
 		}else{
 			return $list_jp[$id] ?? dechex($id);
@@ -1258,8 +1257,13 @@ foreach($lines as $line){
 function show($result1, string $g = "1"){
 	// Markdown表のヘッダーを作成
 	//Monster | Percentage/Chance | Detailed value | 1 or 2 G min value | 1 or 2 G max value | RNG range?
-	$header = "| モンスター | 確率 | 内部的な値 | ".$g."Gの最小数 | ".$g."Gの最大数 | 乱数幅 | \n| --- | --- | --- | --- | --- | --- |";
-	//$header = "| Monster | Percentage/Chance | Detailed value | ".$g."G min value | ".$g."G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |";
+	if(IS_EN){
+		$header = "| Monster | Percentage/Chance | Detailed value | ".$g."G min value | ".$g."G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |";
+	}else{
+		$header = "| モンスター | 確率 | 内部的な値 | ".$g."Gの最小数 | ".$g."Gの最大数 | 乱数幅 | \n| --- | --- | --- | --- | --- | --- |";
+	}
+
+	//
 
 	echo "\n\n";
 // Markdown表のデータを生成
@@ -1276,8 +1280,11 @@ function show($result1, string $g = "1"){
 
 function show1($result1){
 	// Markdown表のヘッダーを作成
-	$header = "| モンスター | 3Gの確率1(以上) | 3Gの確率2(かつ以下) | \n| --- | --- | --- |";
-	//$header = "| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |";
+	if(IS_EN){
+		$header = "| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |";
+	}else{
+		$header = "| モンスター | 3Gの確率1(以上) | 3Gの確率2(かつ以下) | \n| --- | --- | --- |";
+	}
 // Markdown表のデータを生成
 	$rows = "";
 	foreach($result1 as $row){
@@ -1294,6 +1301,9 @@ function calculateExpectedValue($probability, $maxValue){
 	return (1 - $probability) * $maxValue;
 }
 
+$have = json_decode(file_get_contents(__DIR__."/../abc_enc.json"), true);
+
+$haveMax = json_decode(file_get_contents(__DIR__."/../max.json"), true);
 $result = [];
 $result_3g = [];
 $result_test = [];
@@ -1374,7 +1384,8 @@ foreach($table34 as $tableId => $item){
 			"tableid" => "0x".dechex($tableId),
 			"monsterId" => $id,
 			"displayname" => s::get($id),
-			"percent" => number_format($expectedValueMinus100, 4),
+			"percent2" => number_format($expectedValueMinus100, 4),
+			"percent3" => (isset($result_3g[2]) ? number_format(100 - calculateExpectedValue($g3_1 / $maxrand, $maxValue), 4) : null),
 			"data" => [
 				"2g" => $rand,
 				"max" => $r1_1,
@@ -1466,7 +1477,7 @@ ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("2Gappear.json", json_encode([
-	"version" => "1.0.3",
+	"version" => "2.0.0",
 	"explanation" => "This is a list of probabilities that the monster 2G or 3G will appear",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));

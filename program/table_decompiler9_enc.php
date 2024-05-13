@@ -1,7 +1,7 @@
 <?php
 
 
-
+const is_EN = false;
 
 
 class s{
@@ -887,9 +887,7 @@ class s{
 			0x384 => "サンドバッグくん",
 		];
 
-		$isEn = false;
-
-		if($isEn){
+		if(is_EN){
 			return $list_en[$id] ?? dechex($id);
 		}else{
 			return $list_jp[$id] ?? dechex($id);
@@ -970,8 +968,12 @@ foreach($enc as $key => $array){
 	}
 	$k = 0;
 	$step = 100.0 / $maxRand;
-	//$result2 = "| monster | probability | % | Internal Value |\n|--------|--------|--------|--------|\n";
-	$result2 = "| モンスター | 確率 | % | 内部的な値 |\n|--------|--------|--------|--------|\n";
+	if(is_EN){
+		$result2 = "| monster | probability | % | Internal Value |\n|--------|--------|--------|--------|\n";
+	}else{
+		$result2 = "| モンスター | 確率 | % | 内部的な値 |\n|--------|--------|--------|--------|\n";
+	}
+
 	$collect = [];
 	foreach($result_enc as [$monsterid, $item]){
 		$start = $k * $step;
@@ -1009,7 +1011,7 @@ foreach($enc as $key => $array){
 }
 ksort($result_enc1);
 file_put_contents("enc.json", json_encode([
-	"version" => "1.0.1",
+	"version" => "1.0.2",
 	"explanation" => "This is the probability that a monster will spawn on the field. \n Trap monsters have a strange spawn probability, so be sure to use special processing.",
 	"main" => $result_enc1,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));

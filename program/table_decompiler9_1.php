@@ -1,5 +1,6 @@
 <?php
 
+const IS_EN = true;
 
 class s{
 	public static function get(int $id){
@@ -884,9 +885,7 @@ class s{
 			0x384 => "サンドバッグくん",
 		];
 
-		$isEn = false;
-
-		if($isEn){
+		if(IS_EN){
 			return $list_en[$id] ?? dechex($id);
 		}else{
 			return $list_jp[$id] ?? dechex($id);
@@ -1260,6 +1259,9 @@ function calculateExpectedValue($probability, $maxValue){
 	return (1 - $probability) * $maxValue;
 }
 
+$have = json_decode(file_get_contents(__DIR__."/../abc_enc.json"), true);
+
+$haveMax = json_decode(file_get_contents(__DIR__."/../max.json"), true);
 $result = [];
 $result_3g = [];
 $result_test = [];
@@ -1300,16 +1302,15 @@ foreach($table0 as $tableId => $item){
 
 	$result[$tableId]["maxRand"] = $totalrand;
 	ob_start();
-	getRanges($result1);
+	getRanges($result1, $result, $tableId);
 	$result[$tableId]["toString"] = ob_get_clean();
 	$result_3g = [];
 	$result_test = [];
 }
 
-function getRanges(array $result) : array{
+function getRanges(array &$result, array &$result10, $tableId){
 	$tmp = array_column($result, 0);
 	//var_dump($result, $tmp);
-	$ranges = [];
 	$max = 0;
 	foreach($tmp as $item){
 		$max += $item - $max;
@@ -1337,6 +1338,9 @@ function getRanges(array $result) : array{
 		$end = $i * $step;
 		$id = $result[$key][1];
 		$ranges[$i] = (s::get($id)).": ".number_format($start, 4)."%-".number_format($end, 4)."%";
+		$result10[$tableId]["main"][$key]["StartPercent"] = number_format($start, 4);
+		$result10[$tableId]["main"][$key]["endPercent"] = number_format($end, 4);
+
 		$result1[] = [
 			s::get($id),
 			number_format($start, 4)."%-".number_format($end, 4)."%",
@@ -1350,15 +1354,18 @@ function getRanges(array $result) : array{
 	//var_dump($ranges, $result1);
 
 	show($result1, "2");
-	//echo "$step\n";
-	return $ranges;
 }
 
 function show($result1, string $g = "1"){
 	// Markdown表のヘッダーを作成
 	//Monster | Percentage/Chance | Detailed value | 1 or 2 G min value | 1 or 2 G max value | RNG range?
-	$header = "| モンスター | 確率 | 内部的な値 | ".$g."Gの最小数 | ".$g."Gの最大数 | 乱数幅 | \n| --- | --- | --- | --- | --- | --- |";
-	//$header = "| Monster | Percentage/Chance | Detailed value | ".$g."G min value | ".$g."G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |";
+	if(IS_EN){
+		$header = "| Monster | Percentage/Chance | Detailed value | ".$g."G min value | ".$g."G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |";
+	}else{
+		$header = "| モンスター | 確率 | 内部的な値 | ".$g."Gの最小数 | ".$g."Gの最大数 | 乱数幅 | \n| --- | --- | --- | --- | --- | --- |";
+	}
+
+	//
 
 	echo "\n\n";
 // Markdown表のデータを生成
@@ -1373,64 +1380,11 @@ function show($result1, string $g = "1"){
 	echo "\n";
 }
 
-
-//$result_enc1 = [];
-//foreach($enc as $key => $array){
-//	if($key >= 0x114&&$key <= 0x117){
-//		continue;
-//	}
-//	$result_enc = [];
-//	$maxRand = null;
-//	foreach($array as $data){
-//		$monsterid = $data & 0xfff;
-//		$tmp = $data << 0x11;
-//		$rand = ($tmp >> 0x1d & 0xFFFFFFFF);
-//		$result_enc[] = [$monsterid, $rand];
-//		$maxRand += $rand;
-//	}
-//	$k = 0;
-//	$step = 100.0 / $maxRand;
-//	$result2 = "| monster | probability | % | Internal Value |\n|--------|--------|--------|--------|\n";
-//	$collect = [];
-//	foreach($result_enc as [$monsterid, $item]){
-//		$start = $k * $step;
-//		$before = $k;
-//		$k += $item;
-//		$end = $k * $step;
-//		//var_dump($item,$maxRand, number_format($start, 4)."%-".number_format($end, 4)."%", $before."-".($k-1));
-//		$result2 .= "|".s::get($monsterid)."|".number_format($start, 4)."%-".number_format($end, 4)."%|".(number_format($end - $start, 4))."%|".$before."-".($k - 1)."|\n";
-//
-//		$trapmonster = false;
-//		if($monsterid === 0x27||$monsterid === 0x26||$monsterid === 0x28){
-//			$trapmonster = true;
-//		}
-//		$collect[] = [
-//			"monsterId" => $monsterid,
-//			"monsterName" => s::get($monsterid),
-//			"startPercent" => number_format($start, 4),
-//			"endPercent" => number_format($end, 4),
-//			"percent" => number_format($end - $start, 4),
-//			"start" => $before,
-//			"end" => ($k - 1),
-//			"maxRand" => $maxRand,
-//			"trapMonster" => $trapmonster,
-//		];
-//	}
-//	$result_enc1[$key] = [
-//		"id" => "0x".dechex($key),
-//		"maxRand" => $maxRand,
-//		"step" => $step,
-//		"toString" => $result2,
-//		"data" => $collect,
-//	];
-//	//var_dump(dechex($key), $result2);
-//
-//}
 ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("companion.json", json_encode([
-	"version" => "1.0.1",
+	"version" => "1.0.2",
 	"explanation" => "2G and 3G companion list. \nIf implemented correctly this won't happen, but you need to be careful of trap monsters.",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
