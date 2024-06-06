@@ -1395,7 +1395,7 @@ foreach($table34 as $tableId => $item){
 			"min" => $test3,
 			"max" => $test2,
 			"countrand" => $test2 - $test3,
-			"hag2G" => !(number_format($expectedValueMinus100, 4) === "100.0000"),
+			"hag2g" => !(number_format($expectedValueMinus100, 4) === "100.0000"),
 			"has3g" => $bool,
 
 			"name" => $data === null ? null : ($data[0]." ".$data[2]." ".$data[3]),
@@ -1479,7 +1479,7 @@ ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("2Gappear.json", json_encode([
-	"version" => "2.0.1",
+	"version" => "2.0.2",
 	"explanation" => "This is a list of probabilities that the monster 2G or 3G will appear",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
