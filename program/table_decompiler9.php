@@ -1381,9 +1381,9 @@ foreach($table34 as $tableId => $item){
 		$result[$tableId]["position"] = $data === null ? null : ($data[0]." ".$data[2]." ".$data[3]);
 		$result[$tableId]["main"][] = [
 			"groupId" => $tableId."/".$rand."/".$r1_1."/".$g31."/".$r1."/".$test3."/".$test2,
-			"tableid" => $tableId,
+			"tableId" => $tableId,
 			"monsterId" => $id,
-			"displayname" => s::get($id),
+			"displayName" => s::get($id),
 			"percent2" => number_format($expectedValueMinus100, 4),
 			"percent3" => (isset($result_3g[2]) ? number_format(100 - calculateExpectedValue($g3_1 / $maxrand, $maxValue), 4) : null),
 			"data" => [
@@ -1394,7 +1394,7 @@ foreach($table34 as $tableId => $item){
 			],
 			"min" => $test3,
 			"max" => $test2,
-			"countrand" => $test2 - $test3,
+			"countRand" => $test2 - $test3,
 			"has2g" => !(number_format($expectedValueMinus100, 4) === "100.0000"),
 			"has3g" => $bool,
 
@@ -1479,7 +1479,7 @@ ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("2Gappear.json", json_encode([
-	"version" => "3.0.0",
+	"version" => "4.0.0",
 	"explanation" => "This is a list of probabilities that the monster 2G or 3G will appear",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
