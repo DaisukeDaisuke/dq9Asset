@@ -1193,6 +1193,9 @@ BT = {}   -- table for BT positions
 lowbyte = nil
 highbyte = nil
 -- My attempt at 64 bit multiplication with 16 bit math
+-- https://tasvideos.org/UserFiles/ForUser/TKG
+-- The original code is available below.
+-- If you have any complaints about publication, please use discord.
 function bt_rand()
     -- BTlowHi_aLo = higher 16 bits of BT's lowbyte * lowbyte of multiplier "a"
     -- BTlowLo_aLo = lower 16 bits of BT's lowbyte * lowbyte of multiplier "a"
