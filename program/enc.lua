@@ -732,6 +732,448 @@ local monstersHp = {
 	[0x108] = 1127,
 }
 
+local costTable = {
+	[0x1] = 26624,
+	[0x2] = 25600,
+	[0x3] = 25600,
+	[0x4] = 28672,
+	[0x5] = 30720,
+	[0x6] = 30720,
+	[0x7] = 56320,
+	[0x8] = 59392,
+	[0x9] = 36864,
+	[0xa] = 39936,
+	[0xb] = 37888,
+	[0xc] = 47104,
+	[0xd] = 44032,
+	[0xe] = 44032,
+	[0xf] = 41984,
+	[0x10] = 50176,
+	[0x11] = 41984,
+	[0x12] = 43008,
+	[0x13] = 41984,
+	[0x14] = 33792,
+	[0x15] = 49152,
+	[0x16] = 37888,
+	[0x17] = 53248,
+	[0x18] = 54272,
+	[0x19] = 60416,
+	[0x1a] = 47104,
+	[0x1b] = 43008,
+	[0x1c] = 36864,
+	[0x1d] = 38912,
+	[0x1e] = 45056,
+	[0x1f] = 53248,
+	[0x20] = 31744,
+	[0x21] = 34816,
+	[0x22] = 37888,
+	[0x23] = 40960,
+	[0x24] = 43008,
+	[0x25] = 49152,
+	[0x26] = 71680,
+	[0x27] = 75776,
+	[0x28] = 66560,
+	[0x29] = 60416,
+	[0x2a] = 51200,
+	[0x2b] = 40960,
+	[0x2c] = 58368,
+	[0x2d] = 60416,
+	[0x2e] = 64512,
+	[0x2f] = 73728,
+	[0x30] = 50176,
+	[0x31] = 48128,
+	[0x32] = 39936,
+	[0x33] = 46080,
+	[0x34] = 51200,
+	[0x35] = 52224,
+	[0x36] = 47104,
+	[0x37] = 73728,
+	[0x38] = 45056,
+	[0x39] = 55296,
+	[0x3a] = 67584,
+	[0x3b] = 65536,
+	[0x3c] = 51200,
+	[0x3d] = 61440,
+	[0x3e] = 64512,
+	[0x3f] = 54272,
+	[0x40] = 72704,
+	[0x4b] = 51200,
+	[0x4c] = 50176,
+	[0x4d] = 47104,
+	[0x4e] = 49152,
+	[0x4f] = 49152,
+	[0x50] = 54272,
+	[0x51] = 49152,
+	[0x52] = 52224,
+	[0x53] = 50176,
+	[0x54] = 50176,
+	[0x55] = 41984,
+	[0x56] = 41984,
+	[0x57] = 38912,
+	[0x58] = 59392,
+	[0x59] = 59392,
+	[0x5a] = 62464,
+	[0x5b] = 49152,
+	[0x5c] = 39936,
+	[0x5d] = 47104,
+	[0x5e] = 49152,
+	[0x5f] = 50176,
+	[0x60] = 50176,
+	[0x61] = 45056,
+	[0x62] = 46080,
+	[0x63] = 62464,
+	[0x64] = 69632,
+	[0x65] = 72704,
+	[0x66] = 43008,
+	[0x67] = 41984,
+	[0x68] = 38912,
+	[0x69] = 50176,
+	[0x6a] = 43008,
+	[0x6b] = 43008,
+	[0x6c] = 44032,
+	[0x6d] = 44032,
+	[0x6e] = 49152,
+	[0x6f] = 59392,
+	[0x70] = 59392,
+	[0x71] = 46080,
+	[0x72] = 48128,
+	[0x73] = 44032,
+	[0x74] = 25600,
+	[0x75] = 23552,
+	[0x76] = 26624,
+	[0x77] = 51200,
+	[0x78] = 45056,
+	[0x79] = 51200,
+	[0x7a] = 57344,
+	[0x7b] = 60416,
+	[0x7c] = 45056,
+	[0x7d] = 45056,
+	[0x7e] = 68608,
+	[0x7f] = 65536,
+	[0x80] = 65536,
+	[0x81] = 43008,
+	[0x82] = 47104,
+	[0x83] = 38912,
+	[0x84] = 45056,
+	[0x85] = 44032,
+	[0x86] = 44032,
+	[0x87] = 46080,
+	[0x88] = 53248,
+	[0x89] = 49152,
+	[0x8a] = 55296,
+	[0x8b] = 54272,
+	[0x8c] = 38912,
+	[0x8d] = 38912,
+	[0x8e] = 46080,
+	[0x8f] = 49152,
+	[0x90] = 52224,
+	[0x91] = 54272,
+	[0x92] = 55296,
+	[0x93] = 65536,
+	[0x94] = 66560,
+	[0x95] = 50176,
+	[0x96] = 54272,
+	[0x97] = 64512,
+	[0x98] = 65536,
+	[0x99] = 71680,
+	[0x9d] = 52224,
+	[0x9e] = 53248,
+	[0x9f] = 70656,
+	[0xa0] = 71680,
+	[0xa1] = 49152,
+	[0xa2] = 62464,
+	[0xa3] = 59392,
+	[0xa4] = 72704,
+	[0xa5] = 77824,
+	[0xa6] = 72704,
+	[0xa7] = 50176,
+	[0xa8] = 52224,
+	[0xa9] = 88064,
+	[0xaa] = 84992,
+	[0xab] = 82944,
+	[0xac] = 50176,
+	[0xad] = 52224,
+	[0xae] = 69632,
+	[0xaf] = 66560,
+	[0xb0] = 77824,
+	[0xb1] = 53248,
+	[0xb2] = 64512,
+	[0xb3] = 47104,
+	[0xb4] = 47104,
+	[0xb5] = 40960,
+	[0xb6] = 71680,
+	[0xb7] = 81920,
+	[0xb8] = 27648,
+	[0xb9] = 21504,
+	[0xba] = 48128,
+	[0xbb] = 44032,
+	[0xbc] = 56320,
+	[0xbd] = 51200,
+	[0xbe] = 60416,
+	[0xbf] = 53248,
+	[0xc0] = 40960,
+	[0xc1] = 49152,
+	[0xc2] = 48128,
+	[0xc3] = 75776,
+	[0xc4] = 60416,
+	[0xc5] = 51200,
+	[0xc6] = 52224,
+	[0xc7] = 54272,
+	[0xc8] = 50176,
+	[0xc9] = 53248,
+	[0xca] = 71680,
+	[0xcb] = 71680,
+	[0xcc] = 71680,
+	[0xcd] = 41984,
+	[0xce] = 37888,
+	[0xcf] = 53248,
+	[0xd0] = 53248,
+	[0xd4] = 52224,
+	[0xd5] = 49152,
+	[0xd6] = 66560,
+	[0xd7] = 62464,
+	[0xd8] = 72704,
+	[0xd9] = 60416,
+	[0xda] = 80896,
+	[0xdb] = 79872,
+	[0xdc] = 110592,
+	[0xdd] = 98304,
+	[0xde] = 98304,
+	[0xdf] = 72704,
+	[0xe0] = 54272,
+	[0xe1] = 81920,
+	[0xe2] = 61440,
+	[0xe3] = 103424,
+	[0xe4] = 104448,
+	[0xe5] = 95232,
+	[0xe6] = 99328,
+	[0xe7] = 114688,
+	[0xe8] = 52224,
+	[0xe9] = 77824,
+	[0xea] = 113664,
+	[0xeb] = 50176,
+	[0xec] = 48128,
+	[0xed] = 40960,
+	[0xee] = 53248,
+	[0xef] = 47104,
+	[0xf0] = 51200,
+	[0xf1] = 88064,
+	[0xf2] = 17408,
+	[0xf3] = 34816,
+	[0xf4] = 61440,
+	[0xf5] = 60416,
+	[0xf6] = 84992,
+	[0xf7] = 37888,
+	[0xf8] = 68608,
+	[0xf9] = 47104,
+	[0xfa] = 53248,
+	[0xfb] = 54272,
+	[0xfc] = 73728,
+	[0xfd] = 61440,
+	[0xfe] = 57344,
+	[0xff] = 61440,
+	[0x100] = 60416,
+	[0x101] = 58368,
+	[0x102] = 61440,
+	[0x103] = 48128,
+	[0x104] = 80896,
+	[0x105] = 65536,
+	[0x106] = 60416,
+	[0x107] = 56320,
+	[0x108] = 70656,
+	[0x109] = 98304,
+	[0x10a] = 27648,
+	[0x10b] = 27648,
+	[0x10c] = 73728,
+	[0x10d] = 48128,
+	[0x10e] = 50176,
+	[0x10f] = 64512,
+	[0x110] = 51200,
+	[0x111] = 61440,
+	[0x112] = 60416,
+	[0x113] = 52224,
+	[0x114] = 66560,
+	[0x115] = 114688,
+	[0x116] = 98304,
+	[0x117] = 40960,
+	[0x118] = 49152,
+	[0x119] = 75776,
+	[0x11a] = 71680,
+	[0x11b] = 64512,
+	[0x11c] = 88064,
+	[0x11d] = 45056,
+	[0x11e] = 45056,
+	[0x11f] = 88064,
+	[0x120] = 88064,
+	[0x121] = 88064,
+	[0x122] = 26624,
+	[0x123] = 26624,
+	[0x124] = 55296,
+	[0x125] = 50176,
+	[0x126] = 43008,
+	[0x127] = 40960,
+	[0x128] = 17408,
+	[0x129] = 25600,
+	[0x12a] = 51200,
+	[0x12c] = 55296,
+	[0x12d] = 112640,
+	[0x12e] = 99328,
+	[0x12f] = 102400,
+	[0x130] = 66560,
+	[0x131] = 92160,
+	[0x132] = 75776,
+	[0x133] = 76800,
+	[0x134] = 67584,
+	[0x135] = 71680,
+	[0x136] = 79872,
+	[0x137] = 94208,
+	[0x138] = 94208,
+	[0x139] = 84992,
+	[0x13a] = 66560,
+	[0x13b] = 110592,
+	[0x13c] = 82944,
+	[0x13d] = 120832,
+	[0x13e] = 104448,
+	[0x13f] = 114688,
+	[0x140] = 139264,
+	[0x141] = 70656,
+	[0x142] = 122880,
+	[0x143] = 97280,
+	[0x144] = 88064,
+	[0x145] = 95232,
+	[0x146] = 93184,
+	[0x147] = 94208,
+	[0x148] = 99328,
+	[0x149] = 63488,
+	[0x14a] = 63488,
+	[0x14b] = 70656,
+	[0x14c] = 66560,
+	[0x14d] = 70656,
+	[0x14e] = 72704,
+	[0x14f] = 80896,
+	[0x150] = 75776,
+	[0x151] = 105472,
+	[0x152] = 113664,
+	[0x153] = 94208,
+	[0x154] = 109568,
+	[0x155] = 59392,
+	[0x156] = 82944,
+	[0x157] = 101376,
+	[0x158] = 84992,
+	[0x159] = 66560,
+	[0x15a] = 110592,
+	[0x15b] = 92160,
+	[0x1f4] = 126976,
+	[0x1f5] = 118784,
+	[0x1f6] = 88064,
+	[0x1f7] = 122880,
+	[0x1f8] = 96256,
+	[0x1f9] = 120832,
+	[0x1fa] = 95232,
+	[0x1fb] = 99328,
+	[0x1fc] = 62464,
+	[0x1fd] = 33792,
+	[0x1fe] = 37888,
+	[0x1ff] = 133120,
+	[0x200] = 130048,
+	[0x201] = 124928,
+	[0x202] = 0,
+	[0x258] = 126976,
+	[0x259] = 126976,
+	[0x25a] = 118784,
+	[0x25b] = 118784,
+	[0x25c] = 118784,
+	[0x25d] = 118784,
+	[0x25e] = 88064,
+	[0x25f] = 88064,
+	[0x260] = 88064,
+	[0x261] = 88064,
+	[0x262] = 122880,
+	[0x263] = 122880,
+	[0x264] = 122880,
+	[0x265] = 122880,
+	[0x266] = 96256,
+	[0x267] = 96256,
+	[0x268] = 96256,
+	[0x269] = 96256,
+	[0x26a] = 96256,
+	[0x26b] = 96256,
+	[0x26c] = 96256,
+	[0x26d] = 120832,
+	[0x26e] = 120832,
+	[0x26f] = 120832,
+	[0x270] = 120832,
+	[0x271] = 120832,
+	[0x272] = 120832,
+	[0x273] = 95232,
+	[0x274] = 95232,
+	[0x275] = 95232,
+	[0x276] = 95232,
+	[0x277] = 95232,
+	[0x278] = 99328,
+	[0x279] = 99328,
+	[0x27a] = 99328,
+	[0x27b] = 99328,
+	[0x27c] = 99328,
+	[0x27d] = 99328,
+	[0x27e] = 62464,
+	[0x27f] = 62464,
+	[0x280] = 62464,
+	[0x281] = 62464,
+	[0x282] = 62464,
+	[0x283] = 62464,
+	[0x284] = 133120,
+	[0x285] = 133120,
+	[0x286] = 133120,
+	[0x287] = 133120,
+	[0x288] = 133120,
+	[0x289] = 130048,
+	[0x28a] = 130048,
+	[0x28b] = 130048,
+	[0x28c] = 130048,
+	[0x28d] = 130048,
+	[0x28e] = 124928,
+	[0x28f] = 124928,
+	[0x290] = 124928,
+	[0x291] = 124928,
+	[0x292] = 124928,
+	[0x293] = 124928,
+	[0x294] = 124928,
+	[0x2eb] = 79872,
+	[0x2ec] = 120832,
+	[0x2ed] = 120832,
+	[0x2ee] = 104448,
+	[0x2ef] = 114688,
+	[0x2f0] = 139264,
+	[0x2f1] = 139264,
+	[0x2f2] = 139264,
+	[0x2f3] = 139264,
+	[0x2f4] = 93184,
+	[0x2f5] = 93184,
+	[0x2f6] = 113664,
+	[0x2f7] = 113664,
+	[0x2f8] = 82944,
+	[0x2f9] = 101376,
+	[0x2fa] = 94208,
+	[0x2fb] = 94208,
+	[0x2fc] = 105472,
+	[0x301] = 0,
+	[0x302] = 0,
+	[0x303] = 0,
+	[0x304] = 0,
+	[0x305] = 0,
+	[0x306] = 0,
+	[0x307] = 0,
+	[0x308] = 33792,
+	[0x309] = 33792,
+	[0x30a] = 37888,
+	[0x30b] = 37888,
+	[0x320] = 49152,
+	[0x321] = 114688,
+	[0x384] = 36864
+}
+
+
 function printf(...) print(string.format(...)) end
 function printhex(string, hex) 
     if hex == nil then
@@ -751,9 +1193,6 @@ BT = {}   -- table for BT positions
 lowbyte = nil
 highbyte = nil
 -- My attempt at 64 bit multiplication with 16 bit math
--- https://tasvideos.org/UserFiles/ForUser/TKG
--- The original code is available below.
--- If you have any complaints about publication, please use discord.
 function bt_rand()
     -- BTlowHi_aLo = higher 16 bits of BT's lowbyte * lowbyte of multiplier "a"
     -- BTlowLo_aLo = lower 16 bits of BT's lowbyte * lowbyte of multiplier "a"
@@ -852,8 +1291,8 @@ function processEnc(monsterId, encTable_, spawnedTable)
     maximum1G = extractNumbers(encdata, 0xe, 0x1d)
 
 
-    
-    position = 2
+    -- 1 = current location, 2F next current location
+	position = 2
     -- Calculate the number how many 1G
     count1G = getPercent(position, maximum1G - minimum1G + 1)
     position = position + 1
@@ -881,7 +1320,6 @@ function processEnc(monsterId, encTable_, spawnedTable)
             group = 2
         end
     end
-
 
 
     -- 2G
@@ -943,25 +1381,93 @@ function processEnc(monsterId, encTable_, spawnedTable)
         end
     end
     -- There is BT consumption whose purpose is still unknown.
-    position = position + 1
+	if group == 3 then
+		-- Swap monsters.
+		rand = getPercent(position, 6)
+		position = position + 1
+		result1 = swapArray(result1, rand)
+	elseif group ~= 1 then
+    	position = position + 1
+	end
+
+	tmpTable = {}
+	groupCounter = 0;
+	-- Get unique monsters from encounter results.
+	for k, encounter in pairs(result1) do
+		targetMonsterId, NumberOfMonsters = unpack(encounter)
+		if NumberOfMonsters ~= 0 then
+			tmpTable[targetMonsterId] = groupCounter
+			groupCounter = groupCounter + 1
+		end
+	end
+
+	-- Calculate the total cost and flag the monster if it exceeds the cost.
+	removeMonster = nil
+	cost = 0
+	for targetMonsterId, counter1 in pairs(tmpTable) do
+		cost = cost + costTable[targetMonsterId]
+		if cost > 157200 then
+			removeMonster = targetMonsterId
+		end
+	end
+
+	-- Delete all of those monsters.	
+	if removeMonster ~= nil then
+		for k, encounter in pairs(result1) do
+			targetMonsterId, NumberOfMonsters = unpack(encounter)
+			if removeMonster == targetMonsterId then
+				result1[k][2] = 0
+			end
+		end
+	end
+	
 
     -- To summarize the process, a monster's HP is calculated as "HP * 0.01 * 0.2 + 0.8".
     -- The original processing is "floor(hp * float_rand(0.8, 1.0) + 0.5)", and the optimized expression is used here.
     hps = {}
     for k, encounter in pairs(result1) do
         targetMonsterId, NumberOfMonsters = unpack(encounter)
-        i = 0
-        hps[k] = {}
-        while i < NumberOfMonsters do
-            hps[k][i+1] = math.floor((monstersHp[targetMonsterId] * (getResult(BT[position], 100) * 0.01 * 0.2 + 0.8)) + 0.5)
-            position = position + 1
-            i = i + 1
-        end
-    end
+		i = 0
+		hps[k] = {}
+		if NumberOfMonsters ~= 0 then
+			while i < NumberOfMonsters do
+				hps[k][i+1] = math.floor((monstersHp[targetMonsterId] * (getResult(BT[position], 100) * 0.01 * 0.2 + 0.8)) + 0.5)
+				position = position + 1
+				i = i + 1
+			end
+		else
+			hps[k][i+1] = 0;
+			i = i + 1
+		end
+	end
 
     
 
-    return result1, position, hps
+    return result1, position-2, hps
+end
+
+-- 入れ替えテーブルの定義
+local swapTable = {
+    [0] = {1, 2, 3},
+    [1] = {1, 3, 2},
+    [2] = {1, 2, 3},
+    [3] = {1, 3, 2},
+    [4] = {1, 3, 2},
+    [5] = {1, 2, 3}
+}
+
+-- Array swapping function
+function swapArray(inputArray, rand)
+    -- Select a swap table based on a random number
+    local swaps = swapTable[rand % 6]
+
+    -- A new array to store the swap results
+    local swappedResult = {}
+    for i, swapIndex in ipairs(swaps) do
+        swappedResult[i] = inputArray[swapIndex]
+    end
+    
+    return swappedResult
 end
 
 -- Calculate companions from BT and encounter table. FUN_0209cd4c has two identical processes that are not converted into functions, so we will convert them into functions here.
