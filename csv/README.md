@@ -4,7 +4,8 @@
   
   
 ## ルカニ確率一覧.xlsx　　
-各ボスのルカニ耐性計算式。他のモンスターはbestiary.txt[^2]の情報を元に計算すると良い。　　
+各ボスのルカニ耐性計算式。他のモンスターはbestiary.txt[^2]の情報を元に計算すると良い。
+このスプレッドシートは独自式を使っているが、実際の計算式は`75+((攻撃魔力-50)*25/449)`である[^5]　　
 https://docs.google.com/spreadsheets/d/1j0qQ7ifj1l8LfhRkmfTZrF2uU6hPPnVO0AOWq16USOY/edit?gid=0#gid=0　　
 
 ## monster.xlsx
@@ -62,3 +63,4 @@ https://docs.google.com/spreadsheets/d/1Kn6ElCDuj88QhNVrDIU4BQTTZIs-slBl0TcjUWAd
 [^2]: 制限行動があるかどうかは載ってない。海外の人が作ったdq9のモンスターのhp、行動(一部欠けてる)、耐性が載ってる凄いテキストファイル。ダウンロードリンクは掲載しないけど、`dq9.carrd.co`のdiscordギルド、TheQuestersRestで頑張って探してください。  
 [^3]: 戸惑い確率は正面衝突及び側面衝突時は器用さが最も高い`メンバーの値 * 0.05 + 2`%、後ろからぶつかった場合この式に`*10`%    
 [^4]: 私はこの仕様を利用して、アセットを解析せずに全てのエンカテーブルを取得したりしている。https://daisukedaisuke.hatenablog.com/entry/2024/04/29/072629   
+[^5]: TheQuestersRestより
