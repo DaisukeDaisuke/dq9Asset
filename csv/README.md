@@ -4,8 +4,8 @@
   
   
 ## ルカニ確率一覧.xlsx　　
-各ボスのルカニ耐性計算式。他のモンスターはbestiary.txt[^2]の情報を元に計算すると良い。
-このスプレッドシートは独自式を使っているが、実際の計算式は`75+((攻撃魔力-50)*25/449)`である[^5]　　
+各ボスのルカニ耐性計算式。他のモンスターはbestiary.txt[^2]の情報を元に計算すると良い。  
+このスプレッドシートは独自式を使っているが、実際の計算式は`75+((攻撃魔力-50)*25/449)`である[^5]  　　
 https://docs.google.com/spreadsheets/d/1j0qQ7ifj1l8LfhRkmfTZrF2uU6hPPnVO0AOWq16USOY/edit?gid=0#gid=0　　
 
 ## monster.xlsx
