@@ -30,7 +30,7 @@ https://docs.google.com/spreadsheets/d/1DYMGv3ZKsS2KOvMDNtjDwbf48oSMbD2I3adToskf
 https://docs.google.com/spreadsheets/d/1AVSiORceHKUkfir9qv4c-cQ_Ycv4HOAFbRBxAJB-zD4/edit?gid=0#gid=0  
 
 ## 泉アイテム一覧.xlsx
-ストーリークリア後の泉は拾得したときにBテーブルで抽選される。その確率を全て調査した。  
+ストーリークリア後に泉からアイテムを拾得したときにBテーブルで抽選される確率を全て調査した。  
 現在属している泉グループを変更したければ`20F8E52`(Byte)を変更してマップ移動すればよい。  
 これは、ゲームは情報を読むときに、候補となるデータを全て読み込み、必要なデータだけコピーするロード方法が採用されているという知見を得た解析でもある[^4]  
   
