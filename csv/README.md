@@ -5,7 +5,7 @@
   
 ## ルカニ確率一覧.xlsx　　
 各ボスのルカニ耐性計算式。他のモンスターはbestiary.txt[^2]の情報を元に計算すると良い。  
-このスプレッドシートは独自式を使っているが、実際の計算式は`75+((攻撃魔力-50)*25/449)`である[^5]  　　
+このスプレッドシートは独自式を使っているが、実際の計算式は`round(75+((攻撃者の攻撃魔力-50)*25/449)*敵のルカニ耐性, 0)`[^6]である[^5]  　　
 https://docs.google.com/spreadsheets/d/1j0qQ7ifj1l8LfhRkmfTZrF2uU6hPPnVO0AOWq16USOY/edit?gid=0#gid=0　　
 
 ## monster.xlsx
@@ -64,3 +64,4 @@ https://docs.google.com/spreadsheets/d/1Kn6ElCDuj88QhNVrDIU4BQTTZIs-slBl0TcjUWAd
 [^3]: 戸惑い確率は正面衝突及び側面衝突時は`器用さが最も高いメンバーの値 * 0.05 + 2`%、後ろからぶつかった場合この式に`*10`%    
 [^4]: 私はこの仕様を利用して、アセットを解析せずに全てのエンカテーブルを取得したりしている。https://daisukedaisuke.hatenablog.com/entry/2024/04/29/072629   
 [^5]: TheQuestersRestより
+[^6]: 攻撃者の攻撃魔力は「123」のような形式、敵のルカニ耐性は「0.25」のような形式。
