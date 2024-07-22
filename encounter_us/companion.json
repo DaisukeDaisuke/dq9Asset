@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "explanation": "2G and 3G companion list. \nIf implemented correctly this won't happen, but you need to be careful of trap monsters.",
     "main": {
         "0": {
@@ -66,6 +66,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "西セントシュタイン 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 0.0000%-22.7273% | 0-5 | 1 | 1 | 0 |\n| Hammerhood | 22.7273%-40.9091% | 6-9 | 1 | 1 | 0 |\n| Bubble slime | 40.9091%-54.5455% | 10-12 | 1 | 1 | 0 |\n| Wooper trooper | 54.5455%-59.0909% | 13-13 | 1 | 1 | 0 |\n| Funghoul | 59.0909%-81.8182% | 14-18 | 1 | 1 | 0 |\n| Winkster | 81.8182%-100.0000% | 19-22 | 1 | 1 | 0 |\n\n"
         },
         "2": {
@@ -132,6 +133,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "西セントシュタイン 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Spirit | 0.0000%-16.0000% | 0-4 | 1 | 1 | 0 |\n| Hammerhood | 16.0000%-36.0000% | 5-9 | 1 | 1 | 0 |\n| Bubble slime | 36.0000%-56.0000% | 10-14 | 1 | 1 | 0 |\n| Wooper trooper | 56.0000%-64.0000% | 15-16 | 1 | 1 | 0 |\n| Funghoul | 64.0000%-80.0000% | 17-20 | 1 | 1 | 0 |\n| Winkster | 80.0000%-100.0000% | 21-25 | 1 | 1 | 0 |\n\n"
         },
         "3": {
@@ -198,6 +200,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "西セントシュタイン 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 0.0000%-13.0435% | 0-3 | 1 | 1 | 0 |\n| Hammerhood | 13.0435%-34.7826% | 4-8 | 1 | 1 | 0 |\n| Bubble slime | 34.7826%-56.5217% | 9-13 | 1 | 1 | 0 |\n| Wooper trooper | 56.5217%-65.2174% | 14-15 | 1 | 1 | 0 |\n| Funghoul | 65.2174%-86.9565% | 16-20 | 1 | 1 | 0 |\n| Winkster | 86.9565%-100.0000% | 21-23 | 1 | 1 | 0 |\n\n"
         },
         "4": {
@@ -264,6 +267,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "エラフィタ地方 エラフィタ側 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Hammerhood | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Boppin badger | 10.0000%-30.0000% | 3-6 | 1 | 1 | 0 |\n| Brownie | 30.0000%-55.0000% | 7-11 | 1 | 1 | 0 |\n| Gastropog | 55.0000%-70.0000% | 12-14 | 1 | 1 | 0 |\n| Meowgician | 70.0000%-85.0000% | 15-17 | 1 | 1 | 0 |\n| Ragged reaper | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "6": {
@@ -330,6 +334,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "エラフィタ地方 エラフィタ側 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackmage | 0.0000%-20.0000% | 0-5 | 1 | 1 | 0 |\n| Boppin badger | 20.0000%-40.0000% | 6-10 | 1 | 1 | 0 |\n| Brownie | 40.0000%-56.0000% | 11-14 | 1 | 1 | 0 |\n| Gastropog | 56.0000%-64.0000% | 15-16 | 1 | 1 | 0 |\n| Bodkin fletcher | 64.0000%-80.0000% | 17-20 | 1 | 1 | 0 |\n| Ragged reaper | 80.0000%-100.0000% | 21-25 | 1 | 1 | 0 |\n\n"
         },
         "7": {
@@ -396,6 +401,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "エラフィタ地方 毒付近の茂みと毒の辺り 夜&常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bodkin fletcher | 0.0000%-20.0000% | 0-4 | 1 | 1 | 0 |\n| Boppin badger | 20.0000%-45.0000% | 5-9 | 1 | 1 | 0 |\n| Brownie | 45.0000%-65.0000% | 10-13 | 1 | 1 | 0 |\n| Gastropog | 65.0000%-75.0000% | 14-15 | 1 | 1 | 0 |\n| Meowgician | 75.0000%-85.0000% | 16-17 | 1 | 1 | 0 |\n| Ragged reaper | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "8": {
@@ -462,6 +468,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ほろびのもり (平地・森) 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gastropog | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| Ram raider | 10.0000%-30.0000% | 3-6 | 1 | 2 | 1 |\n| Cumaulus | 30.0000%-50.0000% | 7-10 | 1 | 2 | 1 |\n| Brownie | 50.0000%-65.0000% | 11-13 | 1 | 2 | 1 |\n| Bodkin fletcher | 65.0000%-90.0000% | 14-18 | 1 | 2 | 1 |\n| Ragged reaper | 90.0000%-100.0000% | 19-20 | 1 | 2 | 1 |\n\n"
         },
         "10": {
@@ -528,6 +535,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "ほろびのもり (平地・森 夜) 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Skeleton | 0.0000%-17.3913% | 0-4 | 1 | 2 | 1 |\n| Ram raider | 17.3913%-34.7826% | 5-8 | 1 | 2 | 1 |\n| Cumaulus | 34.7826%-56.5217% | 9-13 | 1 | 2 | 1 |\n| Brownie | 56.5217%-60.8696% | 14-14 | 1 | 2 | 1 |\n| Bodkin fletcher | 60.8696%-73.9130% | 15-17 | 1 | 2 | 1 |\n| Drackmage | 73.9130%-100.0000% | 18-23 | 1 | 2 | 1 |\n\n"
         },
         "11": {
@@ -594,6 +602,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ほろびのもり (荒地) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ragged reaper | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Ram raider | 10.0000%-45.0000% | 3-9 | 1 | 2 | 1 |\n| Cumaulus | 45.0000%-60.0000% | 10-12 | 1 | 2 | 1 |\n| Skeleton | 60.0000%-75.0000% | 13-15 | 1 | 1 | 0 |\n| Bodkin fletcher | 75.0000%-90.0000% | 16-18 | 1 | 2 | 1 |\n| Brownie | 90.0000%-100.0000% | 19-20 | 1 | 2 | 1 |\n\n"
         },
         "12": {
@@ -650,6 +659,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ウォルロ地方 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime | 0.0000%-29.4118% | 0-5 | 1 | 1 | 0 |\n| Cruelcumber | 29.4118%-58.8235% | 6-10 | 1 | 1 | 0 |\n| Teeny sanguini | 58.8235%-76.4706% | 11-13 | 1 | 1 | 0 |\n| Batterfly | 76.4706%-82.3529% | 14-14 | 1 | 1 | 0 |\n| Sacksquatch | 82.3529%-100.0000% | 15-17 | 1 | 1 | 0 |\n\n"
         },
         "14": {
@@ -716,6 +726,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ウォルロ地方 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Teeny sanguini | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Dracky | 10.0000%-35.0000% | 3-7 | 1 | 1 | 0 |\n| Cruelcumber | 35.0000%-50.0000% | 8-10 | 1 | 1 | 0 |\n| Batterfly | 50.0000%-65.0000% | 11-13 | 1 | 1 | 0 |\n| Slime | 65.0000%-75.0000% | 14-15 | 1 | 1 | 0 |\n| Sacksquatch | 75.0000%-100.0000% | 16-20 | 1 | 1 | 0 |\n\n"
         },
         "15": {
@@ -782,6 +793,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "ウォルロ地方 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Teeny sanguini | 0.0000%-19.0476% | 0-4 | 1 | 1 | 0 |\n| Bodkin archer | 19.0476%-42.8571% | 5-9 | 1 | 1 | 0 |\n| Batterfly | 42.8571%-61.9048% | 10-13 | 1 | 1 | 0 |\n| Cruelcumber | 61.9048%-71.4286% | 14-15 | 1 | 1 | 0 |\n| Slime | 71.4286%-80.9524% | 16-17 | 1 | 1 | 0 |\n| Sacksquatch | 80.9524%-100.0000% | 18-21 | 1 | 1 | 0 |\n\n"
         },
         "16": {
@@ -838,6 +850,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "東ベクセリア地方 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Chariot chappie | 0.0000%-11.7647% | 0-2 | 1 | 1 | 0 |\n| Slugger | 11.7647%-41.1765% | 3-7 | 1 | 2 | 1 |\n| Clockwork cuckoo | 41.1765%-70.5882% | 8-12 | 1 | 2 | 1 |\n| Morphean mushroom | 70.5882%-88.2353% | 13-15 | 1 | 2 | 1 |\n| Blinkster | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "18": {
@@ -904,6 +917,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "東ベクセリア地方 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Skeleton | 0.0000%-16.0000% | 0-4 | 1 | 2 | 1 |\n| Lost soul | 16.0000%-36.0000% | 5-9 | 1 | 2 | 1 |\n| Slugger | 36.0000%-56.0000% | 10-14 | 1 | 2 | 1 |\n| Clockwork cuckoo | 56.0000%-68.0000% | 15-17 | 1 | 2 | 1 |\n| Morphean mushroom | 68.0000%-88.0000% | 18-22 | 1 | 2 | 1 |\n| Blinkster | 88.0000%-100.0000% | 23-25 | 1 | 2 | 1 |\n\n"
         },
         "19": {
@@ -960,6 +974,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "東ベクセリア地方 森・ススキ 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Chariot chappie | 0.0000%-22.7273% | 0-5 | 1 | 1 | 0 |\n| Slugger | 22.7273%-45.4545% | 6-10 | 1 | 2 | 1 |\n| Clockwork cuckoo | 45.4545%-68.1818% | 11-15 | 1 | 2 | 1 |\n| Morphean mushroom | 68.1818%-90.9091% | 16-20 | 1 | 2 | 1 |\n| Blinkster | 90.9091%-100.0000% | 21-22 | 1 | 2 | 1 |\n\n"
         },
         "20": {
@@ -1026,6 +1041,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "西ベクセリア地方 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Morphean mushroom | 0.0000%-17.3913% | 0-4 | 1 | 2 | 1 |\n| Chariot chappie | 17.3913%-34.7826% | 5-8 | 1 | 1 | 0 |\n| Flython | 34.7826%-56.5217% | 9-13 | 1 | 1 | 0 |\n| Slugger | 56.5217%-78.2609% | 14-18 | 1 | 2 | 1 |\n| Badger mager | 78.2609%-91.3043% | 19-21 | 1 | 2 | 1 |\n| Clockwork cuckoo | 91.3043%-100.0000% | 22-23 | 1 | 2 | 1 |\n\n"
         },
         "21": {
@@ -1092,6 +1108,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "西ベクセリア地方 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lost soul | 0.0000%-26.0870% | 0-6 | 1 | 2 | 1 |\n| Chariot chappie | 26.0870%-34.7826% | 7-8 | 1 | 1 | 0 |\n| Flython | 34.7826%-47.8261% | 9-11 | 1 | 2 | 1 |\n| Slugger | 47.8261%-60.8696% | 12-14 | 1 | 2 | 1 |\n| Mean spirit | 60.8696%-82.6087% | 15-19 | 1 | 2 | 1 |\n| Badger mager | 82.6087%-100.0000% | 20-23 | 1 | 2 | 1 |\n\n"
         },
         "22": {
@@ -1148,6 +1165,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "西ベクセリア地方 ススキ 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badger mager | 0.0000%-33.3333% | 0-5 | 1 | 2 | 1 |\n| Chariot chappie | 33.3333%-46.6667% | 6-7 | 1 | 1 | 0 |\n| Flython | 46.6667%-66.6667% | 8-10 | 1 | 2 | 1 |\n| Slugger | 66.6667%-86.6667% | 11-13 | 1 | 2 | 1 |\n| Clockwork cuckoo | 86.6667%-100.0000% | 14-15 | 1 | 2 | 1 |\n\n"
         },
         "23": {
@@ -1204,6 +1222,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "西ベクセリア地方 海岸 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wooper trooper | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| Healslime | 10.0000%-20.0000% | 3-4 | 1 | 2 | 1 |\n| Flython | 20.0000%-45.0000% | 5-9 | 1 | 2 | 1 |\n| Badger mager | 45.0000%-70.0000% | 10-14 | 1 | 2 | 1 |\n| Crabid | 70.0000%-100.0000% | 15-20 | 1 | 3 | 2 |\n\n"
         },
         "24": {
@@ -1270,6 +1289,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "ルディアノ城 地上 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Blinkster | 0.0000%-21.7391% | 0-5 | 1 | 1 | 0 |\n| Leery lout | 21.7391%-43.4783% | 6-10 | 1 | 2 | 1 |\n| Bodkin fletcher | 43.4783%-60.8696% | 11-14 | 1 | 2 | 1 |\n| Cumaulus | 60.8696%-69.5652% | 15-16 | 1 | 2 | 1 |\n| Healslime | 69.5652%-91.3043% | 17-21 | 1 | 2 | 1 |\n| Skeleton | 91.3043%-100.0000% | 22-23 | 1 | 1 | 0 |\n\n"
         },
         "25": {
@@ -1326,6 +1346,7 @@
                 }
             ],
             "maxRand": 32,
+            "position": "ルディアノ城 B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Skeleton | 0.0000%-18.7500% | 0-6 | 1 | 2 | 1 |\n| Lunatick | 18.7500%-40.6250% | 7-13 | 1 | 2 | 1 |\n| Blinkster | 40.6250%-62.5000% | 14-20 | 1 | 2 | 1 |\n| Leery lout | 62.5000%-84.3750% | 21-27 | 1 | 2 | 1 |\n| Healslime | 84.3750%-100.0000% | 28-32 | 1 | 2 | 1 |\n\n"
         },
         "26": {
@@ -1372,6 +1393,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "ルディアノ城 北西の塔  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lunatick | 0.0000%-28.5714% | 0-6 | 1 | 2 | 1 |\n| Drackmage | 28.5714%-57.1429% | 7-12 | 1 | 2 | 1 |\n| Healslime | 57.1429%-80.9524% | 13-17 | 1 | 2 | 1 |\n| Skeleton | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "27": {
@@ -1418,6 +1440,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "ルディアノ城 西の塔(階段室)、東の塔 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lunatick | 0.0000%-28.5714% | 0-6 | 1 | 2 | 1 |\n| Drackmage | 28.5714%-57.1429% | 7-12 | 1 | 2 | 1 |\n| Healslime | 57.1429%-80.9524% | 13-17 | 1 | 2 | 1 |\n| Skeleton | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "29": {
@@ -1464,6 +1487,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "ルディアノ城 東の塔  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lunatick | 0.0000%-28.5714% | 0-6 | 1 | 2 | 1 |\n| Drackmage | 28.5714%-57.1429% | 7-12 | 1 | 2 | 1 |\n| Healslime | 57.1429%-80.9524% | 13-17 | 1 | 2 | 1 |\n| Skeleton | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "30": {
@@ -1530,6 +1554,7 @@
                 }
             ],
             "maxRand": 30,
+            "position": "ふういんのほこら  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magus | 0.0000%-23.3333% | 0-7 | 1 | 2 | 1 |\n| Mummy boy | 23.3333%-40.0000% | 8-12 | 1 | 2 | 1 |\n| Earthenwarrior | 40.0000%-56.6667% | 13-17 | 1 | 2 | 1 |\n| Metal slime | 56.6667%-60.0000% | 18-18 | 1 | 1 | 0 |\n| Lost soul | 60.0000%-83.3333% | 19-25 | 1 | 2 | 1 |\n| Mean spirit | 83.3333%-100.0000% | 26-30 | 1 | 2 | 1 |\n\n"
         },
         "32": {
@@ -1596,6 +1621,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "キサゴナ遺跡 b1f 入口に近い方 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime | 0.0000%-13.6364% | 0-3 | 1 | 1 | 0 |\n| Bag o laughs | 13.6364%-31.8182% | 4-7 | 1 | 1 | 0 |\n| Slime | 31.8182%-45.4545% | 8-10 | 1 | 1 | 0 |\n| Bodkin archer | 45.4545%-59.0909% | 11-13 | 1 | 1 | 0 |\n| Mecha-mynah | 59.0909%-81.8182% | 14-18 | 1 | 1 | 0 |\n| Dracky | 81.8182%-100.0000% | 19-22 | 1 | 1 | 0 |\n\n"
         },
         "33": {
@@ -1662,6 +1688,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "キサゴナ遺跡 b2f ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Firespirit | 0.0000%-16.6667% | 0-4 | 1 | 1 | 0 |\n| Bag o laughs | 16.6667%-33.3333% | 5-8 | 1 | 1 | 0 |\n| Spirit | 33.3333%-50.0000% | 9-12 | 1 | 1 | 0 |\n| Bodkin archer | 50.0000%-62.5000% | 13-15 | 1 | 1 | 0 |\n| Mecha-mynah | 62.5000%-83.3333% | 16-20 | 1 | 1 | 0 |\n| Dracky | 83.3333%-100.0000% | 21-24 | 1 | 1 | 0 |\n\n"
         },
         "34": {
@@ -1728,6 +1755,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "キサゴナ遺跡 b1f ブルドーガ前 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Firespirit | 0.0000%-23.8095% | 0-5 | 1 | 1 | 0 |\n| Bag o laughs | 23.8095%-38.0952% | 6-8 | 1 | 1 | 0 |\n| Spirit | 38.0952%-61.9048% | 9-13 | 1 | 1 | 0 |\n| Bodkin archer | 61.9048%-76.1905% | 14-16 | 1 | 1 | 0 |\n| Mecha-mynah | 76.1905%-90.4762% | 17-19 | 1 | 1 | 0 |\n| Dracky | 90.4762%-100.0000% | 20-21 | 1 | 1 | 0 |\n\n"
         },
         "36": {
@@ -1784,6 +1812,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "東セントシュタイン 陸(平地&森) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bodkin archer | 0.0000%-14.2857% | 0-3 | 2 | 3 | 1 |\n| She-slime | 14.2857%-38.0952% | 4-8 | 2 | 3 | 1 |\n| Winkster | 38.0952%-52.3810% | 9-11 | 2 | 3 | 1 |\n| Funghoul | 52.3810%-76.1905% | 12-16 | 2 | 3 | 1 |\n| Hammerhood | 76.1905%-100.0000% | 17-21 | 2 | 3 | 1 |\n\n"
         },
         "37": {
@@ -1830,6 +1859,7 @@
                 }
             ],
             "maxRand": 14,
+            "position": "東セントシュタイン 海岸 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 0.0000%-21.4286% | 0-3 | 2 | 3 | 1 |\n| Winkster | 21.4286%-57.1429% | 4-8 | 2 | 3 | 1 |\n| Gastropog | 57.1429%-78.5714% | 9-11 | 1 | 1 | 0 |\n| Firespirit | 78.5714%-100.0000% | 12-14 | 2 | 3 | 1 |\n\n"
         },
         "40": {
@@ -1886,6 +1916,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "アユルダーマとう 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magus | 0.0000%-12.5000% | 0-2 | 1 | 2 | 1 |\n| Badboon | 12.5000%-18.7500% | 3-3 | 1 | 1 | 0 |\n| Cyclown | 18.7500%-43.7500% | 4-7 | 1 | 2 | 1 |\n| Slime knight | 43.7500%-75.0000% | 8-12 | 1 | 3 | 2 |\n| Bodkin kowyer | 75.0000%-100.0000% | 13-16 | 1 | 2 | 1 |\n\n"
         },
         "41": {
@@ -1952,6 +1983,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "アユルダーマとう 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackyma | 0.0000%-23.8095% | 0-5 | 1 | 2 | 1 |\n| Walking corpse | 23.8095%-33.3333% | 6-7 | 1 | 2 | 1 |\n| Badboon | 33.3333%-38.0952% | 8-8 | 1 | 1 | 0 |\n| Cyclown | 38.0952%-61.9048% | 9-13 | 1 | 3 | 2 |\n| Slime knight | 61.9048%-80.9524% | 14-17 | 1 | 2 | 1 |\n| Bodkin kowyer | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "42": {
@@ -2018,6 +2050,7 @@
                 }
             ],
             "maxRand": 11,
+            "position": "アユルダーマとう 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime stack | 0.0000%-0.0000% | 0-0 | 1 | 1 | 0 |\n| Magus | 0.0000%-18.1818% | 1-2 | 1 | 2 | 1 |\n| Badboon | 18.1818%-63.6364% | 3-7 | 1 | 1 | 0 |\n| Cyclown | 63.6364%-72.7273% | 8-8 | 1 | 3 | 2 |\n| Slime knight | 72.7273%-90.9091% | 9-10 | 1 | 3 | 2 |\n| Bodkin kowyer | 90.9091%-100.0000% | 11-11 | 1 | 2 | 1 |\n\n"
         },
         "43": {
@@ -2084,6 +2117,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "アユルダーマとう 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 0.0000%-31.2500% | 0-5 | 1 | 1 | 0 |\n| Walking corpse | 31.2500%-50.0000% | 6-8 | 1 | 2 | 1 |\n| Badboon | 50.0000%-75.0000% | 9-12 | 1 | 2 | 1 |\n| Cyclown | 75.0000%-87.5000% | 13-14 | 1 | 3 | 2 |\n| Slime knight | 87.5000%-93.7500% | 15-15 | 1 | 2 | 1 |\n| Bodkin kowyer | 93.7500%-100.0000% | 16-16 | 1 | 2 | 1 |\n\n"
         },
         "45": {
@@ -2140,6 +2174,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "アユルダーマとう(ツォのはま) 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Badboon | 25.0000%-50.0000% | 5-8 | 1 | 2 | 1 |\n| Cyclown | 50.0000%-62.5000% | 9-10 | 1 | 2 | 1 |\n| Jinkster | 62.5000%-87.5000% | 11-14 | 1 | 2 | 1 |\n| Bodkin kowyer | 87.5000%-100.0000% | 15-16 | 1 | 2 | 1 |\n\n"
         },
         "46": {
@@ -2196,6 +2231,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "アユルダーマとう(ツォのはま) 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 0.0000%-23.8095% | 0-5 | 1 | 2 | 1 |\n| Badboon | 23.8095%-33.3333% | 6-7 | 1 | 2 | 1 |\n| Drackyma | 33.3333%-57.1429% | 8-12 | 1 | 2 | 1 |\n| Jinkster | 57.1429%-80.9524% | 13-17 | 1 | 2 | 1 |\n| Walking corpse | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "47": {
@@ -2252,6 +2288,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "アユルダーマとう(ツォのはま) 砂浜 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Badboon | 25.0000%-50.0000% | 5-8 | 1 | 2 | 1 |\n| Cyclown | 50.0000%-62.5000% | 9-10 | 1 | 2 | 1 |\n| Jinkster | 62.5000%-87.5000% | 11-14 | 1 | 2 | 1 |\n| Bodkin kowyer | 87.5000%-100.0000% | 15-16 | 1 | 2 | 1 |\n\n"
         },
         "48": {
@@ -2318,6 +2355,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ダーマの塔 1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-35.2941% | 0-6 | 1 | 2 | 1 |\n| Slime knight | 35.2941%-41.1765% | 7-7 | 1 | 2 | 1 |\n| Mushroom mage | 41.1765%-64.7059% | 8-11 | 1 | 2 | 1 |\n| Badboon | 64.7059%-76.4706% | 12-13 | 1 | 2 | 1 |\n| Jinkster | 76.4706%-88.2353% | 14-15 | 1 | 2 | 1 |\n| Drackyma | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "49": {
@@ -2384,6 +2422,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ダーマの塔 2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-35.2941% | 0-6 | 1 | 2 | 1 |\n| Slime knight | 35.2941%-41.1765% | 7-7 | 1 | 2 | 1 |\n| Mushroom mage | 41.1765%-64.7059% | 8-11 | 1 | 2 | 1 |\n| Badboon | 64.7059%-76.4706% | 12-13 | 1 | 2 | 1 |\n| Jinkster | 76.4706%-88.2353% | 14-15 | 1 | 2 | 1 |\n| Drackyma | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "50": {
@@ -2450,6 +2489,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ダーマの塔 3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-31.2500% | 0-5 | 1 | 2 | 1 |\n| Slime stack | 31.2500%-31.2500% | 6-5 | 1 | 1 | 0 |\n| Mushroom mage | 31.2500%-50.0000% | 6-8 | 1 | 2 | 1 |\n| Badboon | 50.0000%-56.2500% | 9-9 | 1 | 2 | 1 |\n| Jinkster | 56.2500%-75.0000% | 10-12 | 1 | 2 | 1 |\n| Drackyma | 75.0000%-100.0000% | 13-16 | 1 | 2 | 1 |\n\n"
         },
         "51": {
@@ -2506,6 +2546,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ダーマの塔 4F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-31.2500% | 0-5 | 1 | 3 | 2 |\n| Mushroom mage | 31.2500%-50.0000% | 6-8 | 1 | 2 | 1 |\n| Badboon | 50.0000%-56.2500% | 9-9 | 1 | 2 | 1 |\n| Jinkster | 56.2500%-75.0000% | 10-12 | 1 | 2 | 1 |\n| Drackyma | 75.0000%-100.0000% | 13-16 | 1 | 2 | 1 |\n\n"
         },
         "52": {
@@ -2562,6 +2603,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ダーマの塔 5F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-23.5294% | 0-4 | 1 | 3 | 2 |\n| Mushroom mage | 23.5294%-41.1765% | 5-7 | 1 | 2 | 1 |\n| Badboon | 41.1765%-47.0588% | 8-8 | 1 | 2 | 1 |\n| Jinkster | 47.0588%-70.5882% | 9-12 | 1 | 2 | 1 |\n| Drackyma | 70.5882%-100.0000% | 13-17 | 1 | 2 | 1 |\n\n"
         },
         "53": {
@@ -2618,6 +2660,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ダーマの塔 6F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Walking corpse | 0.0000%-23.5294% | 0-4 | 1 | 3 | 2 |\n| Mushroom mage | 23.5294%-41.1765% | 5-7 | 1 | 2 | 1 |\n| Badboon | 41.1765%-47.0588% | 8-8 | 1 | 2 | 1 |\n| Jinkster | 47.0588%-70.5882% | 9-12 | 1 | 2 | 1 |\n| Drackyma | 70.5882%-100.0000% | 13-17 | 1 | 2 | 1 |\n\n"
         },
         "54": {
@@ -2664,6 +2707,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "海べのどうくつ 地上 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Chimaera | 25.0000%-62.5000% | 5-10 | 1 | 2 | 1 |\n| Knocktopus | 62.5000%-87.5000% | 11-14 | 1 | 2 | 1 |\n| Man o war | 87.5000%-100.0000% | 15-16 | 1 | 1 | 0 |\n\n"
         },
         "55": {
@@ -2730,6 +2774,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "海べのどうくつ 1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Salamarauder | 0.0000%-22.7273% | 0-5 | 1 | 2 | 1 |\n| Crabid | 22.7273%-40.9091% | 6-9 | 1 | 2 | 1 |\n| Mudraker | 40.9091%-59.0909% | 10-13 | 1 | 2 | 1 |\n| Chimaera | 59.0909%-68.1818% | 14-15 | 1 | 2 | 1 |\n| Knocktopus | 68.1818%-86.3636% | 16-19 | 1 | 2 | 1 |\n| Man o war | 86.3636%-100.0000% | 20-22 | 1 | 1 | 0 |\n\n"
         },
         "56": {
@@ -2796,6 +2841,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "海べのどうくつ 1F(行き止まり) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Salamarauder | 0.0000%-25.0000% | 0-5 | 1 | 2 | 1 |\n| Crabid | 25.0000%-45.0000% | 6-9 | 1 | 2 | 1 |\n| Mortoad | 45.0000%-55.0000% | 10-11 | 1 | 1 | 0 |\n| Chimaera | 55.0000%-65.0000% | 12-13 | 1 | 2 | 1 |\n| Knocktopus | 65.0000%-85.0000% | 14-17 | 1 | 2 | 1 |\n| Man o war | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "57": {
@@ -2852,6 +2898,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "海べのどうくつ 2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Salamarauder | 0.0000%-20.0000% | 0-3 | 1 | 2 | 1 |\n| Mortoad | 20.0000%-46.6667% | 4-7 | 1 | 2 | 1 |\n| Chimaera | 46.6667%-60.0000% | 8-9 | 1 | 2 | 1 |\n| Knocktopus | 60.0000%-73.3333% | 10-11 | 1 | 2 | 1 |\n| Man o war | 73.3333%-100.0000% | 12-15 | 1 | 2 | 1 |\n\n"
         },
         "58": {
@@ -2908,6 +2955,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "海べのどうくつ 秘密の岩場に繋がってるマップ ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Salamarauder | 0.0000%-15.7895% | 0-3 | 1 | 2 | 1 |\n| Mortoad | 15.7895%-26.3158% | 4-5 | 1 | 1 | 0 |\n| Chimaera | 26.3158%-57.8947% | 6-11 | 1 | 2 | 1 |\n| Knocktopus | 57.8947%-78.9474% | 12-15 | 1 | 2 | 1 |\n| Man o war | 78.9474%-100.0000% | 16-19 | 1 | 2 | 1 |\n\n"
         },
         "59": {
@@ -2954,6 +3002,7 @@
                 }
             ],
             "maxRand": 13,
+            "position": "ベレンのきしべ 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 0.0000%-38.4615% | 0-5 | 1 | 2 | 1 |\n| Bewarewolf | 38.4615%-69.2308% | 6-9 | 1 | 2 | 1 |\n| Chimaera | 69.2308%-84.6154% | 10-11 | 1 | 2 | 1 |\n| Zumeanie | 84.6154%-100.0000% | 12-13 | 1 | 3 | 2 |\n\n"
         },
         "60": {
@@ -3000,6 +3049,7 @@
                 }
             ],
             "maxRand": 14,
+            "position": "ベレンのきしべ 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 0.0000%-21.4286% | 0-3 | 1 | 2 | 1 |\n| Bewarewolf | 21.4286%-64.2857% | 4-9 | 1 | 2 | 1 |\n| Zumeanie | 64.2857%-78.5714% | 10-11 | 1 | 2 | 1 |\n| Spinchilla | 78.5714%-100.0000% | 12-14 | 1 | 1 | 0 |\n\n"
         },
         "61": {
@@ -3036,6 +3086,7 @@
                 }
             ],
             "maxRand": 11,
+            "position": "ベレンのきしべ 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 0.0000%-27.2727% | 0-3 | 1 | 2 | 1 |\n| Bewarewolf | 27.2727%-72.7273% | 4-8 | 1 | 2 | 1 |\n| Zumeanie | 72.7273%-100.0000% | 9-11 | 1 | 2 | 1 |\n\n"
         },
         "62": {
@@ -3102,6 +3153,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "ベレンのきしべ 砂浜 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mortoad | 0.0000%-15.7895% | 0-3 | 1 | 2 | 1 |\n| Crabber dabber doo | 15.7895%-26.3158% | 4-5 | 1 | 1 | 0 |\n| Salamarauder | 26.3158%-42.1053% | 6-8 | 1 | 2 | 1 |\n| Zumeanie | 42.1053%-73.6842% | 9-14 | 1 | 2 | 1 |\n| Spinchilla | 73.6842%-84.2105% | 15-16 | 1 | 1 | 0 |\n| Knocktopus | 84.2105%-100.0000% | 17-19 | 1 | 2 | 1 |\n\n"
         },
         "63": {
@@ -3158,6 +3210,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "カラコタ地方 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 0.0000%-27.7778% | 0-5 | 1 | 2 | 1 |\n| Clawcerer | 27.7778%-44.4444% | 6-8 | 1 | 2 | 1 |\n| Rampage | 44.4444%-61.1111% | 9-11 | 1 | 2 | 1 |\n| Zumeanie | 61.1111%-88.8889% | 12-16 | 1 | 2 | 1 |\n| Dread admiral | 88.8889%-100.0000% | 17-18 | 1 | 4 | 3 |\n\n"
         },
         "64": {
@@ -3214,6 +3267,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "カラコタ地方 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Toxic zombie | 0.0000%-18.7500% | 0-3 | 1 | 2 | 1 |\n| Clawcerer | 18.7500%-37.5000% | 4-6 | 1 | 3 | 2 |\n| Rampage | 37.5000%-68.7500% | 7-11 | 1 | 2 | 1 |\n| Zumeanie | 68.7500%-87.5000% | 12-14 | 1 | 2 | 1 |\n| Spinchilla | 87.5000%-100.0000% | 15-16 | 1 | 1 | 0 |\n\n"
         },
         "65": {
@@ -3270,6 +3324,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "カラコタ地方 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 0.0000%-18.7500% | 0-3 | 1 | 2 | 1 |\n| Clawcerer | 18.7500%-50.0000% | 4-8 | 1 | 3 | 2 |\n| Rampage | 50.0000%-68.7500% | 9-11 | 1 | 2 | 1 |\n| Zumeanie | 68.7500%-87.5000% | 12-14 | 1 | 2 | 1 |\n| Dread admiral | 87.5000%-100.0000% | 15-16 | 1 | 4 | 3 |\n\n"
         },
         "66": {
@@ -3316,6 +3371,7 @@
                 }
             ],
             "maxRand": 11,
+            "position": "ピタリへいげん 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Beakon | 0.0000%-27.2727% | 0-3 | 1 | 2 | 1 |\n| Clawcerer | 27.2727%-54.5455% | 4-6 | 1 | 2 | 1 |\n| Mad moai | 54.5455%-72.7273% | 7-8 | 1 | 1 | 0 |\n| Rampage | 72.7273%-100.0000% | 9-11 | 1 | 2 | 1 |\n\n"
         },
         "67": {
@@ -3382,6 +3438,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "ピタリへいげん 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Trigertaur | 0.0000%-20.8333% | 0-5 | 1 | 1 | 0 |\n| Toxic zombie | 20.8333%-33.3333% | 6-8 | 1 | 2 | 1 |\n| Beakon | 33.3333%-54.1667% | 9-13 | 1 | 2 | 1 |\n| Clawcerer | 54.1667%-75.0000% | 14-18 | 1 | 2 | 1 |\n| Mad moai | 75.0000%-87.5000% | 19-21 | 1 | 1 | 0 |\n| Rampage | 87.5000%-100.0000% | 22-24 | 1 | 2 | 1 |\n\n"
         },
         "68": {
@@ -3428,6 +3485,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ピタリへいげん ピタリ山付近(森・荒地) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Beakon | 0.0000%-27.7778% | 0-5 | 1 | 2 | 1 |\n| Clawcerer | 27.7778%-55.5556% | 6-10 | 1 | 2 | 1 |\n| Mad moai | 55.5556%-83.3333% | 11-15 | 1 | 1 | 0 |\n| Rampage | 83.3333%-100.0000% | 16-18 | 2 | 2 | 0 |\n\n"
         },
         "69": {
@@ -3474,6 +3532,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "ピタリ海岸 (平地)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Golem | 0.0000%-33.3333% | 0-5 | 1 | 1 | 0 |\n| Moosifer | 33.3333%-53.3333% | 6-8 | 1 | 1 | 0 |\n| Purrestidigitator | 53.3333%-73.3333% | 9-11 | 1 | 2 | 1 |\n| Gruffon | 73.3333%-100.0000% | 12-15 | 1 | 1 | 0 |\n\n"
         },
         "70": {
@@ -3520,6 +3579,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ピタリ海岸 (平地)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Metal medley | 0.0000%-6.2500% | 0-1 | 1 | 1 | 0 |\n| Golem | 6.2500%-37.5000% | 2-6 | 1 | 1 | 0 |\n| Moosifer | 37.5000%-68.7500% | 7-11 | 1 | 1 | 0 |\n| Gruffon | 68.7500%-100.0000% | 12-16 | 1 | 1 | 0 |\n\n"
         },
         "71": {
@@ -3566,6 +3626,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ピタリ海岸 (森)  常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Treeface | 0.0000%-18.7500% | 0-3 | 1 | 1 | 0 |\n| Moosifer | 18.7500%-50.0000% | 4-8 | 1 | 1 | 0 |\n| Golem | 50.0000%-81.2500% | 9-13 | 1 | 1 | 0 |\n| Scarewolf | 81.2500%-100.0000% | 14-16 | 1 | 2 | 1 |\n\n"
         },
         "72": {
@@ -3622,6 +3683,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ピタリ海岸 (海岸)  常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Handsome crab | 0.0000%-27.7778% | 0-5 | 1 | 2 | 1 |\n| Sail serpent | 27.7778%-44.4444% | 6-8 | 1 | 2 | 1 |\n| Spinchilla | 44.4444%-55.5556% | 9-10 | 1 | 2 | 1 |\n| Power hammer | 55.5556%-77.7778% | 11-14 | 1 | 1 | 0 |\n| Claw hammer | 77.7778%-100.0000% | 15-18 | 1 | 2 | 1 |\n\n"
         },
         "74": {
@@ -3668,6 +3730,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "ピタリ山 1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-26.6667% | 0-4 | 1 | 1 | 0 |\n| Toxic zombie | 26.6667%-60.0000% | 5-9 | 1 | 2 | 1 |\n| Metal slime knight | 60.0000%-66.6667% | 10-10 | 1 | 2 | 1 |\n| Grinade | 66.6667%-100.0000% | 11-15 | 1 | 1 | 0 |\n\n"
         },
         "75": {
@@ -3734,6 +3797,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "ピタリ山 2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-17.3913% | 0-4 | 1 | 1 | 0 |\n| Toxic zombie | 17.3913%-30.4348% | 5-7 | 1 | 2 | 1 |\n| Metal slime knight | 30.4348%-52.1739% | 8-12 | 1 | 2 | 1 |\n| Hocus chimaera | 52.1739%-73.9130% | 13-17 | 1 | 2 | 1 |\n| Grinade | 73.9130%-78.2609% | 18-18 | 1 | 1 | 0 |\n| Treeface | 78.2609%-100.0000% | 19-23 | 1 | 2 | 1 |\n\n"
         },
         "76": {
@@ -3800,6 +3864,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "ピタリ山 3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-17.3913% | 0-4 | 1 | 1 | 0 |\n| Toxic zombie | 17.3913%-30.4348% | 5-7 | 1 | 2 | 1 |\n| Metal slime knight | 30.4348%-52.1739% | 8-12 | 1 | 2 | 1 |\n| Hocus chimaera | 52.1739%-73.9130% | 13-17 | 1 | 2 | 1 |\n| Grinade | 73.9130%-78.2609% | 18-18 | 1 | 1 | 0 |\n| Treeface | 78.2609%-100.0000% | 19-23 | 1 | 2 | 1 |\n\n"
         },
         "77": {
@@ -3866,6 +3931,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "ピタリ山 4F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-15.7895% | 0-3 | 1 | 1 | 0 |\n| Toxic zombie | 15.7895%-42.1053% | 4-8 | 1 | 2 | 1 |\n| Metal slime knight | 42.1053%-47.3684% | 9-9 | 1 | 2 | 1 |\n| Hocus chimaera | 47.3684%-63.1579% | 10-12 | 1 | 2 | 1 |\n| Grinade | 63.1579%-89.4737% | 13-17 | 1 | 1 | 0 |\n| Stone golem | 89.4737%-100.0000% | 18-19 | 1 | 1 | 0 |\n\n"
         },
         "78": {
@@ -3932,6 +3998,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ピタリ山 6F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-11.1111% | 0-2 | 1 | 1 | 0 |\n| Toxic zombie | 11.1111%-22.2222% | 3-4 | 1 | 2 | 1 |\n| Metal slime knight | 22.2222%-38.8889% | 5-7 | 1 | 3 | 2 |\n| Hocus chimaera | 38.8889%-55.5556% | 8-10 | 1 | 2 | 1 |\n| Grinade | 55.5556%-72.2222% | 11-13 | 1 | 2 | 1 |\n| Stone golem | 72.2222%-100.0000% | 14-18 | 1 | 1 | 0 |\n\n"
         },
         "80": {
@@ -3998,6 +4065,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ピタリ山 7F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Treeface | 10.0000%-25.0000% | 3-5 | 1 | 3 | 2 |\n| Metal slime knight | 25.0000%-40.0000% | 6-8 | 1 | 3 | 2 |\n| Hocus chimaera | 40.0000%-65.0000% | 9-13 | 1 | 3 | 2 |\n| Grinade | 65.0000%-75.0000% | 14-15 | 1 | 3 | 2 |\n| Stone golem | 75.0000%-100.0000% | 16-20 | 1 | 1 | 0 |\n\n"
         },
         "81": {
@@ -4054,6 +4122,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "サンマロウ地方 (サンマロウ側) 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Pink sanguini | 0.0000%-29.4118% | 0-5 | 1 | 3 | 2 |\n| Gum shield | 29.4118%-58.8235% | 6-10 | 1 | 3 | 2 |\n| Scarewolf | 58.8235%-76.4706% | 11-13 | 1 | 1 | 0 |\n| Big badboon | 76.4706%-94.1176% | 14-16 | 1 | 1 | 0 |\n| Stone golem | 94.1176%-100.0000% | 17-17 | 1 | 1 | 0 |\n\n"
         },
         "82": {
@@ -4120,6 +4189,7 @@
                 }
             ],
             "maxRand": 30,
+            "position": "サンマロウ地方 (サンマロウ側) 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Pink sanguini | 0.0000%-10.0000% | 0-3 | 1 | 3 | 2 |\n| Axolhotl | 10.0000%-33.3333% | 4-10 | 1 | 2 | 1 |\n| Scarewolf | 33.3333%-53.3333% | 11-16 | 1 | 1 | 0 |\n| Big badboon | 53.3333%-73.3333% | 17-22 | 1 | 1 | 0 |\n| Stone golem | 73.3333%-76.6667% | 23-23 | 1 | 2 | 1 |\n| Trigertaur | 76.6667%-100.0000% | 24-30 | 1 | 1 | 0 |\n\n"
         },
         "83": {
@@ -4186,6 +4256,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "サンマロウ地方 (サンマロウ側) 洞窟付近(森) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Pink sanguini | 0.0000%-13.7931% | 0-4 | 1 | 2 | 1 |\n| Gum shield | 13.7931%-27.5862% | 5-8 | 1 | 2 | 1 |\n| Scarewolf | 27.5862%-51.7241% | 9-15 | 1 | 1 | 0 |\n| Big badboon | 51.7241%-75.8621% | 16-22 | 1 | 1 | 0 |\n| King slime | 75.8621%-75.8621% | 23-22 | 1 | 1 | 0 |\n| Trigertaur | 75.8621%-100.0000% | 23-29 | 1 | 1 | 0 |\n\n"
         },
         "84": {
@@ -4252,6 +4323,7 @@
                 }
             ],
             "maxRand": 30,
+            "position": "サンマロウ地方 (サンマロウ側) 荒地(プラチナ鉱石の所) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Pink sanguini | 0.0000%-13.3333% | 0-4 | 1 | 2 | 1 |\n| Gum shield | 13.3333%-26.6667% | 5-8 | 1 | 2 | 1 |\n| Scarewolf | 26.6667%-50.0000% | 9-15 | 1 | 2 | 1 |\n| Big badboon | 50.0000%-73.3333% | 16-22 | 1 | 2 | 1 |\n| Stone golem | 73.3333%-76.6667% | 23-23 | 1 | 2 | 1 |\n| Trigertaur | 76.6667%-100.0000% | 24-30 | 1 | 1 | 0 |\n\n"
         },
         "85": {
@@ -4318,6 +4390,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "サンマロウ北のどうくつ 入口に繋がっているマップ ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Medislime | 0.0000%-25.9259% | 0-7 | 1 | 2 | 1 |\n| Shaman | 25.9259%-51.8519% | 8-14 | 1 | 2 | 1 |\n| Riptide | 51.8519%-59.2593% | 15-16 | 1 | 1 | 0 |\n| Raving lunatick | 59.2593%-66.6667% | 17-18 | 1 | 2 | 1 |\n| Weaken beakon | 66.6667%-92.5926% | 19-25 | 1 | 2 | 1 |\n| Hunter mech | 92.5926%-100.0000% | 26-27 | 1 | 1 | 0 |\n\n"
         },
         "87": {
@@ -4384,6 +4457,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "サンマロウ北のどうくつ 1Fと1Fの中継地点 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Medislime | 0.0000%-25.9259% | 0-7 | 1 | 2 | 1 |\n| Shaman | 25.9259%-51.8519% | 8-14 | 1 | 2 | 1 |\n| Riptide | 51.8519%-59.2593% | 15-16 | 1 | 1 | 0 |\n| Raving lunatick | 59.2593%-66.6667% | 17-18 | 1 | 2 | 1 |\n| Weaken beakon | 66.6667%-92.5926% | 19-25 | 1 | 2 | 1 |\n| Hunter mech | 92.5926%-100.0000% | 26-27 | 1 | 1 | 0 |\n\n"
         },
         "88": {
@@ -4450,6 +4524,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": "サンマロウ北のどうくつ B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Medislime | 0.0000%-19.3548% | 0-6 | 1 | 2 | 1 |\n| Shaman | 19.3548%-38.7097% | 7-12 | 1 | 3 | 2 |\n| Metal medley | 38.7097%-41.9355% | 13-13 | 1 | 1 | 0 |\n| Raving lunatick | 41.9355%-58.0645% | 14-18 | 1 | 2 | 1 |\n| Weaken beakon | 58.0645%-77.4194% | 19-24 | 1 | 3 | 2 |\n| Hunter mech | 77.4194%-100.0000% | 25-31 | 1 | 2 | 1 |\n\n"
         },
         "89": {
@@ -4516,6 +4591,7 @@
                 }
             ],
             "maxRand": 32,
+            "position": "サンマロウ北のどうくつ B2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Medislime | 0.0000%-18.7500% | 0-6 | 1 | 2 | 1 |\n| Raving lunatick | 18.7500%-34.3750% | 7-11 | 1 | 2 | 1 |\n| Riptide | 34.3750%-56.2500% | 12-18 | 1 | 1 | 0 |\n| Metal medley | 56.2500%-59.3750% | 19-19 | 1 | 1 | 0 |\n| Weaken beakon | 59.3750%-78.1250% | 20-25 | 1 | 3 | 2 |\n| Hunter mech | 78.1250%-100.0000% | 26-32 | 1 | 2 | 1 |\n\n"
         },
         "90": {
@@ -4572,6 +4648,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "グビアナ砂漠 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Expload | 0.0000%-6.6667% | 0-1 | 1 | 1 | 0 |\n| Power hammer | 6.6667%-20.0000% | 2-3 | 1 | 1 | 0 |\n| Parched peckerel | 20.0000%-53.3333% | 4-8 | 1 | 2 | 1 |\n| Axolhotl | 53.3333%-80.0000% | 9-12 | 1 | 3 | 2 |\n| Hocus chimaera | 80.0000%-100.0000% | 13-15 | 1 | 3 | 2 |\n\n"
         },
         "91": {
@@ -4638,6 +4715,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "グビアナ砂漠 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Expload | 0.0000%-19.0476% | 0-4 | 1 | 1 | 0 |\n| Mummy | 19.0476%-38.0952% | 5-8 | 1 | 1 | 0 |\n| Gold golem | 38.0952%-57.1429% | 9-12 | 1 | 1 | 0 |\n| Parched peckerel | 57.1429%-71.4286% | 13-15 | 1 | 2 | 1 |\n| Axolhotl | 71.4286%-85.7143% | 16-18 | 1 | 3 | 2 |\n| Hocus chimaera | 85.7143%-100.0000% | 19-21 | 1 | 3 | 2 |\n\n"
         },
         "92": {
@@ -4694,6 +4772,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "グビアナ砂漠 窪地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Expload | 0.0000%-29.4118% | 0-5 | 1 | 1 | 0 |\n| Gold golem | 29.4118%-41.1765% | 6-7 | 1 | 2 | 1 |\n| Parched peckerel | 41.1765%-64.7059% | 8-11 | 1 | 2 | 1 |\n| Axolhotl | 64.7059%-76.4706% | 12-13 | 1 | 2 | 1 |\n| Power hammer | 76.4706%-100.0000% | 14-17 | 1 | 1 | 0 |\n\n"
         },
         "94": {
@@ -4750,6 +4829,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "グビアナ地下すいどう B1F 入口に近い方 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Admirer | 0.0000%-21.0526% | 0-4 | 1 | 1 | 0 |\n| Diethon | 21.0526%-47.3684% | 5-9 | 1 | 1 | 0 |\n| Purrestidigitator | 47.3684%-68.4211% | 10-13 | 1 | 2 | 1 |\n| Mummy | 68.4211%-78.9474% | 14-15 | 1 | 1 | 0 |\n| Lesionnaire | 78.9474%-100.0000% | 16-19 | 1 | 2 | 1 |\n\n"
         },
         "95": {
@@ -4806,6 +4886,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "グビアナ地下すいどう B1F 入口に繋がってない方 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Admirer | 0.0000%-21.0526% | 0-4 | 1 | 2 | 1 |\n| Diethon | 21.0526%-47.3684% | 5-9 | 1 | 2 | 1 |\n| Purrestidigitator | 47.3684%-68.4211% | 10-13 | 1 | 2 | 1 |\n| Mummy | 68.4211%-78.9474% | 14-15 | 1 | 1 | 0 |\n| Lesionnaire | 78.9474%-100.0000% | 16-19 | 1 | 2 | 1 |\n\n"
         },
         "96": {
@@ -4862,6 +4943,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "グビアナ地下すいどう B2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Admirer | 0.0000%-15.0000% | 0-3 | 1 | 3 | 2 |\n| Manguini | 15.0000%-40.0000% | 4-8 | 1 | 2 | 1 |\n| Purrestidigitator | 40.0000%-55.0000% | 9-11 | 1 | 3 | 2 |\n| Mummy | 55.0000%-80.0000% | 12-16 | 1 | 2 | 1 |\n| Lesionnaire | 80.0000%-100.0000% | 17-20 | 1 | 2 | 1 |\n\n"
         },
         "97": {
@@ -4908,6 +4990,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ルビアナ地下すいどう B2F 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lesionnaire | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Manguini | 25.0000%-50.0000% | 5-8 | 1 | 4 | 3 |\n| Mummy | 50.0000%-75.0000% | 9-12 | 1 | 2 | 1 |\n| Ghoul | 75.0000%-100.0000% | 13-16 | 1 | 1 | 0 |\n\n"
         },
         "98": {
@@ -4974,6 +5057,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ヤハーンしっち 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mandrake major | 0.0000%-11.7647% | 0-2 | 1 | 2 | 1 |\n| Wyrtle | 11.7647%-23.5294% | 3-4 | 1 | 2 | 1 |\n| Giddy gastropog | 23.5294%-52.9412% | 5-9 | 1 | 2 | 1 |\n| Crabber dabber doo | 52.9412%-70.5882% | 10-12 | 1 | 2 | 1 |\n| Badja | 70.5882%-88.2353% | 13-15 | 1 | 2 | 1 |\n| Treevil | 88.2353%-100.0000% | 16-17 | 1 | 1 | 0 |\n\n"
         },
         "99": {
@@ -5040,6 +5124,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "ヤハーンしっち 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-9.5238% | 0-2 | 1 | 2 | 1 |\n| Wyrtle | 9.5238%-19.0476% | 3-4 | 1 | 2 | 1 |\n| Giddy gastropog | 19.0476%-33.3333% | 5-7 | 1 | 2 | 1 |\n| Crabber dabber doo | 33.3333%-57.1429% | 8-12 | 1 | 2 | 1 |\n| Badja | 57.1429%-85.7143% | 13-18 | 1 | 2 | 1 |\n| Treevil | 85.7143%-100.0000% | 19-21 | 1 | 1 | 0 |\n\n"
         },
         "100": {
@@ -5106,6 +5191,7 @@
                 }
             ],
             "maxRand": 26,
+            "position": "ヤハーンしっち 湿地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mandrake major | 0.0000%-7.6923% | 0-2 | 1 | 2 | 1 |\n| Wyrtle | 7.6923%-15.3846% | 3-4 | 1 | 2 | 1 |\n| Giddy gastropog | 15.3846%-42.3077% | 5-11 | 1 | 2 | 1 |\n| Crabber dabber doo | 42.3077%-69.2308% | 12-18 | 1 | 2 | 1 |\n| Badja | 69.2308%-84.6154% | 19-22 | 1 | 2 | 1 |\n| Treevil | 84.6154%-100.0000% | 23-26 | 1 | 1 | 0 |\n\n"
         },
         "101": {
@@ -5172,6 +5258,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "カルバド大そうげん (全域) 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Robo-robin | 0.0000%-15.0000% | 0-3 | 1 | 2 | 1 |\n| Treevil | 15.0000%-30.0000% | 4-6 | 1 | 2 | 1 |\n| Peckerel | 30.0000%-50.0000% | 7-10 | 1 | 1 | 0 |\n| Swinoceros | 50.0000%-75.0000% | 11-15 | 1 | 2 | 1 |\n| Brainy badboon | 75.0000%-85.0000% | 16-17 | 1 | 1 | 0 |\n| Battering ram | 85.0000%-100.0000% | 18-20 | 1 | 2 | 1 |\n\n"
         },
         "102": {
@@ -5238,6 +5325,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "カルバド大そうげん  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Robo-robin | 0.0000%-13.0435% | 0-3 | 1 | 2 | 1 |\n| Rockbomb | 13.0435%-26.0870% | 4-6 | 1 | 2 | 1 |\n| Peckerel | 26.0870%-52.1739% | 7-12 | 1 | 2 | 1 |\n| Swinoceros | 52.1739%-73.9130% | 13-17 | 1 | 2 | 1 |\n| Brainy badboon | 73.9130%-86.9565% | 18-20 | 1 | 2 | 1 |\n| Battering ram | 86.9565%-100.0000% | 21-23 | 1 | 2 | 1 |\n\n"
         },
         "103": {
@@ -5304,6 +5392,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "ダダマルダ山 (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Robo-robin | 0.0000%-10.5263% | 0-2 | 1 | 2 | 1 |\n| Rockbomb | 10.5263%-36.8421% | 3-7 | 1 | 2 | 1 |\n| Peckerel | 36.8421%-47.3684% | 8-9 | 1 | 2 | 1 |\n| Swinoceros | 47.3684%-57.8947% | 10-11 | 1 | 2 | 1 |\n| Treevil | 57.8947%-73.6842% | 12-14 | 1 | 2 | 1 |\n| Battering ram | 73.6842%-100.0000% | 15-19 | 1 | 2 | 1 |\n\n"
         },
         "104": {
@@ -5370,6 +5459,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "カズチィチィ山 平地・森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackal | 0.0000%-11.7647% | 0-2 | 1 | 1 | 0 |\n| Gruffon | 11.7647%-23.5294% | 3-4 | 1 | 2 | 1 |\n| Brainy badboon | 23.5294%-52.9412% | 5-9 | 1 | 2 | 1 |\n| Rockbomb | 52.9412%-64.7059% | 10-11 | 1 | 3 | 2 |\n| Battering ram | 64.7059%-88.2353% | 12-15 | 1 | 2 | 1 |\n| Ghoul | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "105": {
@@ -5406,6 +5496,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "カズチィチィ山 南部 (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackal | 0.0000%-33.3333% | 0-6 | 1 | 1 | 0 |\n| Gruffon | 33.3333%-66.6667% | 7-12 | 1 | 1 | 0 |\n| Troll | 66.6667%-100.0000% | 13-18 | 1 | 1 | 0 |\n\n"
         },
         "106": {
@@ -5452,6 +5543,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "カズチャ村  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-16.6667% | 0-3 | 1 | 3 | 2 |\n| Cheeky tiki | 16.6667%-50.0000% | 4-9 | 1 | 3 | 2 |\n| Sorcerer | 50.0000%-83.3333% | 10-15 | 1 | 3 | 2 |\n| Deadcurion | 83.3333%-100.0000% | 16-18 | 1 | 3 | 2 |\n\n"
         },
         "107": {
@@ -5478,6 +5570,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "カズチャ村 (建物内1) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-60.0000% | 0-6 | 1 | 3 | 2 |\n| Infernal armour | 60.0000%-100.0000% | 7-10 | 1 | 1 | 0 |\n\n"
         },
         "108": {
@@ -5504,6 +5597,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "カズチャ村 (建物内2) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-60.0000% | 0-6 | 1 | 3 | 2 |\n| Infernal armour | 60.0000%-100.0000% | 7-10 | 1 | 1 | 0 |\n\n"
         },
         "109": {
@@ -5530,6 +5624,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "カズチャ村 (建物内3) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-60.0000% | 0-6 | 1 | 3 | 2 |\n| Infernal armour | 60.0000%-100.0000% | 7-10 | 1 | 1 | 0 |\n\n"
         },
         "110": {
@@ -5556,6 +5651,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "カズチャ村 (井戸) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-60.0000% | 0-6 | 1 | 3 | 2 |\n| Infernal armour | 60.0000%-100.0000% | 7-10 | 1 | 1 | 0 |\n\n"
         },
         "111": {
@@ -5612,6 +5708,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "カズチャ村 B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 0.0000%-16.6667% | 0-3 | 1 | 3 | 2 |\n| Cheeky tiki | 16.6667%-33.3333% | 4-6 | 1 | 3 | 2 |\n| Sorcerer | 33.3333%-50.0000% | 7-9 | 1 | 2 | 1 |\n| Deadcurion | 50.0000%-83.3333% | 10-15 | 1 | 2 | 1 |\n| Troll | 83.3333%-100.0000% | 16-18 | 1 | 1 | 0 |\n\n"
         },
         "112": {
@@ -5668,6 +5765,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "アシュバル地方 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 0.0000%-20.0000% | 0-3 | 1 | 2 | 1 |\n| Mandrake major | 20.0000%-53.3333% | 4-8 | 1 | 1 | 0 |\n| Wyrtle | 53.3333%-66.6667% | 9-10 | 1 | 1 | 0 |\n| Scourgette | 66.6667%-86.6667% | 11-13 | 1 | 3 | 2 |\n| Crabber dabber doo | 86.6667%-100.0000% | 14-15 | 1 | 1 | 0 |\n\n"
         },
         "113": {
@@ -5724,6 +5822,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "アシュバル地方 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 0.0000%-27.7778% | 0-5 | 1 | 2 | 1 |\n| Mandrake major | 27.7778%-44.4444% | 6-8 | 1 | 1 | 0 |\n| Wyrtle | 44.4444%-66.6667% | 9-12 | 1 | 1 | 0 |\n| Scourgette | 66.6667%-83.3333% | 13-15 | 1 | 3 | 2 |\n| Crabber dabber doo | 83.3333%-100.0000% | 16-18 | 1 | 1 | 0 |\n\n"
         },
         "114": {
@@ -5780,6 +5879,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "アシュバル地方 森 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 0.0000%-27.7778% | 0-5 | 1 | 2 | 1 |\n| Mandrake major | 27.7778%-44.4444% | 6-8 | 1 | 2 | 1 |\n| Wyrtle | 44.4444%-61.1111% | 9-11 | 1 | 1 | 0 |\n| Scourgette | 61.1111%-88.8889% | 12-16 | 1 | 3 | 2 |\n| Crabber dabber doo | 88.8889%-100.0000% | 17-18 | 1 | 1 | 0 |\n\n"
         },
         "115": {
@@ -5836,6 +5936,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "アシュバル地方 海岸 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 0.0000%-12.5000% | 0-2 | 1 | 2 | 1 |\n| Mandrake major | 12.5000%-25.0000% | 3-4 | 1 | 2 | 1 |\n| Wyrtle | 25.0000%-56.2500% | 5-9 | 1 | 2 | 1 |\n| Scourgette | 56.2500%-81.2500% | 10-13 | 1 | 3 | 2 |\n| Crabber dabber doo | 81.2500%-100.0000% | 14-16 | 1 | 2 | 1 |\n\n"
         },
         "116": {
@@ -5892,6 +5993,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "あめのしま 全域 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wyrtle | 0.0000%-28.0000% | 0-7 | 1 | 2 | 1 |\n| Hunter mech | 28.0000%-56.0000% | 8-14 | 1 | 2 | 1 |\n| Metal slime | 56.0000%-60.0000% | 15-15 | 1 | 3 | 2 |\n| Mandrake major | 60.0000%-88.0000% | 16-22 | 1 | 2 | 1 |\n| Handsome crab | 88.0000%-100.0000% | 23-25 | 1 | 2 | 1 |\n\n"
         },
         "117": {
@@ -5948,6 +6050,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "あめのしま 全域 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wyrtle | 0.0000%-25.9259% | 0-7 | 1 | 2 | 1 |\n| Giddy gastropog | 25.9259%-37.0370% | 8-10 | 1 | 2 | 1 |\n| Scourgette | 37.0370%-62.9630% | 11-17 | 1 | 2 | 1 |\n| Mandrake major | 62.9630%-88.8889% | 18-24 | 1 | 2 | 1 |\n| Handsome crab | 88.8889%-100.0000% | 25-27 | 1 | 2 | 1 |\n\n"
         },
         "118": {
@@ -6004,6 +6107,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "エルマニオンせつげん (全域) 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shivery shrubbery | 0.0000%-21.0526% | 0-4 | 1 | 2 | 1 |\n| Brreatherwarrior | 21.0526%-52.6316% | 5-10 | 1 | 2 | 1 |\n| Apeckalypse | 52.6316%-63.1579% | 11-12 | 1 | 1 | 0 |\n| Tearwolf | 63.1579%-78.9474% | 13-15 | 1 | 2 | 1 |\n| Great gruffon | 78.9474%-100.0000% | 16-19 | 1 | 1 | 0 |\n\n"
         },
         "119": {
@@ -6070,6 +6174,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "エルマニオンせつげん (全域) 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| White trigertaur | 0.0000%-16.6667% | 0-4 | 1 | 1 | 0 |\n| Brreatherwarrior | 16.6667%-33.3333% | 5-8 | 1 | 2 | 1 |\n| Apeckalypse | 33.3333%-50.0000% | 9-12 | 1 | 2 | 1 |\n| cikiller | 50.0000%-62.5000% | 13-15 | 1 | 2 | 1 |\n| Tearwolf | 62.5000%-75.0000% | 16-18 | 1 | 2 | 1 |\n| Great gruffon | 75.0000%-100.0000% | 19-24 | 1 | 1 | 0 |\n\n"
         },
         "120": {
@@ -6126,6 +6231,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "エルマニオンかいがん (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shivery shrubbery | 0.0000%-29.4118% | 0-5 | 1 | 2 | 1 |\n| Tearwolf | 29.4118%-47.0588% | 6-8 | 1 | 2 | 1 |\n| Apeckalypse | 47.0588%-76.4706% | 9-13 | 1 | 2 | 1 |\n| Scourgette | 76.4706%-88.2353% | 14-15 | 1 | 3 | 2 |\n| Brreatherwarrior | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "122": {
@@ -6182,6 +6288,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "アイスバリー海岸 (平地・森)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculptrice | 0.0000%-17.6471% | 0-3 | 1 | 1 | 0 |\n| cikiller | 17.6471%-35.2941% | 4-6 | 1 | 2 | 1 |\n| Sootheslime | 35.2941%-47.0588% | 7-8 | 1 | 1 | 0 |\n| White trigertaur | 47.0588%-70.5882% | 9-12 | 1 | 1 | 0 |\n| Brreatherwarrior | 70.5882%-100.0000% | 13-17 | 1 | 2 | 1 |\n\n"
         },
         "123": {
@@ -6238,6 +6345,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "アイスバリー海岸 (平地・森)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculptrice | 0.0000%-23.8095% | 0-5 | 1 | 1 | 0 |\n| cikiller | 23.8095%-47.6190% | 6-10 | 1 | 2 | 1 |\n| Sootheslime | 47.6190%-57.1429% | 11-12 | 1 | 2 | 1 |\n| White trigertaur | 57.1429%-85.7143% | 13-18 | 1 | 1 | 0 |\n| Brreatherwarrior | 85.7143%-100.0000% | 19-21 | 1 | 2 | 1 |\n\n"
         },
         "124": {
@@ -6294,6 +6402,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "アイスバリー海岸 (海岸)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Great gruffon | 0.0000%-15.0000% | 0-3 | 1 | 1 | 0 |\n| cikiller | 15.0000%-35.0000% | 4-7 | 1 | 2 | 1 |\n| Sootheslime | 35.0000%-55.0000% | 8-11 | 1 | 1 | 0 |\n| White trigertaur | 55.0000%-85.0000% | 12-17 | 1 | 1 | 0 |\n| Handsome crab | 85.0000%-100.0000% | 18-20 | 1 | 2 | 1 |\n\n"
         },
         "125": {
@@ -6350,6 +6459,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "アイスバリー海岸 (海岸)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Great gruffon | 0.0000%-13.6364% | 0-3 | 1 | 1 | 0 |\n| cikiller | 13.6364%-40.9091% | 4-9 | 1 | 2 | 1 |\n| Sootheslime | 40.9091%-59.0909% | 10-13 | 1 | 2 | 1 |\n| White trigertaur | 59.0909%-77.2727% | 14-17 | 1 | 1 | 0 |\n| Handsome crab | 77.2727%-100.0000% | 18-22 | 1 | 2 | 1 |\n\n"
         },
         "126": {
@@ -6406,6 +6516,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "エルシオン地下こうしゃ B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 0.0000%-15.0000% | 0-3 | 1 | 1 | 0 |\n| Teaky mask | 15.0000%-40.0000% | 4-8 | 1 | 3 | 2 |\n| Wight priest | 40.0000%-55.0000% | 9-11 | 1 | 2 | 1 |\n| Raving reaper | 55.0000%-85.0000% | 12-17 | 1 | 2 | 1 |\n| Sculptrice | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "127": {
@@ -6472,6 +6583,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "エルシオン地下こうしゃ B2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 0.0000%-13.6364% | 0-3 | 1 | 2 | 1 |\n| Teaky mask | 13.6364%-27.2727% | 4-6 | 1 | 3 | 2 |\n| Wight priest | 27.2727%-50.0000% | 7-11 | 1 | 3 | 2 |\n| Raving reaper | 50.0000%-63.6364% | 12-14 | 1 | 3 | 2 |\n| Sculptrice | 63.6364%-90.9091% | 15-20 | 1 | 1 | 0 |\n| cikiller | 90.9091%-100.0000% | 21-22 | 1 | 2 | 1 |\n\n"
         },
         "128": {
@@ -6538,6 +6650,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "ジャーホジ地方  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mega moai | 0.0000%-12.5000% | 0-3 | 1 | 1 | 0 |\n| Bomboulder | 12.5000%-37.5000% | 4-9 | 1 | 2 | 1 |\n| Hell niño | 37.5000%-50.0000% | 10-12 | 1 | 4 | 3 |\n| Drackal | 50.0000%-75.0000% | 13-18 | 1 | 1 | 0 |\n| Cheeky tiki | 75.0000%-87.5000% | 19-21 | 1 | 3 | 2 |\n| Ghoul | 87.5000%-100.0000% | 22-24 | 1 | 3 | 2 |\n\n"
         },
         "129": {
@@ -6594,6 +6707,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "ジャーホジ地方  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mega moai | 0.0000%-25.0000% | 0-6 | 1 | 1 | 0 |\n| Bomboulder | 25.0000%-41.6667% | 7-10 | 1 | 2 | 1 |\n| Sluggernaut | 41.6667%-58.3333% | 11-14 | 1 | 4 | 3 |\n| Deadcurion | 58.3333%-83.3333% | 15-20 | 1 | 4 | 3 |\n| Blood mummy | 83.3333%-100.0000% | 21-24 | 1 | 3 | 2 |\n\n"
         },
         "130": {
@@ -6660,6 +6774,7 @@
                 }
             ],
             "maxRand": 28,
+            "position": "オンゴリのガケ  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Whirly girly | 0.0000%-10.7143% | 0-3 | 1 | 4 | 3 |\n| Bomboulder | 10.7143%-21.4286% | 4-6 | 1 | 2 | 1 |\n| Sluggernaut | 21.4286%-42.8571% | 7-12 | 1 | 4 | 3 |\n| Deadcurion | 42.8571%-57.1429% | 13-16 | 1 | 4 | 3 |\n| Troll | 57.1429%-78.5714% | 17-22 | 1 | 1 | 0 |\n| Sculptrice | 78.5714%-100.0000% | 23-28 | 1 | 2 | 1 |\n\n"
         },
         "131": {
@@ -6706,6 +6821,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "オンゴリのガケ  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculptrice | 0.0000%-21.0526% | 0-4 | 1 | 2 | 1 |\n| Raving reaper | 21.0526%-52.6316% | 5-10 | 1 | 4 | 3 |\n| Troll | 52.6316%-68.4211% | 11-13 | 1 | 1 | 0 |\n| Blood mummy | 68.4211%-100.0000% | 14-19 | 1 | 3 | 2 |\n\n"
         },
         "132": {
@@ -6772,6 +6888,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "アルマの塔 1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Killing machine | 0.0000%-22.2222% | 0-4 | 1 | 2 | 1 |\n| Cumulus vex | 22.2222%-44.4444% | 5-8 | 1 | 1 | 0 |\n| Barbatos | 44.4444%-66.6667% | 9-12 | 1 | 2 | 1 |\n| Freezing fog | 66.6667%-88.8889% | 13-16 | 2 | 4 | 2 |\n| Swinoceros | 88.8889%-94.4444% | 17-17 | 2 | 4 | 2 |\n| Whirly girly | 94.4444%-100.0000% | 18-18 | 1 | 2 | 1 |\n\n"
         },
         "133": {
@@ -6838,6 +6955,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "アルマの塔 2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 0.0000%-11.1111% | 0-2 | 1 | 2 | 1 |\n| Whirly girly | 11.1111%-22.2222% | 3-4 | 1 | 2 | 1 |\n| Barbatos | 22.2222%-44.4444% | 5-8 | 1 | 2 | 1 |\n| Gigantes | 44.4444%-66.6667% | 9-12 | 1 | 1 | 0 |\n| Freezing fog | 66.6667%-88.8889% | 13-16 | 2 | 4 | 2 |\n| Cumulus vex | 88.8889%-100.0000% | 17-18 | 1 | 1 | 0 |\n\n"
         },
         "134": {
@@ -6904,6 +7022,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "アルマの塔 3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Metal king slime | 0.0000%-2.7778% | 0-1 | 1 | 1 | 0 |\n| Cumulus vex | 2.7778%-22.2222% | 2-8 | 1 | 1 | 0 |\n| Barbatos | 22.2222%-41.6667% | 9-15 | 1 | 2 | 1 |\n| Freezing fog | 41.6667%-61.1111% | 16-22 | 3 | 4 | 1 |\n| Swinoceros | 61.1111%-80.5556% | 23-29 | 1 | 2 | 1 |\n| Whirly girly | 80.5556%-100.0000% | 30-36 | 1 | 2 | 1 |\n\n"
         },
         "135": {
@@ -6970,6 +7089,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "アルマの塔 4F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| Whirly girly | 10.0000%-20.0000% | 3-4 | 1 | 2 | 1 |\n| Barbatos | 20.0000%-40.0000% | 5-8 | 1 | 2 | 1 |\n| Gigantes | 40.0000%-60.0000% | 9-12 | 1 | 1 | 0 |\n| Freezing fog | 60.0000%-80.0000% | 13-16 | 3 | 4 | 1 |\n| Cumulus vex | 80.0000%-100.0000% | 17-20 | 1 | 1 | 0 |\n\n"
         },
         "136": {
@@ -7036,6 +7156,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "アルマの塔 5F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Killing machine | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Drakulard | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Gigantes | 38.8889%-58.3333% | 15-21 | 1 | 1 | 0 |\n| Stone guardian | 58.3333%-77.7778% | 22-28 | 1 | 1 | 0 |\n| Freezing fog | 77.7778%-97.2222% | 29-35 | 3 | 4 | 1 |\n| Metal king slime | 97.2222%-100.0000% | 36-36 | 1 | 1 | 0 |\n\n"
         },
         "137": {
@@ -7102,6 +7223,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "アルマの塔 6F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| Whirly girly | 10.0000%-20.0000% | 3-4 | 1 | 2 | 1 |\n| Gigantes | 20.0000%-40.0000% | 5-8 | 1 | 1 | 0 |\n| Stone guardian | 40.0000%-60.0000% | 9-12 | 1 | 1 | 0 |\n| Freezing fog | 60.0000%-80.0000% | 13-16 | 3 | 4 | 1 |\n| Drakulard | 80.0000%-100.0000% | 17-20 | 1 | 1 | 0 |\n\n"
         },
         "138": {
@@ -7158,6 +7280,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "東ナザム地方 平地 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim grinner | 0.0000%-31.5789% | 0-6 | 1 | 4 | 3 |\n| Sootheslime | 31.5789%-42.1053% | 7-8 | 1 | 3 | 2 |\n| Sluggernaut | 42.1053%-63.1579% | 9-12 | 1 | 2 | 1 |\n| Splatterhorn | 63.1579%-78.9474% | 13-15 | 1 | 1 | 0 |\n| Whirly girly | 78.9474%-100.0000% | 16-19 | 1 | 1 | 0 |\n\n"
         },
         "139": {
@@ -7224,6 +7347,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "東ナザム地方 平地 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim grinner | 0.0000%-14.8148% | 0-4 | 1 | 4 | 3 |\n| Skeleton soldier | 14.8148%-37.0370% | 5-10 | 1 | 3 | 2 |\n| Sluggernaut | 37.0370%-51.8519% | 11-14 | 1 | 2 | 1 |\n| Splatterhorn | 51.8519%-62.9630% | 15-17 | 1 | 2 | 1 |\n| Gramarye gruffon | 62.9630%-85.1852% | 18-23 | 1 | 1 | 0 |\n| Whirly girly | 85.1852%-100.0000% | 24-27 | 1 | 2 | 1 |\n\n"
         },
         "140": {
@@ -7290,6 +7414,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "東ナザム地方 森・海岸 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim grinner | 0.0000%-15.0000% | 0-3 | 1 | 4 | 3 |\n| Scourgette | 15.0000%-25.0000% | 4-5 | 1 | 3 | 2 |\n| Sluggernaut | 25.0000%-45.0000% | 6-9 | 1 | 2 | 1 |\n| Splatterhorn | 45.0000%-55.0000% | 10-11 | 1 | 1 | 0 |\n| Gramarye gruffon | 55.0000%-75.0000% | 12-15 | 1 | 1 | 0 |\n| Whirly girly | 75.0000%-100.0000% | 16-20 | 1 | 2 | 1 |\n\n"
         },
         "141": {
@@ -7356,6 +7481,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "西ナザム地方 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 0.0000%-33.3333% | 0-6 | 1 | 2 | 1 |\n| Scourgette | 33.3333%-44.4444% | 7-8 | 1 | 3 | 2 |\n| Skeleton soldier | 44.4444%-61.1111% | 9-11 | 1 | 2 | 1 |\n| Bloody manguini | 61.1111%-72.2222% | 12-13 | 1 | 1 | 0 |\n| Sluggernaut | 72.2222%-88.8889% | 14-16 | 1 | 3 | 2 |\n| Gramarye gruffon | 88.8889%-100.0000% | 17-18 | 1 | 1 | 0 |\n\n"
         },
         "142": {
@@ -7422,6 +7548,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "西ナザム地方 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 0.0000%-12.0000% | 0-3 | 1 | 2 | 1 |\n| Harmour | 12.0000%-28.0000% | 4-7 | 1 | 2 | 1 |\n| Skeleton soldier | 28.0000%-52.0000% | 8-13 | 1 | 2 | 1 |\n| Bloody manguini | 52.0000%-72.0000% | 14-18 | 1 | 1 | 0 |\n| Sluggernaut | 72.0000%-84.0000% | 19-21 | 1 | 3 | 2 |\n| Gramarye gruffon | 84.0000%-100.0000% | 22-25 | 1 | 1 | 0 |\n\n"
         },
         "143": {
@@ -7488,6 +7615,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "西ナザム地方 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 0.0000%-9.0909% | 0-2 | 1 | 2 | 1 |\n| Scourgette | 9.0909%-22.7273% | 3-5 | 1 | 3 | 2 |\n| Skeleton soldier | 22.7273%-45.4545% | 6-10 | 1 | 2 | 1 |\n| Bloody manguini | 45.4545%-63.6364% | 11-14 | 1 | 2 | 1 |\n| Sluggernaut | 63.6364%-77.2727% | 15-17 | 1 | 3 | 2 |\n| Gramarye gruffon | 77.2727%-100.0000% | 18-22 | 1 | 1 | 0 |\n\n"
         },
         "144": {
@@ -7524,6 +7652,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "魔獣のどうくつ 地上 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Harmour | 0.0000%-40.0000% | 0-4 | 1 | 2 | 1 |\n| Bloody manguini | 40.0000%-80.0000% | 5-8 | 1 | 2 | 1 |\n| Gramarye gruffon | 80.0000%-100.0000% | 9-10 | 1 | 1 | 0 |\n\n"
         },
         "145": {
@@ -7590,6 +7719,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "魔獣のどうくつ B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Harmour | 0.0000%-22.2222% | 0-4 | 1 | 2 | 1 |\n| Living statue | 22.2222%-33.3333% | 5-6 | 1 | 1 | 0 |\n| Sculpture vulture | 33.3333%-44.4444% | 7-8 | 1 | 1 | 0 |\n| Blood mummy | 44.4444%-66.6667% | 9-12 | 1 | 2 | 1 |\n| Goodybag | 66.6667%-77.7778% | 13-14 | 1 | 2 | 1 |\n| Python priest | 77.7778%-100.0000% | 15-18 | 1 | 2 | 1 |\n\n"
         },
         "146": {
@@ -7656,6 +7786,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "魔獣のどうくつ B2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Goodybag | 0.0000%-12.1212% | 0-4 | 1 | 2 | 1 |\n| Living statue | 12.1212%-33.3333% | 5-11 | 1 | 1 | 0 |\n| Sculpture vulture | 33.3333%-54.5455% | 12-18 | 1 | 1 | 0 |\n| Harmour | 54.5455%-75.7576% | 19-25 | 1 | 2 | 1 |\n| Liquid metal slime | 75.7576%-78.7879% | 26-26 | 1 | 1 | 0 |\n| Python priest | 78.7879%-100.0000% | 27-33 | 1 | 2 | 1 |\n\n"
         },
         "147": {
@@ -7722,6 +7853,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "魔獣のどうくつ B3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Goodybag | 0.0000%-12.1212% | 0-4 | 1 | 3 | 2 |\n| Living statue | 12.1212%-33.3333% | 5-11 | 1 | 2 | 1 |\n| Sculpture vulture | 33.3333%-54.5455% | 12-18 | 1 | 2 | 1 |\n| Harmour | 54.5455%-75.7576% | 19-25 | 1 | 2 | 1 |\n| Liquid metal slime | 75.7576%-78.7879% | 26-26 | 1 | 1 | 0 |\n| Python priest | 78.7879%-100.0000% | 27-33 | 1 | 2 | 1 |\n\n"
         },
         "148": {
@@ -7778,6 +7910,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "竜のもん 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-13.3333% | 0-2 | 1 | 1 | 0 |\n| Drastic drackal | 13.3333%-26.6667% | 3-4 | 1 | 1 | 0 |\n| Bloody manguini | 26.6667%-46.6667% | 5-7 | 1 | 2 | 1 |\n| Whirly girly | 46.6667%-73.3333% | 8-11 | 1 | 2 | 1 |\n| Sluggernaut | 73.3333%-100.0000% | 12-15 | 1 | 4 | 3 |\n\n"
         },
         "149": {
@@ -7834,6 +7967,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "竜のもん 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-13.3333% | 0-2 | 1 | 1 | 0 |\n| Drastic drackal | 13.3333%-40.0000% | 3-6 | 1 | 1 | 0 |\n| Bloody manguini | 40.0000%-60.0000% | 7-9 | 1 | 2 | 1 |\n| Whirly girly | 60.0000%-73.3333% | 10-11 | 1 | 3 | 2 |\n| Sluggernaut | 73.3333%-100.0000% | 12-15 | 1 | 4 | 3 |\n\n"
         },
         "150": {
@@ -7900,6 +8034,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "竜のしっぽ地方 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-27.7778% | 0-5 | 1 | 1 | 0 |\n| Drastic drackal | 27.7778%-44.4444% | 6-8 | 1 | 1 | 0 |\n| Terrorhawk | 44.4444%-66.6667% | 9-12 | 1 | 2 | 1 |\n| Whirly girly | 66.6667%-77.7778% | 13-14 | 1 | 2 | 1 |\n| Bloody manguini | 77.7778%-88.8889% | 15-16 | 1 | 2 | 1 |\n| Living statue | 88.8889%-100.0000% | 17-18 | 1 | 2 | 1 |\n\n"
         },
         "151": {
@@ -7966,6 +8101,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "竜のしっぽ地方 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| Drastic drackal | 10.0000%-40.0000% | 3-8 | 1 | 1 | 0 |\n| Terrorhawk | 40.0000%-50.0000% | 9-10 | 1 | 2 | 1 |\n| Cyclops | 50.0000%-60.0000% | 11-12 | 1 | 1 | 0 |\n| Drakularge | 60.0000%-90.0000% | 13-18 | 1 | 1 | 0 |\n| Sculpture vulture | 90.0000%-100.0000% | 19-20 | 1 | 2 | 1 |\n\n"
         },
         "152": {
@@ -8032,6 +8168,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "竜のしっぽ地方 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-13.0435% | 0-3 | 1 | 2 | 1 |\n| Drastic drackal | 13.0435%-39.1304% | 4-9 | 1 | 1 | 0 |\n| Terrorhawk | 39.1304%-65.2174% | 10-15 | 1 | 2 | 1 |\n| Whirly girly | 65.2174%-73.9130% | 16-17 | 1 | 2 | 1 |\n| Drakularge | 73.9130%-86.9565% | 18-20 | 1 | 1 | 0 |\n| Living statue | 86.9565%-100.0000% | 21-23 | 1 | 2 | 1 |\n\n"
         },
         "153": {
@@ -8098,6 +8235,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "竜のしっぽ地方 2 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-26.0870% | 0-6 | 1 | 1 | 0 |\n| Cyclops | 26.0870%-43.4783% | 7-10 | 1 | 1 | 0 |\n| Drakularge | 43.4783%-56.5217% | 11-13 | 1 | 1 | 0 |\n| Sootheslime | 56.5217%-73.9130% | 14-17 | 1 | 2 | 1 |\n| Bomboulder | 73.9130%-91.3043% | 18-21 | 1 | 3 | 2 |\n| Drastic drackal | 91.3043%-100.0000% | 22-23 | 1 | 1 | 0 |\n\n"
         },
         "154": {
@@ -8154,6 +8292,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "竜のしっぽ地方 2 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Cyclops | 10.0000%-25.0000% | 3-5 | 1 | 1 | 0 |\n| Drakularge | 25.0000%-55.0000% | 6-11 | 1 | 1 | 0 |\n| Sootheslime | 55.0000%-75.0000% | 12-15 | 1 | 2 | 1 |\n| Bomboulder | 75.0000%-100.0000% | 16-20 | 1 | 3 | 2 |\n\n"
         },
         "155": {
@@ -8220,6 +8359,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "竜のしっぽ地方 2 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-33.3333% | 0-6 | 1 | 1 | 0 |\n| Cyclops | 33.3333%-44.4444% | 7-8 | 1 | 1 | 0 |\n| Drakularge | 44.4444%-66.6667% | 9-12 | 1 | 1 | 0 |\n| Sootheslime | 66.6667%-88.8889% | 13-16 | 1 | 2 | 1 |\n| Hell niño | 88.8889%-88.8889% | 17-16 | 1 | 2 | 1 |\n| Drastic drackal | 88.8889%-100.0000% | 17-18 | 1 | 1 | 0 |\n\n"
         },
         "156": {
@@ -8266,6 +8406,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "竜のつばさ地方 平地・森 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-20.0000% | 0-2 | 1 | 2 | 1 |\n| Drakularge | 20.0000%-50.0000% | 3-5 | 1 | 1 | 0 |\n| Sootheslime | 50.0000%-70.0000% | 6-7 | 1 | 2 | 1 |\n| Terrorhawk | 70.0000%-100.0000% | 8-10 | 1 | 3 | 2 |\n\n"
         },
         "157": {
@@ -8332,6 +8473,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "竜のつばさ地方 平地・森 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-11.1111% | 0-2 | 1 | 2 | 1 |\n| Cyclops | 11.1111%-27.7778% | 3-5 | 1 | 1 | 0 |\n| Drakularge | 27.7778%-61.1111% | 6-11 | 1 | 1 | 0 |\n| Sootheslime | 61.1111%-72.2222% | 12-13 | 1 | 2 | 1 |\n| Terrorhawk | 72.2222%-88.8889% | 14-16 | 1 | 3 | 2 |\n| Golem | 88.8889%-100.0000% | 17-18 | 1 | 1 | 0 |\n\n"
         },
         "158": {
@@ -8398,6 +8540,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "竜のつばさ地方 海岸 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Handsome crab | 0.0000%-15.0000% | 0-3 | 1 | 3 | 2 |\n| Cyclops | 15.0000%-30.0000% | 4-6 | 1 | 1 | 0 |\n| Drakularge | 30.0000%-40.0000% | 7-8 | 1 | 1 | 0 |\n| Sootheslime | 40.0000%-55.0000% | 9-11 | 1 | 3 | 2 |\n| Terrorhawk | 55.0000%-70.0000% | 12-14 | 1 | 3 | 2 |\n| Sail serpent | 70.0000%-100.0000% | 15-20 | 1 | 3 | 2 |\n\n"
         },
         "159": {
@@ -8464,6 +8607,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "竜のつばさ地方 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-10.5263% | 0-2 | 1 | 2 | 1 |\n| Cyclops | 10.5263%-21.0526% | 3-4 | 1 | 1 | 0 |\n| Drakularge | 21.0526%-42.1053% | 5-8 | 1 | 2 | 1 |\n| Sootheslime | 42.1053%-57.8947% | 9-11 | 1 | 3 | 2 |\n| Terrorhawk | 57.8947%-89.4737% | 12-17 | 1 | 3 | 2 |\n| Golem | 89.4737%-100.0000% | 18-19 | 1 | 1 | 0 |\n\n"
         },
         "160": {
@@ -8510,6 +8654,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "竜のあきと地方 (全域) 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-35.2941% | 0-6 | 1 | 1 | 0 |\n| Golem | 35.2941%-52.9412% | 7-9 | 1 | 1 | 0 |\n| Cyclops | 52.9412%-76.4706% | 10-13 | 1 | 1 | 0 |\n| Bomboulder | 76.4706%-100.0000% | 14-17 | 1 | 1 | 0 |\n\n"
         },
         "161": {
@@ -8566,6 +8711,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "竜のあきと地方 (全域) 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-15.0000% | 0-3 | 1 | 1 | 0 |\n| Hell niño | 15.0000%-30.0000% | 4-6 | 1 | 2 | 1 |\n| Golem | 30.0000%-60.0000% | 7-12 | 1 | 2 | 1 |\n| Cyclops | 60.0000%-80.0000% | 13-16 | 1 | 1 | 0 |\n| Bomboulder | 80.0000%-100.0000% | 17-20 | 1 | 2 | 1 |\n\n"
         },
         "162": {
@@ -8612,6 +8758,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ドミール火山 1F 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Live lava | 0.0000%-33.3333% | 0-6 | 1 | 2 | 1 |\n| Corrupt carter | 33.3333%-66.6667% | 7-12 | 1 | 1 | 0 |\n| Golem | 66.6667%-77.7778% | 13-14 | 1 | 1 | 0 |\n| Hell niño | 77.7778%-100.0000% | 15-18 | 1 | 3 | 2 |\n\n"
         },
         "163": {
@@ -8658,6 +8805,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ドミール火山 2F 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Live lava | 0.0000%-33.3333% | 0-6 | 1 | 2 | 1 |\n| Corrupt carter | 33.3333%-66.6667% | 7-12 | 1 | 1 | 0 |\n| Golem | 66.6667%-77.7778% | 13-14 | 1 | 1 | 0 |\n| Hell niño | 77.7778%-100.0000% | 15-18 | 1 | 3 | 2 |\n\n"
         },
         "164": {
@@ -8704,6 +8852,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "ドミール火山 3F 1 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Live lava | 0.0000%-33.3333% | 0-6 | 1 | 2 | 1 |\n| Corrupt carter | 33.3333%-66.6667% | 7-12 | 1 | 2 | 1 |\n| Golem | 66.6667%-77.7778% | 13-14 | 1 | 2 | 1 |\n| Hell niño | 77.7778%-100.0000% | 15-18 | 1 | 3 | 2 |\n\n"
         },
         "165": {
@@ -8770,6 +8919,7 @@
                 }
             ],
             "maxRand": 26,
+            "position": "ドミール火山 3F (屋外) 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-23.0769% | 0-6 | 1 | 2 | 1 |\n| Mandrake marauder | 23.0769%-46.1538% | 7-12 | 1 | 1 | 0 |\n| Corrupt carter | 46.1538%-61.5385% | 13-16 | 1 | 2 | 1 |\n| Terrorhawk | 61.5385%-69.2308% | 17-18 | 1 | 4 | 3 |\n| Hell niño | 69.2308%-92.3077% | 19-24 | 1 | 4 | 3 |\n| Live lava | 92.3077%-100.0000% | 25-26 | 1 | 3 | 2 |\n\n"
         },
         "166": {
@@ -8786,6 +8936,7 @@
                 }
             ],
             "maxRand": 6,
+            "position": "ドミール火山 3F 3 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mandrake marauder | 0.0000%-100.0000% | 0-6 | 1 | 2 | 1 |\n\n"
         },
         "167": {
@@ -8842,6 +8993,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ドミール火山 4F 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magmalice | 0.0000%-29.4118% | 0-5 | 1 | 1 | 0 |\n| Mega moai | 29.4118%-52.9412% | 6-9 | 1 | 1 | 0 |\n| Mandrake marauder | 52.9412%-76.4706% | 10-13 | 1 | 2 | 1 |\n| Hell niño | 76.4706%-94.1176% | 14-16 | 2 | 4 | 2 |\n| Live lava | 94.1176%-100.0000% | 17-17 | 1 | 4 | 3 |\n\n"
         },
         "168": {
@@ -8898,6 +9050,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ドミール火山 5F 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magmalice | 0.0000%-29.4118% | 0-5 | 1 | 1 | 0 |\n| Mega moai | 29.4118%-52.9412% | 6-9 | 1 | 1 | 0 |\n| Mandrake marauder | 52.9412%-76.4706% | 10-13 | 1 | 2 | 1 |\n| Hell niño | 76.4706%-94.1176% | 14-16 | 2 | 4 | 2 |\n| Live lava | 94.1176%-100.0000% | 17-17 | 1 | 4 | 3 |\n\n"
         },
         "169": {
@@ -8954,6 +9107,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "ドミール火山 6F 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magmalice | 0.0000%-29.4118% | 0-5 | 1 | 1 | 0 |\n| Mega moai | 29.4118%-52.9412% | 6-9 | 1 | 1 | 0 |\n| Mandrake marauder | 52.9412%-76.4706% | 10-13 | 1 | 2 | 1 |\n| Hell niño | 76.4706%-94.1176% | 14-16 | 2 | 4 | 2 |\n| Metal medley | 94.1176%-100.0000% | 17-17 | 1 | 1 | 0 |\n\n"
         },
         "171": {
@@ -9010,6 +9164,7 @@
                 }
             ],
             "maxRand": 14,
+            "position": "竜のくび地方(平地・草原・森)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-14.2857% | 0-2 | 1 | 1 | 0 |\n| Hell niño | 14.2857%-14.2857% | 3-2 | 1 | 2 | 1 |\n| Troll | 14.2857%-35.7143% | 3-5 | 1 | 1 | 0 |\n| Cyclops | 35.7143%-64.2857% | 6-9 | 1 | 2 | 1 |\n| Golem | 64.2857%-100.0000% | 10-14 | 1 | 1 | 0 |\n\n"
         },
         "172": {
@@ -9066,6 +9221,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "竜のくび地方(平地・草原・森)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-10.5263% | 0-2 | 1 | 1 | 0 |\n| Troll | 10.5263%-26.3158% | 3-5 | 1 | 1 | 0 |\n| Cyclops | 26.3158%-47.3684% | 6-9 | 1 | 2 | 1 |\n| Golem | 47.3684%-73.6842% | 10-14 | 1 | 1 | 0 |\n| Magmalice | 73.6842%-100.0000% | 15-19 | 1 | 1 | 0 |\n\n"
         },
         "173": {
@@ -9132,6 +9288,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "竜のくび地方(海岸)  常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 0.0000%-22.7273% | 0-5 | 1 | 1 | 0 |\n| Abyss diver | 22.7273%-45.4545% | 6-10 | 1 | 1 | 0 |\n| Troll | 45.4545%-59.0909% | 11-13 | 1 | 1 | 0 |\n| Cyclops | 59.0909%-72.7273% | 14-16 | 1 | 2 | 1 |\n| Golem | 72.7273%-86.3636% | 17-19 | 1 | 2 | 1 |\n| Handsome crab | 86.3636%-100.0000% | 20-22 | 1 | 2 | 1 |\n\n"
         },
         "174": {
@@ -9168,6 +9325,7 @@
                 }
             ],
             "maxRand": 13,
+            "position": "ガナンていこくりょう  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gloomy gastropog | 0.0000%-23.0769% | 0-3 | 1 | 2 | 1 |\n| Dreadful drackal | 23.0769%-69.2308% | 4-9 | 1 | 1 | 0 |\n| Stenchurion | 69.2308%-100.0000% | 10-13 | 1 | 2 | 1 |\n\n"
         },
         "175": {
@@ -9234,6 +9392,7 @@
                 }
             ],
             "maxRand": 28,
+            "position": "ガナンていこくりょう  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gloomy gastropog | 0.0000%-21.4286% | 0-6 | 1 | 2 | 1 |\n| Stone guardian | 21.4286%-42.8571% | 7-12 | 1 | 1 | 0 |\n| Freezing fog | 42.8571%-57.1429% | 13-16 | 1 | 2 | 1 |\n| Dreadful drackal | 57.1429%-71.4286% | 17-20 | 1 | 1 | 0 |\n| Dark skeleton | 71.4286%-92.8571% | 21-26 | 1 | 2 | 1 |\n| Stenchurion | 92.8571%-100.0000% | 27-28 | 1 | 2 | 1 |\n\n"
         },
         "176": {
@@ -9260,6 +9419,7 @@
                 }
             ],
             "maxRand": 12,
+            "position": "ガナンていこく城 屋外 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-50.0000% | 0-6 | 1 | 3 | 2 |\n| Stenchurion | 50.0000%-100.0000% | 7-12 | 1 | 2 | 1 |\n\n"
         },
         "177": {
@@ -9306,6 +9466,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ガナンていこく城 1F南 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Dark skeleton | 25.0000%-62.5000% | 5-10 | 1 | 2 | 1 |\n| Stone guardian | 62.5000%-81.2500% | 11-13 | 1 | 1 | 0 |\n| Boss troll | 81.2500%-100.0000% | 14-16 | 1 | 1 | 0 |\n\n"
         },
         "178": {
@@ -9362,6 +9523,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ガナンていこく城 1F東 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Blastoad | 0.0000%-20.0000% | 0-4 | 1 | 1 | 0 |\n| Freezing fog | 20.0000%-40.0000% | 5-8 | 1 | 2 | 1 |\n| Killing machine | 40.0000%-70.0000% | 9-14 | 1 | 2 | 1 |\n| Stone guardian | 70.0000%-85.0000% | 15-17 | 1 | 1 | 0 |\n| Boss troll | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "179": {
@@ -9418,6 +9580,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "ガナンていこく城 1F西(RTAでは通らない方) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Blastoad | 0.0000%-20.0000% | 0-4 | 1 | 2 | 1 |\n| Freezing fog | 20.0000%-40.0000% | 5-8 | 1 | 2 | 1 |\n| Killing machine | 40.0000%-70.0000% | 9-14 | 1 | 2 | 1 |\n| Stone guardian | 70.0000%-85.0000% | 15-17 | 1 | 1 | 0 |\n| Boss troll | 85.0000%-100.0000% | 18-20 | 1 | 1 | 0 |\n\n"
         },
         "180": {
@@ -9474,6 +9637,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "ガナンていこく城 1F北(RTAでは訪れない場所) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 0.0000%-17.3913% | 0-4 | 1 | 2 | 1 |\n| Freezing fog | 17.3913%-30.4348% | 5-7 | 1 | 2 | 1 |\n| Dark skeleton | 30.4348%-56.5217% | 8-13 | 1 | 2 | 1 |\n| Stenchurion | 56.5217%-82.6087% | 14-19 | 1 | 2 | 1 |\n| Boss troll | 82.6087%-100.0000% | 20-23 | 1 | 1 | 0 |\n\n"
         },
         "181": {
@@ -9520,6 +9684,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "ガナンていこく城 2F北(RTAでは訪れない場所) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 0.0000%-21.0526% | 0-4 | 1 | 2 | 1 |\n| Freezing fog | 21.0526%-36.8421% | 5-7 | 1 | 2 | 1 |\n| Dark skeleton | 36.8421%-68.4211% | 8-13 | 1 | 2 | 1 |\n| Stenchurion | 68.4211%-100.0000% | 14-19 | 1 | 2 | 1 |\n\n"
         },
         "182": {
@@ -9576,6 +9741,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "ガナンていこく城 1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 0.0000%-16.6667% | 0-4 | 1 | 2 | 1 |\n| Killing machine | 16.6667%-37.5000% | 5-9 | 1 | 2 | 1 |\n| Dark skeleton | 37.5000%-58.3333% | 10-14 | 1 | 2 | 1 |\n| Blastoad | 58.3333%-75.0000% | 15-18 | 1 | 2 | 1 |\n| Stone guardian | 75.0000%-100.0000% | 19-24 | 1 | 1 | 0 |\n\n"
         },
         "183": {
@@ -9622,6 +9788,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ガナンていこく城 2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-18.7500% | 0-3 | 1 | 3 | 2 |\n| Dark skeleton | 18.7500%-50.0000% | 4-8 | 1 | 2 | 1 |\n| Killing machine | 50.0000%-87.5000% | 9-14 | 1 | 2 | 1 |\n| Wight king | 87.5000%-100.0000% | 15-16 | 1 | 2 | 1 |\n\n"
         },
         "184": {
@@ -9668,6 +9835,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "ガナンていこく城 3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-18.7500% | 0-3 | 1 | 3 | 2 |\n| Dark skeleton | 18.7500%-50.0000% | 4-8 | 1 | 2 | 1 |\n| Killing machine | 50.0000%-87.5000% | 9-14 | 1 | 2 | 1 |\n| Wight king | 87.5000%-100.0000% | 15-16 | 1 | 2 | 1 |\n\n"
         },
         "185": {
@@ -9734,6 +9902,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "とざされたろうごく B1F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Claws | 0.0000%-13.6364% | 0-3 | 1 | 2 | 1 |\n| Mandrake marshal | 13.6364%-36.3636% | 4-8 | 1 | 1 | 0 |\n| Stone guardian | 36.3636%-54.5455% | 9-12 | 1 | 1 | 0 |\n| Fright knight | 54.5455%-63.6364% | 13-14 | 1 | 2 | 1 |\n| Wight king | 63.6364%-81.8182% | 15-18 | 1 | 2 | 1 |\n| Boss troll | 81.8182%-100.0000% | 19-22 | 1 | 1 | 0 |\n\n"
         },
         "186": {
@@ -9800,6 +9969,7 @@
                 }
             ],
             "maxRand": 22,
+            "position": "とざされたろうごく B2F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Claws | 0.0000%-22.7273% | 0-5 | 1 | 2 | 1 |\n| Mandrake marshal | 22.7273%-36.3636% | 6-8 | 1 | 1 | 0 |\n| Stone guardian | 36.3636%-54.5455% | 9-12 | 1 | 1 | 0 |\n| Fright knight | 54.5455%-72.7273% | 13-16 | 1 | 2 | 1 |\n| Wight king | 72.7273%-81.8182% | 17-18 | 1 | 2 | 1 |\n| Boss troll | 81.8182%-100.0000% | 19-22 | 1 | 1 | 0 |\n\n"
         },
         "187": {
@@ -9826,6 +9996,7 @@
                 }
             ],
             "maxRand": 7,
+            "position": "とざされたろうごく B3F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mandrake marshal | 0.0000%-57.1429% | 0-4 | 1 | 2 | 1 |\n| Boss troll | 57.1429%-100.0000% | 5-7 | 1 | 1 | 0 |\n\n"
         },
         "188": {
@@ -9852,6 +10023,7 @@
                 }
             ],
             "maxRand": 8,
+            "position": "とざされたろうごく B4F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Claws | 0.0000%-50.0000% | 0-4 | 1 | 2 | 1 |\n| Mandrake marshal | 50.0000%-100.0000% | 5-8 | 1 | 2 | 1 |\n\n"
         },
         "189": {
@@ -9918,6 +10090,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "とざされたろうごく B5F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Aggrosculpture | 0.0000%-10.0000% | 0-2 | 1 | 2 | 1 |\n| King crab | 10.0000%-30.0000% | 3-6 | 1 | 1 | 0 |\n| Bad karmour | 30.0000%-40.0000% | 7-8 | 1 | 2 | 1 |\n| Wyrtloise | 40.0000%-50.0000% | 9-10 | 1 | 2 | 1 |\n| Abyss diver | 50.0000%-80.0000% | 11-16 | 1 | 1 | 0 |\n| Claws | 80.0000%-100.0000% | 17-20 | 1 | 2 | 1 |\n\n"
         },
         "190": {
@@ -9964,6 +10137,7 @@
                 }
             ],
             "maxRand": 10,
+            "position": "とざされたろうごく B6F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Aggrosculpture | 0.0000%-20.0000% | 0-2 | 1 | 2 | 1 |\n| Bad karmour | 20.0000%-40.0000% | 3-4 | 1 | 2 | 1 |\n| Wyrtloise | 40.0000%-60.0000% | 5-6 | 1 | 2 | 1 |\n| Claws | 60.0000%-100.0000% | 7-10 | 1 | 2 | 1 |\n\n"
         },
         "191": {
@@ -10030,6 +10204,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "絶望と憎悪の魔宮 天の箱舟 1 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-10.0000% | 0-2 | 1 | 3 | 2 |\n| Belisha beakon | 10.0000%-40.0000% | 3-8 | 1 | 2 | 1 |\n| Cumulus vex | 40.0000%-50.0000% | 9-10 | 1 | 1 | 0 |\n| Red dragon | 50.0000%-60.0000% | 11-12 | 1 | 1 | 0 |\n| King crab | 60.0000%-80.0000% | 13-16 | 1 | 2 | 1 |\n| Mandrake marshal | 80.0000%-100.0000% | 17-20 | 1 | 2 | 1 |\n\n"
         },
         "192": {
@@ -10076,6 +10251,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "絶望と憎悪の魔宮 6F 外 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Belisha beakon | 0.0000%-37.5000% | 0-6 | 1 | 2 | 1 |\n| Red dragon | 37.5000%-50.0000% | 7-8 | 1 | 1 | 0 |\n| King crab | 50.0000%-75.0000% | 9-12 | 1 | 2 | 1 |\n| Charmour | 75.0000%-100.0000% | 13-16 | 1 | 2 | 1 |\n\n"
         },
         "193": {
@@ -10122,6 +10298,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "絶望と憎悪の魔宮 8F 外 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Belisha beakon | 0.0000%-37.5000% | 0-6 | 1 | 2 | 1 |\n| Red dragon | 37.5000%-50.0000% | 7-8 | 1 | 1 | 0 |\n| King crab | 50.0000%-75.0000% | 9-12 | 1 | 2 | 1 |\n| Charmour | 75.0000%-100.0000% | 13-16 | 1 | 2 | 1 |\n\n"
         },
         "194": {
@@ -10188,6 +10365,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-22.2222% | 0-6 | 1 | 2 | 1 |\n| Belisha beakon | 22.2222%-37.0370% | 7-10 | 1 | 2 | 1 |\n| Cumulus vex | 37.0370%-51.8519% | 11-14 | 1 | 1 | 0 |\n| Red dragon | 51.8519%-74.0741% | 15-20 | 1 | 2 | 1 |\n| King crab | 74.0741%-85.1852% | 21-23 | 1 | 2 | 1 |\n| Mandrake marshal | 85.1852%-100.0000% | 24-27 | 1 | 2 | 1 |\n\n"
         },
         "195": {
@@ -10224,6 +10402,7 @@
                 }
             ],
             "maxRand": 8,
+            "position": "絶望と憎悪の魔宮 B2F 2 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-50.0000% | 0-4 | 1 | 3 | 2 |\n| Cumulus vex | 50.0000%-75.0000% | 5-6 | 1 | 1 | 0 |\n| Cureslime | 75.0000%-100.0000% | 7-8 | 1 | 2 | 1 |\n\n"
         },
         "196": {
@@ -10280,6 +10459,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "絶望と憎悪の魔宮 B2F 4 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-21.0526% | 0-4 | 1 | 3 | 2 |\n| Belisha beakon | 21.0526%-26.3158% | 5-5 | 1 | 3 | 2 |\n| Charmour | 26.3158%-36.8421% | 6-7 | 1 | 2 | 1 |\n| Gigantes | 36.8421%-68.4211% | 8-13 | 1 | 1 | 0 |\n| Red dragon | 68.4211%-100.0000% | 14-19 | 1 | 1 | 0 |\n\n"
         },
         "197": {
@@ -10336,6 +10516,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "絶望と憎悪の魔宮 B2F 3 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-21.0526% | 0-4 | 1 | 3 | 2 |\n| Belisha beakon | 21.0526%-26.3158% | 5-5 | 1 | 3 | 2 |\n| Charmour | 26.3158%-36.8421% | 6-7 | 1 | 1 | 0 |\n| Gigantes | 36.8421%-68.4211% | 8-13 | 1 | 1 | 0 |\n| Red dragon | 68.4211%-100.0000% | 14-19 | 1 | 1 | 0 |\n\n"
         },
         "198": {
@@ -10392,6 +10573,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "絶望と憎悪の魔宮 1F 5 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-21.0526% | 0-4 | 1 | 3 | 2 |\n| Belisha beakon | 21.0526%-26.3158% | 5-5 | 1 | 3 | 2 |\n| Charmour | 26.3158%-36.8421% | 6-7 | 1 | 1 | 0 |\n| Gigantes | 36.8421%-68.4211% | 8-13 | 1 | 1 | 0 |\n| Red dragon | 68.4211%-100.0000% | 14-19 | 1 | 1 | 0 |\n\n"
         },
         "199": {
@@ -10428,6 +10610,7 @@
                 }
             ],
             "maxRand": 8,
+            "position": "絶望と憎悪の魔宮 2F 6 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-50.0000% | 0-4 | 1 | 3 | 2 |\n| Cumulus vex | 50.0000%-75.0000% | 5-6 | 1 | 1 | 0 |\n| Cureslime | 75.0000%-100.0000% | 7-8 | 1 | 2 | 1 |\n\n"
         },
         "200": {
@@ -10494,6 +10677,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "絶望と憎悪の魔宮 3F 7 ゴレオン将軍 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-11.1111% | 0-2 | 1 | 3 | 2 |\n| Belisha beakon | 11.1111%-33.3333% | 3-6 | 1 | 3 | 2 |\n| Charmour | 33.3333%-61.1111% | 7-11 | 1 | 2 | 1 |\n| Great troll | 61.1111%-66.6667% | 12-12 | 1 | 1 | 0 |\n| Gigantes | 66.6667%-83.3333% | 13-15 | 1 | 1 | 0 |\n| Red dragon | 83.3333%-100.0000% | 16-18 | 1 | 2 | 1 |\n\n"
         },
         "201": {
@@ -10560,6 +10744,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "絶望と憎悪の魔宮 4F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-11.7647% | 0-2 | 1 | 3 | 2 |\n| Belisha beakon | 11.7647%-29.4118% | 3-5 | 1 | 3 | 2 |\n| Charmour | 29.4118%-52.9412% | 6-9 | 1 | 2 | 1 |\n| Great troll | 52.9412%-64.7059% | 10-11 | 1 | 1 | 0 |\n| Gigantes | 64.7059%-82.3529% | 12-14 | 1 | 1 | 0 |\n| Red dragon | 82.3529%-100.0000% | 15-17 | 1 | 2 | 1 |\n\n"
         },
         "202": {
@@ -10626,6 +10811,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "絶望と憎悪の魔宮 5F 8 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-11.1111% | 0-2 | 1 | 3 | 2 |\n| Prism peacock | 11.1111%-33.3333% | 3-6 | 1 | 2 | 1 |\n| Cumulus vex | 33.3333%-44.4444% | 7-8 | 1 | 1 | 0 |\n| Cobra cardinal | 44.4444%-72.2222% | 9-13 | 1 | 2 | 1 |\n| Genie sanguini | 72.2222%-83.3333% | 14-15 | 1 | 3 | 2 |\n| Night knight | 83.3333%-100.0000% | 16-18 | 1 | 2 | 1 |\n\n"
         },
         "203": {
@@ -10682,6 +10868,7 @@
                 }
             ],
             "maxRand": 12,
+            "position": "絶望と憎悪の魔宮 1F (ショートカット) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-16.6667% | 0-2 | 1 | 3 | 2 |\n| Genie sanguini | 16.6667%-25.0000% | 3-3 | 1 | 2 | 1 |\n| Great troll | 25.0000%-50.0000% | 4-6 | 1 | 1 | 0 |\n| Drakulard | 50.0000%-83.3333% | 7-10 | 1 | 1 | 0 |\n| Gigantes | 83.3333%-100.0000% | 11-12 | 1 | 1 | 0 |\n\n"
         },
         "204": {
@@ -10738,6 +10925,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "絶望と憎悪の魔宮 6F 9 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-12.5000% | 0-2 | 1 | 3 | 2 |\n| Prism peacock | 12.5000%-43.7500% | 3-7 | 1 | 1 | 0 |\n| Drakulard | 43.7500%-62.5000% | 8-10 | 1 | 1 | 0 |\n| Cobra cardinal | 62.5000%-87.5000% | 11-14 | 1 | 1 | 0 |\n| Gigantes | 87.5000%-100.0000% | 15-16 | 1 | 1 | 0 |\n\n"
         },
         "207": {
@@ -10794,6 +10982,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "絶望と憎悪の魔宮 8F 10 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-35.2941% | 0-6 | 1 | 2 | 1 |\n| Genie sanguini | 35.2941%-41.1765% | 7-7 | 1 | 2 | 1 |\n| Barbatos | 41.1765%-64.7059% | 8-11 | 1 | 1 | 0 |\n| Drakulard | 64.7059%-76.4706% | 12-13 | 1 | 1 | 0 |\n| Night knight | 76.4706%-100.0000% | 14-17 | 1 | 1 | 0 |\n\n"
         },
         "208": {
@@ -10850,6 +11039,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "絶望と憎悪の魔宮 9F 11 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cureslime | 0.0000%-40.0000% | 0-6 | 1 | 2 | 1 |\n| Genie sanguini | 40.0000%-46.6667% | 7-7 | 1 | 2 | 1 |\n| Drakulard | 46.6667%-60.0000% | 8-9 | 1 | 1 | 0 |\n| Night knight | 60.0000%-86.6667% | 10-13 | 1 | 1 | 0 |\n| Firn fiend | 86.6667%-100.0000% | 14-15 | 1 | 1 | 0 |\n\n"
         },
         "209": {
@@ -10906,6 +11096,7 @@
                 }
             ],
             "maxRand": 15,
+            "position": "絶望と憎悪の魔宮 9F 12 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-6.6667% | 0-1 | 1 | 2 | 1 |\n| Great troll | 6.6667%-33.3333% | 2-5 | 1 | 1 | 0 |\n| Barbatos | 33.3333%-46.6667% | 6-7 | 1 | 1 | 0 |\n| Night knight | 46.6667%-60.0000% | 8-9 | 1 | 1 | 0 |\n| Firn fiend | 60.0000%-100.0000% | 10-15 | 1 | 1 | 0 |\n\n"
         },
         "210": {
@@ -10952,6 +11143,7 @@
                 }
             ],
             "maxRand": 7,
+            "position": "絶望と憎悪の魔宮 8F ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-14.2857% | 0-1 | 1 | 2 | 1 |\n| Great troll | 14.2857%-42.8571% | 2-3 | 1 | 1 | 0 |\n| Barbatos | 42.8571%-71.4286% | 4-5 | 1 | 2 | 1 |\n| Night knight | 71.4286%-100.0000% | 6-7 | 1 | 2 | 1 |\n\n"
         },
         "211": {
@@ -10998,6 +11190,7 @@
                 }
             ],
             "maxRand": 7,
+            "position": "絶望と憎悪の魔宮 10F 13 ギュメイ将軍前 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-14.2857% | 0-1 | 1 | 2 | 1 |\n| Great troll | 14.2857%-42.8571% | 2-3 | 1 | 1 | 0 |\n| Barbatos | 42.8571%-71.4286% | 4-5 | 1 | 2 | 1 |\n| Night knight | 71.4286%-100.0000% | 6-7 | 1 | 2 | 1 |\n\n"
         },
         "216": {
@@ -11064,6 +11257,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然K (1)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 0.0000%-14.2857% | 0-3 | 1 | 4 | 3 |\n| Mushroom mage | 14.2857%-28.5714% | 4-6 | 1 | 4 | 3 |\n| Crabid | 28.5714%-42.8571% | 7-9 | 1 | 3 | 2 |\n| Chimaera | 42.8571%-61.9048% | 10-13 | 1 | 3 | 2 |\n| Big badboon | 61.9048%-80.9524% | 14-17 | 1 | 2 | 1 |\n| Purrestidigitator | 80.9524%-100.0000% | 18-21 | 1 | 3 | 2 |\n\n"
         },
         "217": {
@@ -11130,6 +11324,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然J (2)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 0.0000%-19.0476% | 0-4 | 1 | 2 | 1 |\n| Pink sanguini | 19.0476%-33.3333% | 5-7 | 1 | 4 | 3 |\n| Drackal | 33.3333%-52.3810% | 8-11 | 1 | 1 | 0 |\n| Scourgette | 52.3810%-66.6667% | 12-14 | 1 | 3 | 2 |\n| Mandrake major | 66.6667%-85.7143% | 15-18 | 1 | 2 | 1 |\n| Treeface | 85.7143%-100.0000% | 19-21 | 1 | 2 | 1 |\n\n"
         },
         "218": {
@@ -11196,6 +11391,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然I (3)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Peckerel | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Brainy badboon | 14.2857%-33.3333% | 4-7 | 1 | 2 | 1 |\n| Drackal | 33.3333%-52.3810% | 8-11 | 1 | 1 | 0 |\n| Crabber dabber doo | 52.3810%-66.6667% | 12-14 | 1 | 3 | 2 |\n| Treevil | 66.6667%-80.9524% | 15-17 | 1 | 2 | 1 |\n| Sluggernaut | 80.9524%-100.0000% | 18-21 | 1 | 4 | 3 |\n\n"
         },
         "219": {
@@ -11262,6 +11458,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然H (4)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bomboulder | 0.0000%-14.2857% | 0-3 | 1 | 3 | 2 |\n| Cyclops | 14.2857%-33.3333% | 4-7 | 1 | 1 | 0 |\n| Swinoceros | 33.3333%-47.6190% | 8-10 | 1 | 3 | 2 |\n| Live lava | 47.6190%-66.6667% | 11-14 | 1 | 2 | 1 |\n| Drakularge | 66.6667%-85.7143% | 15-18 | 1 | 1 | 0 |\n| Tearwolf | 85.7143%-100.0000% | 19-21 | 1 | 2 | 1 |\n\n"
         },
         "220": {
@@ -11328,6 +11525,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然G (5)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Terrorhawk | 0.0000%-14.2857% | 0-3 | 1 | 3 | 2 |\n| Splatterhorn | 14.2857%-28.5714% | 4-6 | 1 | 3 | 2 |\n| Gloomy gastropog | 28.5714%-47.6190% | 7-10 | 1 | 3 | 2 |\n| Cumulus rex | 47.6190%-61.9048% | 11-13 | 1 | 3 | 2 |\n| Boss troll | 61.9048%-80.9524% | 14-17 | 1 | 2 | 1 |\n| Drakularge | 80.9524%-100.0000% | 18-21 | 1 | 1 | 0 |\n\n"
         },
         "221": {
@@ -11394,6 +11592,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "自然F (6)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mandrake marshal | 0.0000%-19.0476% | 0-4 | 1 | 2 | 1 |\n| Blastoad | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Claws | 38.0952%-52.3810% | 9-11 | 1 | 2 | 1 |\n| Green dragon | 52.3810%-66.6667% | 12-14 | 1 | 2 | 1 |\n| Freezing fog | 66.6667%-85.7143% | 15-18 | 1 | 4 | 3 |\n| Magmalice | 85.7143%-100.0000% | 19-21 | 1 | 1 | 0 |\n\n"
         },
         "222": {
@@ -11460,6 +11659,7 @@
                 }
             ],
             "maxRand": 34,
+            "position": "自然E (7)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| King cureslime | 0.0000%-20.5882% | 0-7 | 1 | 1 | 0 |\n| Cobra cardinal | 20.5882%-41.1765% | 8-14 | 1 | 3 | 2 |\n| Gem jamboree | 41.1765%-47.0588% | 15-16 | 1 | 2 | 1 |\n| Cumulus vex | 47.0588%-64.7059% | 17-22 | 1 | 2 | 1 |\n| Mandrake marshal | 64.7059%-82.3529% | 23-28 | 1 | 2 | 1 |\n| Red dragon | 82.3529%-100.0000% | 29-34 | 1 | 2 | 1 |\n\n"
         },
         "223": {
@@ -11526,6 +11726,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "自然D (8)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 0.0000%-9.0909% | 0-3 | 1 | 3 | 2 |\n| Moai minstrel | 9.0909%-24.2424% | 4-8 | 1 | 1 | 0 |\n| Terror troll | 24.2424%-45.4545% | 9-15 | 1 | 1 | 0 |\n| King crab | 45.4545%-63.6364% | 16-21 | 1 | 2 | 1 |\n| Drakulard | 63.6364%-81.8182% | 22-27 | 1 | 1 | 0 |\n| Prism peacock | 81.8182%-100.0000% | 28-33 | 1 | 3 | 2 |\n\n"
         },
         "224": {
@@ -11592,6 +11793,7 @@
                 }
             ],
             "maxRand": 35,
+            "position": "自然C (9)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cosmic chimaera | 0.0000%-20.0000% | 0-7 | 1 | 1 | 0 |\n| Wishmaster | 20.0000%-40.0000% | 8-14 | 1 | 1 | 0 |\n| Moai minstrel | 40.0000%-54.2857% | 15-19 | 1 | 1 | 0 |\n| Terror troll | 54.2857%-71.4286% | 20-25 | 1 | 1 | 0 |\n| Drakulard | 71.4286%-85.7143% | 26-30 | 1 | 1 | 0 |\n| Prism peacock | 85.7143%-100.0000% | 31-35 | 1 | 3 | 2 |\n\n"
         },
         "225": {
@@ -11648,6 +11850,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "自然B (10)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus hex | 0.0000%-25.9259% | 0-7 | 1 | 1 | 0 |\n| Cosmic chimaera | 25.9259%-48.1481% | 8-13 | 1 | 2 | 1 |\n| Wishmaster | 48.1481%-70.3704% | 14-19 | 1 | 1 | 0 |\n| Metal king slime | 70.3704%-77.7778% | 20-21 | 2 | 4 | 2 |\n| Octagoon | 77.7778%-100.0000% | 22-27 | 1 | 2 | 1 |\n\n"
         },
         "226": {
@@ -11714,6 +11917,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "自然A (11)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slionheart | 0.0000%-21.2121% | 0-7 | 1 | 1 | 0 |\n| Godsteed | 21.2121%-42.4242% | 8-14 | 1 | 1 | 0 |\n| Cumulus hex | 42.4242%-60.6061% | 15-20 | 1 | 1 | 0 |\n| Sluggerslaught | 60.6061%-69.6970% | 21-23 | 1 | 4 | 3 |\n| Cosmic chimaera | 69.6970%-84.8485% | 24-28 | 1 | 3 | 2 |\n| Wishmaster | 84.8485%-100.0000% | 29-33 | 1 | 1 | 0 |\n\n"
         },
         "227": {
@@ -11770,6 +11974,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": "自然S (12)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wonder wyrtle | 0.0000%-22.5806% | 0-7 | 1 | 1 | 0 |\n| Widows pique | 22.5806%-45.1613% | 8-14 | 1 | 1 | 0 |\n| Slionheart | 45.1613%-64.5161% | 15-20 | 1 | 1 | 0 |\n| Godsteed | 64.5161%-83.8710% | 21-26 | 1 | 1 | 0 |\n| Cumulus hex | 83.8710%-100.0000% | 27-31 | 1 | 1 | 0 |\n\n"
         },
         "228": {
@@ -11826,6 +12031,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "クエスト「お願い天使様」の地図 b1f b2f b3f ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Stone golem | 0.0000%-25.0000% | 0-4 | 1 | 2 | 1 |\n| Magus | 25.0000%-43.7500% | 5-7 | 1 | 3 | 2 |\n| Earthenwarrior | 43.7500%-62.5000% | 8-10 | 1 | 2 | 1 |\n| Expload | 62.5000%-87.5000% | 11-14 | 1 | 2 | 1 |\n| Troll | 87.5000%-100.0000% | 15-16 | 1 | 1 | 0 |\n\n"
         },
         "229": {
@@ -11882,6 +12088,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "遺跡J (2)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Raving lunatick | 0.0000%-23.5294% | 0-4 | 1 | 4 | 3 |\n| Mad moai | 23.5294%-47.0588% | 5-8 | 1 | 1 | 0 |\n| Trigertaur | 47.0588%-64.7059% | 9-11 | 1 | 1 | 0 |\n| Manguini | 64.7059%-88.2353% | 12-15 | 1 | 2 | 1 |\n| Golem | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "230": {
@@ -11938,6 +12145,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "遺跡I (3)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Hunter mech | 0.0000%-35.0000% | 0-7 | 1 | 2 | 1 |\n| Metal medley | 35.0000%-40.0000% | 8-8 | 1 | 3 | 2 |\n| Mimic | 40.0000%-40.0000% | 9-8 | 1 | 4 | 3 |\n| Gramarye gruffon | 40.0000%-70.0000% | 9-14 | 1 | 2 | 1 |\n| Gum shield | 70.0000%-100.0000% | 15-20 | 1 | 3 | 2 |\n\n"
         },
         "231": {
@@ -11994,6 +12202,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "遺跡H (4)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Living statue | 0.0000%-11.7647% | 0-2 | 1 | 1 | 0 |\n| Teaky mask | 11.7647%-35.2941% | 3-6 | 1 | 4 | 3 |\n| Sluggernaut | 35.2941%-58.8235% | 7-10 | 1 | 4 | 3 |\n| Raving reaper | 58.8235%-82.3529% | 11-14 | 1 | 3 | 2 |\n| Sorcerer | 82.3529%-100.0000% | 15-17 | 1 | 3 | 2 |\n\n"
         },
         "232": {
@@ -12060,6 +12269,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "遺跡G (5)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculpture vulture | 0.0000%-20.0000% | 0-4 | 1 | 2 | 1 |\n| Killing machine | 20.0000%-40.0000% | 5-8 | 1 | 2 | 1 |\n| Blastoad | 40.0000%-50.0000% | 9-10 | 1 | 2 | 1 |\n| Corrupt carter | 50.0000%-70.0000% | 11-14 | 1 | 2 | 1 |\n| Boss troll | 70.0000%-80.0000% | 15-16 | 1 | 1 | 0 |\n| Teaky mask | 80.0000%-100.0000% | 17-20 | 1 | 4 | 3 |\n\n"
         },
         "233": {
@@ -12126,6 +12336,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "遺跡F (6)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Golem | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Claws | 14.2857%-33.3333% | 4-7 | 1 | 2 | 1 |\n| Blastoad | 33.3333%-52.3810% | 8-11 | 1 | 2 | 1 |\n| Cobra cardinal | 52.3810%-66.6667% | 12-14 | 1 | 2 | 1 |\n| Sick trigertaur | 66.6667%-80.9524% | 15-17 | 1 | 1 | 0 |\n| Killing machine | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "234": {
@@ -12192,6 +12403,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "遺跡E (7)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Liquid metal slime | 0.0000%-5.2632% | 0-1 | 1 | 3 | 2 |\n| Octagoon | 5.2632%-21.0526% | 2-4 | 1 | 1 | 0 |\n| Darkonium slime | 21.0526%-42.1053% | 5-8 | 1 | 1 | 0 |\n| Great troll | 42.1053%-63.1579% | 9-12 | 1 | 1 | 0 |\n| Claws | 63.1579%-78.9474% | 13-15 | 1 | 2 | 1 |\n| Sick trigertaur | 78.9474%-100.0000% | 16-19 | 1 | 1 | 0 |\n\n"
         },
         "235": {
@@ -12258,6 +12470,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": "遺跡D (8)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Darkonium slime | 0.0000%-22.5806% | 0-7 | 1 | 2 | 1 |\n| Octagoon | 22.5806%-45.1613% | 8-14 | 1 | 2 | 1 |\n| Sluggerslaught | 45.1613%-54.8387% | 15-17 | 1 | 3 | 2 |\n| Barbatos | 54.8387%-74.1935% | 18-23 | 1 | 1 | 0 |\n| Gem jamboree | 74.1935%-80.6452% | 24-25 | 1 | 2 | 1 |\n| Great troll | 80.6452%-100.0000% | 26-31 | 1 | 1 | 0 |\n\n"
         },
         "236": {
@@ -12314,6 +12527,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": "遺跡C (9)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freaky tiki | 0.0000%-22.5806% | 0-7 | 1 | 2 | 1 |\n| Alamour | 22.5806%-45.1613% | 8-14 | 1 | 2 | 1 |\n| Darkonium slime | 45.1613%-64.5161% | 15-20 | 1 | 2 | 1 |\n| Octagoon | 64.5161%-83.8710% | 21-26 | 1 | 2 | 1 |\n| Sluggerslaught | 83.8710%-100.0000% | 27-31 | 1 | 2 | 1 |\n\n"
         },
         "237": {
@@ -12380,6 +12594,7 @@
                 }
             ],
             "maxRand": 32,
+            "position": "遺跡B (10)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Boa bishop | 0.0000%-21.8750% | 0-7 | 1 | 2 | 1 |\n| Cyber spider | 21.8750%-43.7500% | 8-14 | 1 | 1 | 0 |\n| Freaky tiki | 43.7500%-62.5000% | 15-20 | 1 | 3 | 2 |\n| Alamour | 62.5000%-81.2500% | 21-26 | 1 | 2 | 1 |\n| Gem jamboree | 81.2500%-84.3750% | 27-27 | 1 | 3 | 2 |\n| Flamin drayman | 84.3750%-100.0000% | 28-32 | 1 | 2 | 1 |\n\n"
         },
         "238": {
@@ -12436,6 +12651,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "遺跡A (11)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gem slime | 0.0000%-3.4483% | 0-1 | 1 | 2 | 1 |\n| Boa bishop | 3.4483%-27.5862% | 2-8 | 1 | 2 | 1 |\n| Cyber spider | 27.5862%-51.7241% | 9-15 | 1 | 1 | 0 |\n| Freaky tiki | 51.7241%-75.8621% | 16-22 | 1 | 3 | 2 |\n| Alamour | 75.8621%-100.0000% | 23-29 | 1 | 2 | 1 |\n\n"
         },
         "239": {
@@ -12492,6 +12708,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "遺跡S (12)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| AU-1000 | 0.0000%-25.9259% | 0-7 | 1 | 1 | 0 |\n| Void droid | 25.9259%-51.8519% | 8-14 | 1 | 1 | 0 |\n| Platinum king jewel | 51.8519%-55.5556% | 15-15 | 1 | 2 | 1 |\n| Sluggerslaught | 55.5556%-77.7778% | 16-21 | 1 | 4 | 3 |\n| Boa bishop | 77.7778%-100.0000% | 22-27 | 1 | 2 | 1 |\n\n"
         },
         "240": {
@@ -12558,6 +12775,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "氷K (1)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lost soul | 0.0000%-16.6667% | 0-3 | 1 | 4 | 3 |\n| Mummy | 16.6667%-33.3333% | 4-6 | 1 | 3 | 2 |\n| Toxic zombie | 33.3333%-55.5556% | 7-10 | 1 | 4 | 3 |\n| Spinchilla | 55.5556%-77.7778% | 11-14 | 1 | 4 | 3 |\n| Cannibox | 77.7778%-77.7778% | 15-14 | 1 | 1 | 0 |\n| Weaken beakon | 77.7778%-100.0000% | 15-18 | 1 | 4 | 3 |\n\n"
         },
         "241": {
@@ -12624,6 +12842,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "氷J (2)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Deadcurion | 0.0000%-15.0000% | 0-3 | 1 | 3 | 2 |\n| Scarewolf | 15.0000%-30.0000% | 4-6 | 1 | 2 | 1 |\n| Rampage | 30.0000%-50.0000% | 7-10 | 1 | 2 | 1 |\n| Spinchilla | 50.0000%-65.0000% | 11-13 | 1 | 4 | 3 |\n| Sootheslime | 65.0000%-85.0000% | 14-17 | 1 | 4 | 3 |\n| Sculptrice | 85.0000%-100.0000% | 18-20 | 1 | 2 | 1 |\n\n"
         },
         "242": {
@@ -12690,6 +12909,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "氷I (3)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| White trigertaur | 0.0000%-13.0435% | 0-3 | 1 | 1 | 0 |\n| Mummy | 13.0435%-26.0870% | 4-6 | 1 | 3 | 2 |\n| Ghoul | 26.0870%-43.4783% | 7-10 | 1 | 4 | 3 |\n| Apeckalypse | 43.4783%-60.8696% | 11-14 | 1 | 2 | 1 |\n| Shivery shrubbery | 60.8696%-78.2609% | 15-18 | 1 | 4 | 3 |\n| Brreatherwarrior | 78.2609%-100.0000% | 19-23 | 1 | 2 | 1 |\n\n"
         },
         "243": {
@@ -12746,6 +12966,7 @@
                 }
             ],
             "maxRand": 18,
+            "position": "氷H (4)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| White trigertaur | 0.0000%-27.7778% | 0-5 | 1 | 1 | 0 |\n| Great gruffon | 27.7778%-50.0000% | 6-9 | 1 | 2 | 1 |\n| Skeleton soldier | 50.0000%-66.6667% | 10-12 | 1 | 2 | 1 |\n| Cyclops | 66.6667%-83.3333% | 13-15 | 1 | 1 | 0 |\n| Drastic drackal | 83.3333%-100.0000% | 16-18 | 1 | 1 | 0 |\n\n"
         },
         "244": {
@@ -12812,6 +13033,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "氷G (5)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drastic drackal | 0.0000%-19.0476% | 0-4 | 1 | 1 | 0 |\n| cikiller | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Grim grinner | 38.0952%-52.3810% | 9-11 | 1 | 4 | 3 |\n| Cyclops | 52.3810%-71.4286% | 12-15 | 1 | 1 | 0 |\n| Aggrosculpture | 71.4286%-85.7143% | 16-18 | 1 | 2 | 1 |\n| Stone guardian | 85.7143%-100.0000% | 19-21 | 1 | 1 | 0 |\n\n"
         },
         "245": {
@@ -12878,6 +13100,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "氷F (6)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| cikiller | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Bad karmour | 14.2857%-28.5714% | 4-6 | 1 | 2 | 1 |\n| Aggrosculpture | 28.5714%-47.6190% | 7-10 | 1 | 2 | 1 |\n| Killing machine | 47.6190%-66.6667% | 11-14 | 1 | 2 | 1 |\n| Cumulus vex | 66.6667%-80.9524% | 15-17 | 1 | 1 | 0 |\n| Stone guardian | 80.9524%-100.0000% | 18-21 | 1 | 1 | 0 |\n\n"
         },
         "246": {
@@ -12944,6 +13167,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "氷E (7)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wight king | 0.0000%-19.0476% | 0-4 | 1 | 3 | 2 |\n| Bad karmour | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Great troll | 38.0952%-52.3810% | 9-11 | 1 | 1 | 0 |\n| Cumulus vex | 52.3810%-71.4286% | 12-15 | 1 | 1 | 0 |\n| Belisha beakon | 71.4286%-85.7143% | 16-18 | 1 | 3 | 2 |\n| Freezing fog | 85.7143%-100.0000% | 19-21 | 1 | 3 | 2 |\n\n"
         },
         "247": {
@@ -13010,6 +13234,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "氷D (8)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Charmour | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Cannibelle | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Night knight | 38.8889%-52.7778% | 15-19 | 1 | 2 | 1 |\n| Firn fiend | 52.7778%-66.6667% | 20-24 | 1 | 2 | 1 |\n| Belisha beakon | 66.6667%-83.3333% | 25-30 | 1 | 4 | 3 |\n| Freezing fog | 83.3333%-100.0000% | 31-36 | 1 | 4 | 3 |\n\n"
         },
         "248": {
@@ -13076,6 +13301,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "氷C (9)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim reaper | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Wight emperor | 19.4444%-38.8889% | 8-14 | 1 | 2 | 1 |\n| Darkonium slime | 38.8889%-55.5556% | 15-20 | 1 | 2 | 1 |\n| Cannibelle | 55.5556%-72.2222% | 21-26 | 1 | 2 | 1 |\n| Firn fiend | 72.2222%-86.1111% | 27-31 | 1 | 2 | 1 |\n| Night knight | 86.1111%-100.0000% | 32-36 | 1 | 2 | 1 |\n\n"
         },
         "249": {
@@ -13132,6 +13358,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "氷B (10)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grrrgoyle | 0.0000%-24.1379% | 0-7 | 1 | 2 | 1 |\n| Grim reaper | 24.1379%-48.2759% | 8-14 | 1 | 2 | 1 |\n| Wight emperor | 48.2759%-72.4138% | 15-21 | 1 | 1 | 0 |\n| Gem slime | 72.4138%-75.8621% | 22-22 | 1 | 2 | 1 |\n| Cannibelle | 75.8621%-100.0000% | 23-29 | 1 | 2 | 1 |\n\n"
         },
         "250": {
@@ -13188,6 +13415,7 @@
                 }
             ],
             "maxRand": 30,
+            "position": "氷A (11)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Uncommon cold | 0.0000%-23.3333% | 0-7 | 1 | 1 | 0 |\n| Geothaum | 23.3333%-46.6667% | 8-14 | 1 | 1 | 0 |\n| Grrrgoyle | 46.6667%-66.6667% | 15-20 | 1 | 2 | 1 |\n| Grim reaper | 66.6667%-83.3333% | 21-25 | 1 | 3 | 2 |\n| Wight emperor | 83.3333%-100.0000% | 26-30 | 1 | 3 | 2 |\n\n"
         },
         "251": {
@@ -13254,6 +13482,7 @@
                 }
             ],
             "maxRand": 27,
+            "position": "氷S (12)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Blight knight | 0.0000%-25.9259% | 0-7 | 1 | 1 | 0 |\n| Platinum king jewel | 25.9259%-29.6296% | 8-8 | 1 | 4 | 3 |\n| Uncommon cold | 29.6296%-55.5556% | 9-15 | 1 | 1 | 0 |\n| Geothaum | 55.5556%-77.7778% | 16-21 | 1 | 2 | 1 |\n| Boogie manguini | 77.7778%-100.0000% | 22-27 | 1 | 2 | 1 |\n| Pandoras box | 100.0000%-100.0000% | 28-27 | 1 | 1 | 0 |\n\n"
         },
         "252": {
@@ -13320,6 +13549,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "火山K (1)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Metal slime knight | 0.0000%-19.0476% | 0-4 | 1 | 3 | 2 |\n| Axolhotl | 19.0476%-38.0952% | 5-8 | 1 | 4 | 3 |\n| Admirer | 38.0952%-52.3810% | 9-11 | 1 | 2 | 1 |\n| Mad moai | 52.3810%-71.4286% | 12-15 | 1 | 1 | 0 |\n| Rockbomb | 71.4286%-85.7143% | 16-18 | 1 | 4 | 3 |\n| Jinkster | 85.7143%-100.0000% | 19-21 | 1 | 4 | 3 |\n\n"
         },
         "253": {
@@ -13386,6 +13616,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "火山J (2)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Hocus chimaera | 0.0000%-19.0476% | 0-4 | 1 | 3 | 2 |\n| Gold golem | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Power hammer | 38.0952%-57.1429% | 9-12 | 1 | 2 | 1 |\n| Sorcerer | 57.1429%-71.4286% | 13-15 | 1 | 3 | 2 |\n| Mandrake major | 71.4286%-85.7143% | 16-18 | 1 | 2 | 1 |\n| Goodybag | 85.7143%-100.0000% | 19-21 | 1 | 4 | 3 |\n\n"
         },
         "254": {
@@ -13432,6 +13663,7 @@
                 }
             ],
             "maxRand": 14,
+            "position": "火山I (3)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Chimaera | 0.0000%-21.4286% | 0-3 | 1 | 3 | 2 |\n| Robo-robin | 21.4286%-50.0000% | 4-7 | 1 | 4 | 3 |\n| Troll | 50.0000%-78.5714% | 8-11 | 1 | 1 | 0 |\n| Goodybag | 78.5714%-100.0000% | 12-14 | 1 | 4 | 3 |\n\n"
         },
         "255": {
@@ -13488,6 +13720,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "火山H (4)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Troll | 0.0000%-24.1379% | 0-7 | 1 | 1 | 0 |\n| Liquid metal slime | 24.1379%-27.5862% | 8-8 | 1 | 3 | 2 |\n| Hunter mech | 27.5862%-51.7241% | 9-15 | 1 | 2 | 1 |\n| Moosifer | 51.7241%-75.8621% | 16-22 | 1 | 2 | 1 |\n| Mandrake marauder | 75.8621%-100.0000% | 23-29 | 1 | 2 | 1 |\n\n"
         },
         "256": {
@@ -13554,6 +13787,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "火山G (5)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Live lava | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Moosifer | 14.2857%-28.5714% | 4-6 | 1 | 2 | 1 |\n| Mega moai | 28.5714%-47.6190% | 7-10 | 1 | 1 | 0 |\n| Mandrake marauder | 47.6190%-66.6667% | 11-14 | 1 | 2 | 1 |\n| Badja | 66.6667%-80.9524% | 15-17 | 1 | 3 | 2 |\n| Hell niño | 80.9524%-100.0000% | 18-21 | 1 | 3 | 2 |\n\n"
         },
         "257": {
@@ -13620,6 +13854,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": "火山F (6)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Killing machine | 0.0000%-12.5000% | 0-3 | 1 | 2 | 1 |\n| Whirly girly | 12.5000%-25.0000% | 4-6 | 1 | 4 | 3 |\n| Magmalice | 25.0000%-45.8333% | 7-11 | 1 | 1 | 0 |\n| Hell niño | 45.8333%-66.6667% | 12-16 | 1 | 4 | 3 |\n| Harmour | 66.6667%-83.3333% | 17-20 | 1 | 2 | 1 |\n| Red dragon | 83.3333%-100.0000% | 21-24 | 1 | 1 | 0 |\n\n"
         },
         "258": {
@@ -13686,6 +13921,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "火山E (7)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Fright knight | 0.0000%-19.0476% | 0-4 | 1 | 2 | 1 |\n| Prism peacock | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Harmour | 38.0952%-52.3810% | 9-11 | 1 | 2 | 1 |\n| Red dragon | 52.3810%-66.6667% | 12-14 | 1 | 1 | 0 |\n| Magmalice | 66.6667%-80.9524% | 15-17 | 1 | 2 | 1 |\n| Cobra cardinal | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "259": {
@@ -13752,6 +13988,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "火山D (8)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Flamin drayman | 0.0000%-9.0909% | 0-3 | 1 | 2 | 1 |\n| antamount | 9.0909%-30.3030% | 4-10 | 1 | 1 | 0 |\n| Fright knight | 30.3030%-45.4545% | 11-15 | 1 | 2 | 1 |\n| Gigantes | 45.4545%-63.6364% | 16-21 | 1 | 1 | 0 |\n| Cobra cardinal | 63.6364%-78.7879% | 22-26 | 1 | 3 | 2 |\n| Drakulard | 78.7879%-100.0000% | 27-33 | 1 | 1 | 0 |\n\n"
         },
         "260": {
@@ -13818,6 +14055,7 @@
                 }
             ],
             "maxRand": 34,
+            "position": "火山C (9)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Barriearthenwarrior | 0.0000%-20.5882% | 0-7 | 1 | 2 | 1 |\n| Terror troll | 20.5882%-41.1765% | 8-14 | 1 | 1 | 0 |\n| Flamin drayman | 41.1765%-58.8235% | 15-20 | 1 | 2 | 1 |\n| antamount | 58.8235%-76.4706% | 21-26 | 1 | 1 | 0 |\n| Metal king slime | 76.4706%-82.3529% | 27-28 | 2 | 3 | 1 |\n| Drakulard | 82.3529%-100.0000% | 29-34 | 1 | 1 | 0 |\n\n"
         },
         "261": {
@@ -13884,6 +14122,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "火山B (10)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bird of terrordise | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Scarlet fever | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Barriearthenwarrior | 38.8889%-55.5556% | 15-20 | 1 | 2 | 1 |\n| Terror troll | 55.5556%-72.2222% | 21-26 | 1 | 1 | 0 |\n| Flamin drayman | 72.2222%-86.1111% | 27-31 | 1 | 2 | 1 |\n| antamount | 86.1111%-100.0000% | 32-36 | 1 | 1 | 0 |\n\n"
         },
         "262": {
@@ -13950,6 +14189,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "火山A (11)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Hells gatekeeper | 0.0000%-19.4444% | 0-7 | 1 | 1 | 0 |\n| Rashaverak | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Bird of terrordise | 38.8889%-55.5556% | 15-20 | 1 | 2 | 1 |\n| Scarlet fever | 55.5556%-72.2222% | 21-26 | 1 | 1 | 0 |\n| Barriearthenwarrior | 72.2222%-86.1111% | 27-31 | 1 | 2 | 1 |\n| Terror troll | 86.1111%-100.0000% | 32-36 | 1 | 1 | 0 |\n\n"
         },
         "263": {
@@ -14006,6 +14246,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "火山S (12)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Master moosifer | 0.0000%-24.1379% | 0-7 | 1 | 1 | 0 |\n| Hells gatekeeper | 24.1379%-44.8276% | 8-13 | 1 | 1 | 0 |\n| Rashaverak | 44.8276%-65.5172% | 14-19 | 1 | 1 | 0 |\n| Bird of terrordise | 65.5172%-82.7586% | 20-24 | 1 | 2 | 1 |\n| Scarlet fever | 82.7586%-100.0000% | 25-29 | 1 | 1 | 0 |\n\n"
         },
         "264": {
@@ -14072,6 +14313,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "水K (1)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Lesionnaire | 0.0000%-19.0476% | 0-4 | 1 | 3 | 2 |\n| Knocktopus | 19.0476%-38.0952% | 5-8 | 1 | 2 | 1 |\n| Riptide | 38.0952%-52.3810% | 9-11 | 1 | 2 | 1 |\n| Salamarauder | 52.3810%-66.6667% | 12-14 | 1 | 4 | 3 |\n| Claw hammer | 66.6667%-85.7143% | 15-18 | 1 | 2 | 1 |\n| Slime stack | 85.7143%-100.0000% | 19-21 | 1 | 2 | 1 |\n\n"
         },
         "265": {
@@ -14138,6 +14380,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "水J (2)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Python priest | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| King slime | 14.2857%-28.5714% | 4-6 | 1 | 2 | 1 |\n| Shocktopus | 28.5714%-47.6190% | 7-10 | 1 | 2 | 1 |\n| Mortoad | 47.6190%-66.6667% | 11-14 | 1 | 2 | 1 |\n| Giddy gastropog | 66.6667%-80.9524% | 15-17 | 1 | 2 | 1 |\n| Crabber dabber doo | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "266": {
@@ -14204,6 +14447,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "水I (3)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wight priest | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Blood mummy | 14.2857%-33.3333% | 4-7 | 1 | 3 | 2 |\n| Great gruffon | 33.3333%-52.3810% | 8-11 | 1 | 2 | 1 |\n| Diethon | 52.3810%-66.6667% | 12-14 | 1 | 2 | 1 |\n| Riptide | 66.6667%-85.7143% | 15-18 | 1 | 2 | 1 |\n| Crabber dabber doo | 85.7143%-100.0000% | 19-21 | 1 | 2 | 1 |\n\n"
         },
         "267": {
@@ -14270,6 +14514,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "水H (4)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sail serpent | 0.0000%-15.0000% | 0-3 | 1 | 2 | 1 |\n| Cureslime | 15.0000%-30.0000% | 4-6 | 1 | 4 | 3 |\n| Bloody manguini | 30.0000%-50.0000% | 7-10 | 1 | 2 | 1 |\n| Seasaur | 50.0000%-70.0000% | 11-14 | 1 | 1 | 0 |\n| Handsome crab | 70.0000%-90.0000% | 15-18 | 1 | 2 | 1 |\n| Abyss diver | 90.0000%-100.0000% | 19-20 | 1 | 1 | 0 |\n\n"
         },
         "268": {
@@ -14336,6 +14581,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "水G (5)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Green dragon | 0.0000%-19.0476% | 0-4 | 1 | 2 | 1 |\n| Stenchurion | 19.0476%-33.3333% | 5-7 | 1 | 3 | 2 |\n| King cureslime | 33.3333%-47.6190% | 8-10 | 1 | 2 | 1 |\n| Wyrtloise | 47.6190%-61.9048% | 11-13 | 1 | 2 | 1 |\n| Dark skeleton | 61.9048%-80.9524% | 14-17 | 1 | 2 | 1 |\n| Abyss diver | 80.9524%-100.0000% | 18-21 | 1 | 1 | 0 |\n\n"
         },
         "269": {
@@ -14402,6 +14648,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "水F (6)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Green dragon | 0.0000%-14.2857% | 0-3 | 1 | 2 | 1 |\n| Dark skeleton | 14.2857%-28.5714% | 4-6 | 1 | 2 | 1 |\n| King crab | 28.5714%-47.6190% | 7-10 | 1 | 2 | 1 |\n| King cureslime | 47.6190%-61.9048% | 11-13 | 1 | 2 | 1 |\n| Barbatos | 61.9048%-80.9524% | 14-17 | 1 | 1 | 0 |\n| Wight king | 80.9524%-100.0000% | 18-21 | 1 | 2 | 1 |\n\n"
         },
         "270": {
@@ -14468,6 +14715,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "水E (7)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drakulard | 0.0000%-16.0000% | 0-4 | 1 | 1 | 0 |\n| King crab | 16.0000%-36.0000% | 5-9 | 1 | 2 | 1 |\n| Gigantes | 36.0000%-56.0000% | 10-14 | 1 | 1 | 0 |\n| Barbatos | 56.0000%-72.0000% | 15-18 | 1 | 1 | 0 |\n| Genie sanguini | 72.0000%-84.0000% | 19-21 | 1 | 4 | 3 |\n| Wight king | 84.0000%-100.0000% | 22-25 | 1 | 2 | 1 |\n\n"
         },
         "271": {
@@ -14534,6 +14782,7 @@
                 }
             ],
             "maxRand": 33,
+            "position": "水D (8)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slugly betsy | 0.0000%-21.2121% | 0-7 | 1 | 1 | 0 |\n| Moai minstrel | 21.2121%-42.4242% | 8-14 | 1 | 1 | 0 |\n| Metal king slime | 42.4242%-48.4848% | 15-16 | 1 | 4 | 3 |\n| Charmour | 48.4848%-63.6364% | 17-21 | 1 | 2 | 1 |\n| Genie sanguini | 63.6364%-81.8182% | 22-27 | 1 | 4 | 3 |\n| Gigantes | 81.8182%-100.0000% | 28-33 | 1 | 1 | 0 |\n\n"
         },
         "272": {
@@ -14600,6 +14849,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": "水C (9)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Boogie manguini | 0.0000%-22.5806% | 0-7 | 1 | 2 | 1 |\n| Mandrake monarch | 22.5806%-45.1613% | 8-14 | 1 | 2 | 1 |\n| Slugly betsy | 45.1613%-64.5161% | 15-20 | 1 | 1 | 0 |\n| Moai minstrel | 64.5161%-83.8710% | 21-26 | 1 | 1 | 0 |\n| Charmour | 83.8710%-100.0000% | 27-31 | 1 | 2 | 1 |\n| Mimic | 100.0000%-100.0000% | 32-31 | 1 | 1 | 0 |\n\n"
         },
         "273": {
@@ -14666,6 +14916,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "水B (10)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bling badger | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Prime slime | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Boogie manguini | 38.8889%-55.5556% | 15-20 | 1 | 2 | 1 |\n| Mandrake monarch | 55.5556%-72.2222% | 21-26 | 1 | 2 | 1 |\n| Slugly betsy | 72.2222%-86.1111% | 27-31 | 1 | 1 | 0 |\n| Moai minstrel | 86.1111%-100.0000% | 32-36 | 1 | 1 | 0 |\n\n"
         },
         "274": {
@@ -14732,6 +14983,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "水A (11)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Hammer horror | 0.0000%-19.4444% | 0-7 | 1 | 1 | 0 |\n| Drakulord | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Bling badger | 38.8889%-55.5556% | 15-20 | 1 | 2 | 1 |\n| Prime slime | 55.5556%-72.2222% | 21-26 | 1 | 1 | 0 |\n| Boogie manguini | 72.2222%-86.1111% | 27-31 | 1 | 2 | 1 |\n| Mandrake monarch | 86.1111%-100.0000% | 32-36 | 1 | 2 | 1 |\n\n"
         },
         "275": {
@@ -14788,6 +15040,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "水S (12)  ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Seavern | 0.0000%-24.1379% | 0-7 | 1 | 1 | 0 |\n| Hammer horror | 24.1379%-48.2759% | 8-14 | 1 | 2 | 1 |\n| Drakulord | 48.2759%-72.4138% | 15-21 | 1 | 1 | 0 |\n| Gem slime | 72.4138%-75.8621% | 22-22 | 1 | 2 | 1 |\n| Prime slime | 75.8621%-100.0000% | 23-29 | 1 | 1 | 0 |\n\n"
         },
         "276": {
@@ -14844,6 +15097,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Spinchilla | 0.0000%-16.0000% | 0-4 | 1 | 2 | 1 |\n| Man o war | 16.0000%-40.0000% | 5-10 | 3 | 5 | 2 |\n| Salamarauder | 40.0000%-64.0000% | 11-16 | 1 | 3 | 2 |\n| Claw hammer | 64.0000%-84.0000% | 17-21 | 1 | 1 | 0 |\n| Knocktopus | 84.0000%-100.0000% | 22-25 | 1 | 3 | 2 |\n\n"
         },
         "277": {
@@ -14910,6 +15164,7 @@
                 }
             ],
             "maxRand": 31,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Spinchilla | 0.0000%-16.1290% | 0-5 | 1 | 2 | 1 |\n| Stenchurion | 16.1290%-19.3548% | 6-6 | 1 | 1 | 0 |\n| Riptide | 19.3548%-41.9355% | 7-13 | 1 | 2 | 1 |\n| Claw hammer | 41.9355%-64.5161% | 14-20 | 1 | 2 | 1 |\n| Shocktopus | 64.5161%-83.8710% | 21-26 | 1 | 2 | 1 |\n| Axolhotl | 83.8710%-100.0000% | 27-31 | 1 | 2 | 1 |\n\n"
         },
         "278": {
@@ -14976,6 +15231,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Seasaur | 0.0000%-13.7931% | 0-4 | 1 | 1 | 0 |\n| Handsome crab | 13.7931%-27.5862% | 5-8 | 1 | 2 | 1 |\n| Sail serpent | 27.5862%-48.2759% | 9-14 | 1 | 2 | 1 |\n| Terrorhawk | 48.2759%-68.9655% | 15-20 | 1 | 2 | 1 |\n| Great gruffon | 68.9655%-86.2069% | 21-25 | 1 | 2 | 1 |\n| Cumulus rex | 86.2069%-100.0000% | 26-29 | 1 | 2 | 1 |\n\n"
         },
         "279": {
@@ -15032,6 +15288,7 @@
                 }
             ],
             "maxRand": 24,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Abyss diver | 0.0000%-29.1667% | 0-7 | 1 | 1 | 0 |\n| King crab | 29.1667%-50.0000% | 8-12 | 1 | 1 | 0 |\n| Freezing fog | 50.0000%-66.6667% | 13-16 | 1 | 2 | 1 |\n| Whirly girly | 66.6667%-83.3333% | 17-20 | 1 | 3 | 2 |\n| Aggrosculpture | 83.3333%-100.0000% | 21-24 | 1 | 2 | 1 |\n\n"
         },
         "280": {
@@ -15098,6 +15355,7 @@
                 }
             ],
             "maxRand": 32,
+            "position": "ウォルロ地方 (天の箱舟) 高台 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 0.0000%-21.8750% | 0-7 | 1 | 4 | 3 |\n| King slime | 21.8750%-43.7500% | 8-14 | 1 | 2 | 1 |\n| Bubble slime | 43.7500%-50.0000% | 15-16 | 1 | 5 | 4 |\n| Metal medley | 50.0000%-56.2500% | 17-18 | 1 | 4 | 3 |\n| Medislime | 56.2500%-78.1250% | 19-25 | 1 | 4 | 3 |\n| Cureslime | 78.1250%-100.0000% | 26-32 | 1 | 4 | 3 |\n\n"
         },
         "281": {
@@ -15164,6 +15422,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "西ベクセリア地方 (天の箱舟) 天の箱舟 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Gloomy gastropog | 16.6667%-33.3333% | 8-14 | 1 | 4 | 3 |\n| Boss troll | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Gigantes | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Barbatos | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Cobra cardinal | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "282": {
@@ -15230,6 +15489,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "東セントシュタイン (天の箱舟) (全域) 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Gloomy gastropog | 16.6667%-33.3333% | 8-14 | 1 | 4 | 3 |\n| Boss troll | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Gigantes | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Barbatos | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Cobra cardinal | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "283": {
@@ -15286,6 +15546,7 @@
                 }
             ],
             "maxRand": 35,
+            "position": "アユルダーマとう  (天の箱舟) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Treevil | 0.0000%-20.0000% | 0-7 | 1 | 2 | 1 |\n| Mushroom mage | 20.0000%-40.0000% | 8-14 | 1 | 4 | 3 |\n| Scourgette | 40.0000%-60.0000% | 15-21 | 1 | 4 | 3 |\n| Red dragon | 60.0000%-80.0000% | 22-28 | 1 | 2 | 1 |\n| Drakulard | 80.0000%-100.0000% | 29-35 | 1 | 2 | 1 |\n\n"
         },
         "284": {
@@ -15342,6 +15603,7 @@
                 }
             ],
             "maxRand": 35,
+            "position": "ピタリ海岸 (高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Treevil | 0.0000%-20.0000% | 0-7 | 1 | 2 | 1 |\n| Mushroom mage | 20.0000%-40.0000% | 8-14 | 1 | 4 | 3 |\n| Scourgette | 40.0000%-60.0000% | 15-21 | 1 | 4 | 3 |\n| Red dragon | 60.0000%-80.0000% | 22-28 | 1 | 2 | 1 |\n| Drakulard | 80.0000%-100.0000% | 29-35 | 1 | 2 | 1 |\n\n"
         },
         "285": {
@@ -15408,6 +15670,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "グビアナ砂漠(高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Splatterhorn | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Killing machine | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Blastoad | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Tearwolf | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Dreadful drackal | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "286": {
@@ -15474,6 +15737,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "アシュバル地方(高台)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Splatterhorn | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Stone guardian | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Blastoad | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Tearwolf | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Dreadful drackal | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "287": {
@@ -15540,6 +15804,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "アイスバリー海岸 (小島) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Dark skeleton | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Night knight | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Wight king | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Corrupt carter | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Firn fiend | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "288": {
@@ -15606,6 +15871,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "ヤハーン湿地 (高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Freezing fog | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Dark skeleton | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Night knight | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Wight king | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Corrupt carter | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Firn fiend | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "289": {
@@ -15672,6 +15938,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "オンゴリのガケ(高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Prism peacock | 0.0000%-16.6667% | 0-7 | 1 | 2 | 1 |\n| Aggrosculpture | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Hell niño | 33.3333%-50.0000% | 15-21 | 1 | 4 | 3 |\n| Belisha beakon | 50.0000%-66.6667% | 22-28 | 1 | 4 | 3 |\n| Claws | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Great troll | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "291": {
@@ -15728,6 +15995,7 @@
                 }
             ],
             "maxRand": 35,
+            "position": "南ナザム地方 (高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Abyss diver | 0.0000%-20.0000% | 0-7 | 1 | 1 | 0 |\n| King crab | 20.0000%-40.0000% | 8-14 | 1 | 2 | 1 |\n| Bomboulder | 40.0000%-60.0000% | 15-21 | 1 | 2 | 1 |\n| Bad karmour | 60.0000%-80.0000% | 22-28 | 1 | 2 | 1 |\n| Fright knight | 80.0000%-100.0000% | 29-35 | 1 | 2 | 1 |\n\n"
         },
         "292": {
@@ -15784,6 +16052,7 @@
                 }
             ],
             "maxRand": 35,
+            "position": "竜のしっぽ地方 (高台) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Abyss diver | 0.0000%-20.0000% | 0-7 | 1 | 1 | 0 |\n| King crab | 20.0000%-40.0000% | 8-14 | 1 | 2 | 1 |\n| Bomboulder | 40.0000%-60.0000% | 15-21 | 1 | 2 | 1 |\n| Bad karmour | 60.0000%-80.0000% | 22-28 | 1 | 2 | 1 |\n| Fright knight | 80.0000%-100.0000% | 29-35 | 1 | 2 | 1 |\n\n"
         },
         "293": {
@@ -15850,6 +16119,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "エラフィタ地方 お城側の橋付近 日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Funghoul | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| She-slime | 10.0000%-20.0000% | 3-4 | 1 | 1 | 0 |\n| Bubble slime | 20.0000%-45.0000% | 5-9 | 1 | 1 | 0 |\n| Betterfly | 45.0000%-55.0000% | 10-11 | 1 | 1 | 0 |\n| Meowgician | 55.0000%-80.0000% | 12-16 | 1 | 1 | 0 |\n| Gastropog | 80.0000%-100.0000% | 17-20 | 1 | 1 | 0 |\n\n"
         },
         "294": {
@@ -15916,6 +16186,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "エラフィタ地方 お城側の橋付近 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackmage | 0.0000%-17.3913% | 0-4 | 1 | 1 | 0 |\n| Winkster | 17.3913%-26.0870% | 5-6 | 1 | 1 | 0 |\n| Bubble slime | 26.0870%-34.7826% | 7-8 | 1 | 1 | 0 |\n| Ragged reaper | 34.7826%-60.8696% | 9-14 | 1 | 1 | 0 |\n| Meowgician | 60.8696%-78.2609% | 15-18 | 1 | 1 | 0 |\n| Gastropog | 78.2609%-100.0000% | 19-23 | 1 | 1 | 0 |\n\n"
         },
         "295": {
@@ -15982,6 +16253,7 @@
                 }
             ],
             "maxRand": 20,
+            "position": "エラフィタ地方 麦わら畑 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Funghoul | 0.0000%-10.0000% | 0-2 | 1 | 1 | 0 |\n| Betterfly | 10.0000%-20.0000% | 3-4 | 1 | 1 | 0 |\n| Bubble slime | 20.0000%-35.0000% | 5-7 | 1 | 1 | 0 |\n| Ragged reaper | 35.0000%-55.0000% | 8-11 | 1 | 1 | 0 |\n| Meowgician | 55.0000%-75.0000% | 12-15 | 1 | 1 | 0 |\n| Gastropog | 75.0000%-100.0000% | 16-20 | 1 | 1 | 0 |\n\n"
         },
         "296": {
@@ -16008,6 +16280,7 @@
                 }
             ],
             "maxRand": 8,
+            "position": "エラフィタ地方 花畑 夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Batterfly | 0.0000%-37.5000% | 0-3 | 1 | 1 | 0 |\n| Betterfly | 37.5000%-100.0000% | 4-8 | 1 | 1 | 0 |\n\n"
         },
         "297": {
@@ -16074,6 +16347,7 @@
                 }
             ],
             "maxRand": 19,
+            "position": "ピタリ山 5F(RTAでは通らない) ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 0.0000%-15.7895% | 0-3 | 1 | 1 | 0 |\n| Toxic zombie | 15.7895%-42.1053% | 4-8 | 1 | 2 | 1 |\n| Metal slime knight | 42.1053%-47.3684% | 9-9 | 1 | 3 | 2 |\n| Hocus chimaera | 47.3684%-63.1579% | 10-12 | 1 | 2 | 1 |\n| Grinade | 63.1579%-89.4737% | 13-17 | 1 | 2 | 1 |\n| Stone golem | 89.4737%-100.0000% | 18-19 | 1 | 1 | 0 |\n\n"
         },
         "298": {
@@ -16120,6 +16394,7 @@
                 }
             ],
             "maxRand": 14,
+            "position": "グビアナ砂漠 北西の小島  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shocktopus | 0.0000%-35.7143% | 0-5 | 1 | 2 | 1 |\n| Parched peckerel | 35.7143%-50.0000% | 6-7 | 1 | 2 | 1 |\n| Axolhotl | 50.0000%-85.7143% | 8-12 | 1 | 3 | 2 |\n| Power hammer | 85.7143%-100.0000% | 13-14 | 1 | 1 | 0 |\n\n"
         },
         "299": {
@@ -16166,6 +16441,7 @@
                 }
             ],
             "maxRand": 16,
+            "position": "グビアナ砂漠 北西の小島  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shocktopus | 0.0000%-31.2500% | 0-5 | 1 | 2 | 1 |\n| Parched peckerel | 31.2500%-43.7500% | 6-7 | 1 | 2 | 1 |\n| Axolhotl | 43.7500%-56.2500% | 8-9 | 1 | 3 | 2 |\n| Power hammer | 56.2500%-100.0000% | 10-16 | 1 | 2 | 1 |\n\n"
         },
         "300": {
@@ -16182,6 +16458,7 @@
                 }
             ],
             "maxRand": 5,
+            "position": "グビアナ砂漠 北東の小島 (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badja | 0.0000%-100.0000% | 0-5 | 1 | 1 | 0 |\n\n"
         },
         "301": {
@@ -16248,6 +16525,7 @@
                 }
             ],
             "maxRand": 36,
+            "position": "アルマの塔 5F 外廊下 ダンジョン",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Killing machine | 0.0000%-19.4444% | 0-7 | 1 | 2 | 1 |\n| Drakulard | 19.4444%-38.8889% | 8-14 | 1 | 1 | 0 |\n| Gigantes | 38.8889%-58.3333% | 15-21 | 1 | 1 | 0 |\n| Stone guardian | 58.3333%-77.7778% | 22-28 | 1 | 1 | 0 |\n| Freezing fog | 77.7778%-97.2222% | 29-35 | 3 | 4 | 1 |\n| Metal king slime | 97.2222%-100.0000% | 36-36 | 1 | 1 | 0 |\n\n"
         },
         "303": {
@@ -16314,6 +16592,7 @@
                 }
             ],
             "maxRand": 21,
+            "position": "西ベクセリア地方 (小島)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ragged reaper | 0.0000%-28.5714% | 0-6 | 1 | 3 | 2 |\n| Mortoad | 28.5714%-47.6190% | 7-10 | 1 | 2 | 1 |\n| Diethon | 47.6190%-52.3810% | 11-11 | 1 | 2 | 1 |\n| Rockbomb | 52.3810%-61.9048% | 12-13 | 1 | 3 | 2 |\n| Drackyma | 61.9048%-71.4286% | 14-15 | 1 | 3 | 2 |\n| Battering ram | 71.4286%-100.0000% | 16-21 | 1 | 3 | 2 |\n\n"
         },
         "304": {
@@ -16380,6 +16659,7 @@
                 }
             ],
             "maxRand": 23,
+            "position": "西ベクセリア地方 (小島)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ragged reaper | 0.0000%-17.3913% | 0-4 | 1 | 3 | 2 |\n| Bloody manguini | 17.3913%-26.0870% | 5-6 | 1 | 2 | 1 |\n| Diethon | 26.0870%-30.4348% | 7-7 | 1 | 2 | 1 |\n| Rockbomb | 30.4348%-47.8261% | 8-11 | 1 | 3 | 2 |\n| Drackyma | 47.8261%-73.9130% | 12-17 | 1 | 3 | 2 |\n| Tearwolf | 73.9130%-100.0000% | 18-23 | 1 | 2 | 1 |\n\n"
         },
         "305": {
@@ -16446,6 +16726,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gruffon | 0.0000%-17.6471% | 0-3 | 1 | 1 | 0 |\n| Mandrake major | 17.6471%-47.0588% | 4-8 | 1 | 2 | 1 |\n| Wyrtle | 47.0588%-58.8235% | 9-10 | 1 | 2 | 1 |\n| Scourgette | 58.8235%-76.4706% | 11-13 | 1 | 3 | 2 |\n| Crabber dabber doo | 76.4706%-88.2353% | 14-15 | 1 | 2 | 1 |\n| Manguini | 88.2353%-100.0000% | 16-17 | 1 | 2 | 1 |\n\n"
         },
         "306": {
@@ -16512,6 +16793,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": null,
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gruffon | 0.0000%-20.0000% | 0-5 | 1 | 1 | 0 |\n| Mandrake major | 20.0000%-32.0000% | 6-8 | 1 | 2 | 1 |\n| Wyrtle | 32.0000%-48.0000% | 9-12 | 1 | 2 | 1 |\n| Scourgette | 48.0000%-60.0000% | 13-15 | 1 | 3 | 2 |\n| Crabber dabber doo | 60.0000%-72.0000% | 16-18 | 1 | 2 | 1 |\n| Troll | 72.0000%-100.0000% | 19-25 | 1 | 1 | 0 |\n\n"
         },
         "307": {
@@ -16568,6 +16850,7 @@
                 }
             ],
             "maxRand": 29,
+            "position": "あめのしま (小島)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Green dragon | 0.0000%-24.1379% | 0-7 | 1 | 1 | 0 |\n| King slime | 24.1379%-48.2759% | 8-14 | 1 | 2 | 1 |\n| Metal slime | 48.2759%-51.7241% | 15-15 | 1 | 4 | 3 |\n| Slime | 51.7241%-75.8621% | 16-22 | 1 | 5 | 4 |\n| Hunter mech | 75.8621%-100.0000% | 23-29 | 1 | 2 | 1 |\n\n"
         },
         "308": {
@@ -16634,6 +16917,7 @@
                 }
             ],
             "maxRand": 26,
+            "position": "あめのしま (小島)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 0.0000%-23.0769% | 0-6 | 1 | 3 | 2 |\n| Gastropog | 23.0769%-34.6154% | 7-9 | 1 | 4 | 3 |\n| Gloomy gastropog | 34.6154%-50.0000% | 10-13 | 1 | 2 | 1 |\n| Crabid | 50.0000%-61.5385% | 14-16 | 1 | 4 | 3 |\n| Handsome crab | 61.5385%-76.9231% | 17-20 | 1 | 2 | 1 |\n| Crabber dabber doo | 76.9231%-100.0000% | 21-26 | 1 | 2 | 1 |\n\n"
         },
         "309": {
@@ -16700,6 +16984,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "南ナザム地方 (小島)  日中",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 0.0000%-8.0000% | 0-2 | 1 | 3 | 2 |\n| Scourgette | 8.0000%-20.0000% | 3-5 | 1 | 3 | 2 |\n| Skeleton soldier | 20.0000%-40.0000% | 6-10 | 1 | 2 | 1 |\n| Moosifer | 40.0000%-64.0000% | 11-16 | 1 | 2 | 1 |\n| Sluggernaut | 64.0000%-80.0000% | 17-20 | 1 | 3 | 2 |\n| Cyclops | 80.0000%-100.0000% | 21-25 | 1 | 2 | 1 |\n\n"
         },
         "310": {
@@ -16766,6 +17051,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "南ナザム地方 (小島)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 0.0000%-8.0000% | 0-2 | 1 | 3 | 2 |\n| Scourgette | 8.0000%-20.0000% | 3-5 | 1 | 3 | 2 |\n| Skeleton soldier | 20.0000%-40.0000% | 6-10 | 1 | 2 | 1 |\n| Moosifer | 40.0000%-64.0000% | 11-16 | 1 | 2 | 1 |\n| Sluggernaut | 64.0000%-80.0000% | 17-20 | 1 | 3 | 2 |\n| Cyclops | 80.0000%-100.0000% | 21-25 | 1 | 2 | 1 |\n\n"
         },
         "311": {
@@ -16822,6 +17108,7 @@
                 }
             ],
             "maxRand": 28,
+            "position": "サンマロウ地方 (小島) (全域) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Raving lunatick | 0.0000%-25.0000% | 0-7 | 2 | 2 | 0 |\n| Slime | 25.0000%-50.0000% | 8-14 | 2 | 4 | 2 |\n| Scarewolf | 50.0000%-75.0000% | 15-21 | 1 | 2 | 1 |\n| King slime | 75.0000%-75.0000% | 22-21 | 1 | 1 | 0 |\n| Drackyma | 75.0000%-100.0000% | 22-28 | 2 | 4 | 2 |\n\n"
         },
         "312": {
@@ -16888,6 +17175,7 @@
                 }
             ],
             "maxRand": 42,
+            "position": "アシュバル地方(高台)  夜",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 0.0000%-16.6667% | 0-7 | 1 | 4 | 3 |\n| Splatterhorn | 16.6667%-33.3333% | 8-14 | 1 | 2 | 1 |\n| Stone guardian | 33.3333%-50.0000% | 15-21 | 1 | 2 | 1 |\n| Blastoad | 50.0000%-66.6667% | 22-28 | 1 | 2 | 1 |\n| Tearwolf | 66.6667%-83.3333% | 29-35 | 1 | 2 | 1 |\n| Dreadful drackal | 83.3333%-100.0000% | 36-42 | 1 | 2 | 1 |\n\n"
         },
         "313": {
@@ -16954,6 +17242,7 @@
                 }
             ],
             "maxRand": 25,
+            "position": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackal | 0.0000%-24.0000% | 0-6 | 1 | 1 | 0 |\n| Gruffon | 24.0000%-48.0000% | 7-12 | 1 | 2 | 1 |\n| Brainy badboon | 48.0000%-56.0000% | 13-14 | 1 | 2 | 1 |\n| Rockbomb | 56.0000%-80.0000% | 15-20 | 1 | 3 | 2 |\n| Battering ram | 80.0000%-84.0000% | 21-21 | 1 | 2 | 1 |\n| Ghoul | 84.0000%-100.0000% | 22-25 | 1 | 2 | 1 |\n\n"
         },
         "314": {
@@ -17010,6 +17299,7 @@
                 }
             ],
             "maxRand": 17,
+            "position": "竜のもん 荒地 常時",
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 2G min value | 2G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 0.0000%-23.5294% | 0-4 | 1 | 1 | 0 |\n| Drastic drackal | 23.5294%-47.0588% | 5-8 | 1 | 1 | 0 |\n| Bloody manguini | 47.0588%-64.7059% | 9-11 | 1 | 2 | 1 |\n| Whirly girly | 64.7059%-88.2353% | 12-15 | 1 | 2 | 1 |\n| Sluggernaut | 88.2353%-100.0000% | 16-17 | 1 | 4 | 3 |\n\n"
         }
     }

@@ -1,9 +1,9 @@
 {
-    "version": "4.0.0",
+    "version": "4.1.0",
     "explanation": "This is a list of probabilities that the monster 2G or 3G will appear",
     "main": {
         "0": {
-            "position": "西セントシュタイン 上半分 常時",
+            "position": "西セントシュタイン 平地 昼",
             "main": [
                 {
                     "groupId": "0\/7\/10\/10\/10\/1\/2",
@@ -23,7 +23,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 上半分 常時"
+                    "name": "西セントシュタイン 平地 昼"
                 },
                 {
                     "groupId": "0\/7\/10\/10\/10\/1\/1",
@@ -43,7 +43,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 上半分 常時"
+                    "name": "西セントシュタイン 平地 昼"
                 },
                 {
                     "groupId": "0\/7\/10\/10\/10\/1\/1",
@@ -63,7 +63,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 上半分 常時"
+                    "name": "西セントシュタイン 平地 昼"
                 },
                 {
                     "groupId": "0\/7\/10\/10\/10\/1\/1",
@@ -83,13 +83,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 上半分 常時"
+                    "name": "西セントシュタイン 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 70.0000 | 7\/10\/10\/10 | 1 | 2 | 1 |\n| Funghoul | 70.0000 | 7\/10\/10\/10 | 1 | 1 | 0 |\n| Winkster | 70.0000 | 7\/10\/10\/10 | 1 | 1 | 0 |\n| Hammerhood | 70.0000 | 7\/10\/10\/10 | 1 | 1 | 0 |\n\n"
         },
         "2": {
-            "position": "西セントシュタイン 中央より少し下 常時",
+            "position": "西セントシュタイン 平地 夜",
             "main": [
                 {
                     "groupId": "2\/5\/8\/8\/8\/1\/2",
@@ -109,7 +109,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 中央より少し下 常時"
+                    "name": "西セントシュタイン 平地 夜"
                 },
                 {
                     "groupId": "2\/5\/8\/8\/8\/1\/1",
@@ -129,7 +129,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 中央より少し下 常時"
+                    "name": "西セントシュタイン 平地 夜"
                 },
                 {
                     "groupId": "2\/5\/8\/8\/8\/1\/1",
@@ -149,7 +149,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 中央より少し下 常時"
+                    "name": "西セントシュタイン 平地 夜"
                 },
                 {
                     "groupId": "2\/5\/8\/8\/8\/1\/1",
@@ -169,13 +169,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 中央より少し下 常時"
+                    "name": "西セントシュタイン 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| She-slime | 62.5000 | 5\/8\/8\/8 | 1 | 2 | 1 |\n| Funghoul | 62.5000 | 5\/8\/8\/8 | 1 | 1 | 0 |\n| Winkster | 62.5000 | 5\/8\/8\/8 | 1 | 1 | 0 |\n| Hammerhood | 62.5000 | 5\/8\/8\/8 | 1 | 1 | 0 |\n\n"
         },
         "3": {
-            "position": "西セントシュタイン 下付近 常時",
+            "position": "西セントシュタイン 森 常時",
             "main": [
                 {
                     "groupId": "3\/7\/10\/10\/10\/1\/1",
@@ -195,7 +195,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 下付近 常時"
+                    "name": "西セントシュタイン 森 常時"
                 },
                 {
                     "groupId": "3\/7\/10\/10\/10\/1\/1",
@@ -215,13 +215,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西セントシュタイン 下付近 常時"
+                    "name": "西セントシュタイン 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Funghoul | 70.0000 | 7\/10\/10\/10 | 1 | 1 | 0 |\n| Bubble slime | 70.0000 | 7\/10\/10\/10 | 1 | 1 | 0 |\n\n"
         },
         "4": {
-            "position": "エラフィタ地方 エラフィタ側 日中",
+            "position": "エラフィタ地方 エラフィタ側 昼",
             "main": [
                 {
                     "groupId": "4\/3\/14\/10\/14\/1\/2",
@@ -241,7 +241,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 エラフィタ側 日中"
+                    "name": "エラフィタ地方 エラフィタ側 昼"
                 },
                 {
                     "groupId": "4\/4\/11\/9\/11\/1\/1",
@@ -261,7 +261,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 エラフィタ側 日中"
+                    "name": "エラフィタ地方 エラフィタ側 昼"
                 },
                 {
                     "groupId": "4\/4\/14\/11\/14\/1\/1",
@@ -281,7 +281,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 エラフィタ側 日中"
+                    "name": "エラフィタ地方 エラフィタ側 昼"
                 },
                 {
                     "groupId": "4\/4\/14\/11\/14\/1\/2",
@@ -301,7 +301,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 エラフィタ側 日中"
+                    "name": "エラフィタ地方 エラフィタ側 昼"
                 },
                 {
                     "groupId": "4\/4\/14\/11\/14\/1\/2",
@@ -321,7 +321,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 エラフィタ側 日中"
+                    "name": "エラフィタ地方 エラフィタ側 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Meowgician | 21.4286 | 3\/14\/10\/14 | 1 | 2 | 1 |\n| Boppin badger | 36.3636 | 4\/11\/9\/11 | 1 | 1 | 0 |\n| Brownie | 28.5714 | 4\/14\/11\/14 | 1 | 1 | 0 |\n| Gastropog | 28.5714 | 4\/14\/11\/14 | 1 | 2 | 1 |\n| Ragged reaper | 28.5714 | 4\/14\/11\/14 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Meowgician | 71.4286 | 100.0000 |\n| Boppin badger | 81.8182 | 100.0000 |\n| Brownie | 78.5714 | 100.0000 |\n| Gastropog | 78.5714 | 100.0000 |\n| Ragged reaper | 78.5714 | 100.0000 |\n\n"
@@ -433,7 +433,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Meowgician | 21.4286 | 3\/14\/10\/14 | 1 | 2 | 1 |\n| Boppin badger | 21.4286 | 3\/14\/10\/14 | 1 | 1 | 0 |\n| Brownie | 21.4286 | 3\/14\/10\/14 | 1 | 1 | 0 |\n| Gastropog | 21.4286 | 3\/14\/10\/14 | 1 | 2 | 1 |\n| Ragged reaper | 21.4286 | 3\/14\/10\/14 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Meowgician | 71.4286 | 100.0000 |\n| Boppin badger | 71.4286 | 100.0000 |\n| Brownie | 71.4286 | 100.0000 |\n| Gastropog | 71.4286 | 100.0000 |\n| Ragged reaper | 71.4286 | 100.0000 |\n\n"
         },
         "7": {
-            "position": "エラフィタ地方 毒付近の茂みと毒の辺り(夜) 夜&常時",
+            "position": "エラフィタ地方 毒付近の茂みと毒の辺り 夜&常時",
             "main": [
                 {
                     "groupId": "7\/3\/12\/8\/12\/1\/1",
@@ -453,7 +453,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り(夜) 夜&常時"
+                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り 夜&常時"
                 },
                 {
                     "groupId": "7\/3\/12\/8\/12\/1\/1",
@@ -473,7 +473,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り(夜) 夜&常時"
+                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り 夜&常時"
                 },
                 {
                     "groupId": "7\/3\/12\/10\/12\/1\/1",
@@ -493,13 +493,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り(夜) 夜&常時"
+                    "name": "エラフィタ地方 毒付近の茂みと毒の辺り 夜&常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Boppin badger | 25.0000 | 3\/12\/8\/12 | 1 | 1 | 0 |\n| Brownie | 25.0000 | 3\/12\/8\/12 | 1 | 1 | 0 |\n| Drackmage | 25.0000 | 3\/12\/10\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Boppin badger | 66.6667 | 100.0000 |\n| Brownie | 66.6667 | 100.0000 |\n| Drackmage | 83.3333 | 100.0000 |\n\n"
         },
         "8": {
-            "position": "ほろびのもり  不明",
+            "position": "ほろびのもり (平地・森) 昼",
             "main": [
                 {
                     "groupId": "8\/7\/12\/11\/12\/1\/2",
@@ -519,7 +519,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森) 昼"
                 },
                 {
                     "groupId": "8\/7\/11\/11\/11\/1\/1",
@@ -539,7 +539,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森) 昼"
                 },
                 {
                     "groupId": "8\/7\/11\/11\/11\/1\/2",
@@ -559,7 +559,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森) 昼"
                 },
                 {
                     "groupId": "8\/7\/12\/11\/12\/1\/2",
@@ -579,13 +579,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森) 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bodkin fletcher | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Ram raider | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Cumaulus | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Brownie | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Bodkin fletcher | 91.6667 | 100.0000 |\n| Brownie | 91.6667 | 100.0000 |\n\n"
         },
         "10": {
-            "position": "ほろびのもり  不明",
+            "position": "ほろびのもり (平地・森 夜) 夜",
             "main": [
                 {
                     "groupId": "10\/5\/10\/9\/10\/1\/2",
@@ -605,7 +605,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森 夜) 夜"
                 },
                 {
                     "groupId": "10\/5\/9\/9\/9\/1\/2",
@@ -625,7 +625,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森 夜) 夜"
                 },
                 {
                     "groupId": "10\/5\/9\/9\/9\/1\/2",
@@ -645,7 +645,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森 夜) 夜"
                 },
                 {
                     "groupId": "10\/5\/10\/9\/10\/1\/2",
@@ -665,13 +665,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (平地・森 夜) 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bodkin fletcher | 50.0000 | 5\/10\/9\/10 | 1 | 2 | 1 |\n| Ram raider | 55.5556 | 5\/9\/9\/9 | 1 | 2 | 1 |\n| Cumaulus | 55.5556 | 5\/9\/9\/9 | 1 | 2 | 1 |\n| Brownie | 50.0000 | 5\/10\/9\/10 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Bodkin fletcher | 90.0000 | 100.0000 |\n| Brownie | 90.0000 | 100.0000 |\n\n"
         },
         "11": {
-            "position": "ほろびのもり  不明",
+            "position": "ほろびのもり (荒地) 常時",
             "main": [
                 {
                     "groupId": "11\/7\/11\/11\/11\/1\/1",
@@ -691,7 +691,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (荒地) 常時"
                 },
                 {
                     "groupId": "11\/7\/12\/11\/12\/1\/1",
@@ -711,7 +711,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (荒地) 常時"
                 },
                 {
                     "groupId": "11\/7\/12\/11\/12\/1\/2",
@@ -731,13 +731,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ほろびのもり  不明"
+                    "name": "ほろびのもり (荒地) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Skeleton | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Ram raider | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Brownie | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Ram raider | 91.6667 | 100.0000 |\n| Brownie | 91.6667 | 100.0000 |\n\n"
         },
         "12": {
-            "position": "ウォルロ地方 全域 日中",
+            "position": "ウォルロ地方 平地 昼",
             "main": [
                 {
                     "groupId": "12\/7\/9\/9\/9\/1\/1",
@@ -757,7 +757,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 日中"
+                    "name": "ウォルロ地方 平地 昼"
                 },
                 {
                     "groupId": "12\/7\/9\/9\/9\/1\/1",
@@ -777,7 +777,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 日中"
+                    "name": "ウォルロ地方 平地 昼"
                 },
                 {
                     "groupId": "12\/7\/9\/9\/9\/1\/1",
@@ -797,7 +797,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 日中"
+                    "name": "ウォルロ地方 平地 昼"
                 },
                 {
                     "groupId": "12\/7\/9\/9\/9\/1\/1",
@@ -817,13 +817,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 日中"
+                    "name": "ウォルロ地方 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Teeny sanguini | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Cruelcumber | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Sacksquatch | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "14": {
-            "position": "ウォルロ地方 全域 夜",
+            "position": "ウォルロ地方 平地 夜",
             "main": [
                 {
                     "groupId": "14\/5\/7\/7\/7\/1\/1",
@@ -843,7 +843,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 夜"
+                    "name": "ウォルロ地方 平地 夜"
                 },
                 {
                     "groupId": "14\/5\/7\/7\/7\/1\/1",
@@ -863,7 +863,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 夜"
+                    "name": "ウォルロ地方 平地 夜"
                 },
                 {
                     "groupId": "14\/5\/7\/7\/7\/1\/1",
@@ -883,7 +883,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 夜"
+                    "name": "ウォルロ地方 平地 夜"
                 },
                 {
                     "groupId": "14\/5\/7\/7\/7\/1\/1",
@@ -903,13 +903,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 全域 夜"
+                    "name": "ウォルロ地方 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n| Teeny sanguini | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n| Cruelcumber | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n| Sacksquatch | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n\n"
         },
         "15": {
-            "position": "ウォルロ地方 一部スポーンポイント 常時",
+            "position": "ウォルロ地方 森 常時",
             "main": [
                 {
                     "groupId": "15\/7\/9\/9\/9\/1\/1",
@@ -929,7 +929,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 一部スポーンポイント 常時"
+                    "name": "ウォルロ地方 森 常時"
                 },
                 {
                     "groupId": "15\/7\/9\/9\/9\/1\/1",
@@ -949,7 +949,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 一部スポーンポイント 常時"
+                    "name": "ウォルロ地方 森 常時"
                 },
                 {
                     "groupId": "15\/7\/9\/9\/9\/1\/1",
@@ -969,13 +969,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ウォルロ地方 一部スポーンポイント 常時"
+                    "name": "ウォルロ地方 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bodkin archer | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Batterfly | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Cruelcumber | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "16": {
-            "position": "東ベクセリア地方  日中",
+            "position": "東ベクセリア地方 平地 昼",
             "main": [
                 {
                     "groupId": "16\/7\/7\/7\/7\/1\/3",
@@ -995,7 +995,7 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "東ベクセリア地方  日中"
+                    "name": "東ベクセリア地方 平地 昼"
                 },
                 {
                     "groupId": "16\/7\/12\/11\/12\/1\/2",
@@ -1015,7 +1015,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方  日中"
+                    "name": "東ベクセリア地方 平地 昼"
                 },
                 {
                     "groupId": "16\/7\/12\/11\/12\/1\/2",
@@ -1035,13 +1035,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方  日中"
+                    "name": "東ベクセリア地方 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Leafy larrikin | 100.0000 | 7\/7\/7\/7 | 1 | 3 | 2 |\n| Clockwork cuckoo | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Slugger | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Clockwork cuckoo | 91.6667 | 100.0000 |\n| Slugger | 91.6667 | 100.0000 |\n\n"
         },
         "18": {
-            "position": "東ベクセリア地方  夜",
+            "position": "東ベクセリア地方 平地 夜",
             "main": [
                 {
                     "groupId": "18\/7\/7\/7\/7\/1\/3",
@@ -1061,7 +1061,7 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "東ベクセリア地方  夜"
+                    "name": "東ベクセリア地方 平地 夜"
                 },
                 {
                     "groupId": "18\/7\/13\/12\/13\/1\/2",
@@ -1081,7 +1081,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方  夜"
+                    "name": "東ベクセリア地方 平地 夜"
                 },
                 {
                     "groupId": "18\/5\/11\/9\/11\/1\/2",
@@ -1101,13 +1101,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方  夜"
+                    "name": "東ベクセリア地方 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Leafy larrikin | 100.0000 | 7\/7\/7\/7 | 1 | 3 | 2 |\n| Clockwork cuckoo | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Slugger | 45.4545 | 5\/11\/9\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Clockwork cuckoo | 92.3077 | 100.0000 |\n| Slugger | 81.8182 | 100.0000 |\n\n"
         },
         "19": {
-            "position": "東ベクセリア地方 真ん中辺りの地図で色が違う場所 夜",
+            "position": "東ベクセリア地方 森・ススキ 常時",
             "main": [
                 {
                     "groupId": "19\/7\/12\/11\/12\/1\/2",
@@ -1127,7 +1127,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 真ん中辺りの地図で色が違う場所 夜"
+                    "name": "東ベクセリア地方 森・ススキ 常時"
                 },
                 {
                     "groupId": "19\/7\/12\/11\/12\/1\/1",
@@ -1147,7 +1147,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 真ん中辺りの地図で色が違う場所 夜"
+                    "name": "東ベクセリア地方 森・ススキ 常時"
                 },
                 {
                     "groupId": "19\/7\/12\/11\/12\/1\/3",
@@ -1167,13 +1167,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 真ん中辺りの地図で色が違う場所 夜"
+                    "name": "東ベクセリア地方 森・ススキ 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Morphean mushroom | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Chariot chappie | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Clockwork cuckoo | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Morphean mushroom | 91.6667 | 100.0000 |\n| Chariot chappie | 91.6667 | 100.0000 |\n| Clockwork cuckoo | 91.6667 | 100.0000 |\n\n"
         },
         "20": {
-            "position": "東ベクセリア地方 不明 夜",
+            "position": "西ベクセリア地方 平地・森 昼",
             "main": [
                 {
                     "groupId": "20\/7\/9\/9\/9\/1\/1",
@@ -1193,7 +1193,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東ベクセリア地方 不明 夜"
+                    "name": "西ベクセリア地方 平地・森 昼"
                 },
                 {
                     "groupId": "20\/2\/7\/6\/7\/1\/2",
@@ -1213,7 +1213,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 不明 夜"
+                    "name": "西ベクセリア地方 平地・森 昼"
                 },
                 {
                     "groupId": "20\/7\/12\/11\/12\/1\/2",
@@ -1233,7 +1233,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 不明 夜"
+                    "name": "西ベクセリア地方 平地・森 昼"
                 },
                 {
                     "groupId": "20\/7\/12\/11\/12\/1\/1",
@@ -1253,13 +1253,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ベクセリア地方 不明 夜"
+                    "name": "西ベクセリア地方 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Flython | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n| Slugger | 28.5714 | 2\/7\/6\/7 | 1 | 2 | 1 |\n| Morphean mushroom | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Chariot chappie | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Slugger | 85.7143 | 100.0000 |\n| Morphean mushroom | 91.6667 | 100.0000 |\n| Chariot chappie | 91.6667 | 100.0000 |\n\n"
         },
         "21": {
-            "position": "西ベクセリア地方  常時",
+            "position": "西ベクセリア地方 平地・森 夜",
             "main": [
                 {
                     "groupId": "21\/7\/11\/11\/11\/1\/1",
@@ -1279,7 +1279,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ベクセリア地方  常時"
+                    "name": "西ベクセリア地方 平地・森 夜"
                 },
                 {
                     "groupId": "21\/2\/7\/6\/7\/1\/2",
@@ -1299,7 +1299,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方  常時"
+                    "name": "西ベクセリア地方 平地・森 夜"
                 },
                 {
                     "groupId": "21\/7\/13\/12\/13\/1\/2",
@@ -1319,7 +1319,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方  常時"
+                    "name": "西ベクセリア地方 平地・森 夜"
                 },
                 {
                     "groupId": "21\/7\/13\/12\/13\/1\/2",
@@ -1339,13 +1339,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方  常時"
+                    "name": "西ベクセリア地方 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Flython | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Slugger | 28.5714 | 2\/7\/6\/7 | 1 | 2 | 1 |\n| Morphean mushroom | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Chariot chappie | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Slugger | 85.7143 | 100.0000 |\n| Morphean mushroom | 92.3077 | 100.0000 |\n| Chariot chappie | 92.3077 | 100.0000 |\n\n"
         },
         "22": {
-            "position": "西ベクセリア地方 中央 常時",
+            "position": "西ベクセリア地方 ススキ 常時",
             "main": [
                 {
                     "groupId": "22\/7\/9\/9\/9\/1\/2",
@@ -1365,7 +1365,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ベクセリア地方 中央 常時"
+                    "name": "西ベクセリア地方 ススキ 常時"
                 },
                 {
                     "groupId": "22\/7\/11\/11\/11\/1\/1",
@@ -1385,7 +1385,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ベクセリア地方 中央 常時"
+                    "name": "西ベクセリア地方 ススキ 常時"
                 },
                 {
                     "groupId": "22\/7\/11\/11\/11\/1\/3",
@@ -1405,7 +1405,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ベクセリア地方 中央 常時"
+                    "name": "西ベクセリア地方 ススキ 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badger mager | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n| Flython | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Morphean mushroom | 63.6364 | 7\/11\/11\/11 | 1 | 3 | 2 |\n\n"
@@ -2171,7 +2171,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Firespirit | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n| Mecha-mynah | 71.4286 | 5\/7\/7\/7 | 1 | 1 | 0 |\n| Spirit | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "36": {
-            "position": "東セントシュタイン 陸 常時",
+            "position": "東セントシュタイン 陸(平地&森) 常時",
             "main": [
                 {
                     "groupId": "36\/3\/6\/6\/6\/1\/2",
@@ -2191,7 +2191,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東セントシュタイン 陸 常時"
+                    "name": "東セントシュタイン 陸(平地&森) 常時"
                 },
                 {
                     "groupId": "36\/7\/9\/9\/9\/3\/4",
@@ -2211,7 +2211,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東セントシュタイン 陸 常時"
+                    "name": "東セントシュタイン 陸(平地&森) 常時"
                 },
                 {
                     "groupId": "36\/7\/9\/9\/9\/3\/4",
@@ -2231,13 +2231,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東セントシュタイン 陸 常時"
+                    "name": "東セントシュタイン 陸(平地&森) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Boppin badger | 50.0000 | 3\/6\/6\/6 | 1 | 2 | 1 |\n| She-slime | 77.7778 | 7\/9\/9\/9 | 3 | 4 | 1 |\n| Hammerhood | 77.7778 | 7\/9\/9\/9 | 3 | 4 | 1 |\n\n"
         },
         "37": {
-            "position": "東セントシュタイン 砂浜 常時",
+            "position": "東セントシュタイン 海岸 常時",
             "main": [
                 {
                     "groupId": "37\/7\/8\/8\/8\/1\/1",
@@ -2257,7 +2257,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東セントシュタイン 砂浜 常時"
+                    "name": "東セントシュタイン 海岸 常時"
                 },
                 {
                     "groupId": "37\/3\/6\/6\/6\/1\/2",
@@ -2277,13 +2277,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東セントシュタイン 砂浜 常時"
+                    "name": "東セントシュタイン 海岸 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Flython | 87.5000 | 7\/8\/8\/8 | 1 | 1 | 0 |\n| Wooper trooper | 50.0000 | 3\/6\/6\/6 | 1 | 2 | 1 |\n\n"
         },
         "40": {
-            "position": "アユルダーマとう  日中",
+            "position": "アユルダーマとう 平地 昼",
             "main": [
                 {
                     "groupId": "40\/7\/12\/11\/12\/1\/2",
@@ -2303,7 +2303,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  日中"
+                    "name": "アユルダーマとう 平地 昼"
                 },
                 {
                     "groupId": "40\/7\/12\/11\/12\/1\/2",
@@ -2323,7 +2323,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  日中"
+                    "name": "アユルダーマとう 平地 昼"
                 },
                 {
                     "groupId": "40\/7\/12\/11\/12\/1\/2",
@@ -2343,7 +2343,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  日中"
+                    "name": "アユルダーマとう 平地 昼"
                 },
                 {
                     "groupId": "40\/7\/7\/7\/7\/1\/3",
@@ -2363,13 +2363,13 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "アユルダーマとう  日中"
+                    "name": "アユルダーマとう 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime knight | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Cyclown | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Bodkin kowyer | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Slime | 100.0000 | 7\/7\/7\/7 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Slime knight | 91.6667 | 100.0000 |\n| Cyclown | 91.6667 | 100.0000 |\n| Bodkin kowyer | 91.6667 | 100.0000 |\n\n"
         },
         "41": {
-            "position": "アユルダーマとう  夜",
+            "position": "アユルダーマとう 平地 夜",
             "main": [
                 {
                     "groupId": "41\/7\/13\/12\/13\/1\/2",
@@ -2389,7 +2389,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  夜"
+                    "name": "アユルダーマとう 平地 夜"
                 },
                 {
                     "groupId": "41\/7\/13\/12\/13\/1\/2",
@@ -2409,7 +2409,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  夜"
+                    "name": "アユルダーマとう 平地 夜"
                 },
                 {
                     "groupId": "41\/7\/13\/12\/13\/1\/2",
@@ -2429,7 +2429,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  夜"
+                    "name": "アユルダーマとう 平地 夜"
                 },
                 {
                     "groupId": "41\/7\/7\/7\/7\/1\/3",
@@ -2449,13 +2449,13 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "アユルダーマとう  夜"
+                    "name": "アユルダーマとう 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime knight | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Cyclown | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Bodkin kowyer | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Slime | 100.0000 | 7\/7\/7\/7 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Slime knight | 92.3077 | 100.0000 |\n| Cyclown | 92.3077 | 100.0000 |\n| Bodkin kowyer | 92.3077 | 100.0000 |\n\n"
         },
         "42": {
-            "position": "アユルダーマとう  常時",
+            "position": "アユルダーマとう 森 常時",
             "main": [
                 {
                     "groupId": "42\/7\/12\/11\/12\/1\/1",
@@ -2475,7 +2475,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  常時"
+                    "name": "アユルダーマとう 森 常時"
                 },
                 {
                     "groupId": "42\/7\/12\/11\/12\/1\/2",
@@ -2495,13 +2495,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう  常時"
+                    "name": "アユルダーマとう 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badboon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Bodkin kowyer | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Badboon | 91.6667 | 100.0000 |\n| Bodkin kowyer | 91.6667 | 100.0000 |\n\n"
         },
         "43": {
-            "position": "アユルダーマとう 不明 不明",
+            "position": "アユルダーマとう 荒地 常時",
             "main": [
                 {
                     "groupId": "43\/7\/9\/9\/9\/1\/1",
@@ -2521,13 +2521,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "アユルダーマとう 不明 不明"
+                    "name": "アユルダーマとう 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mudraker | 77.7778 | 7\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "45": {
-            "position": "アユルダーマとう(ツォのはま) ツォの浜を超えた方 常時",
+            "position": "アユルダーマとう(ツォのはま) 平地・森 昼",
             "main": [
                 {
                     "groupId": "45\/7\/12\/11\/12\/1\/2",
@@ -2547,7 +2547,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう(ツォのはま) ツォの浜を超えた方 常時"
+                    "name": "アユルダーマとう(ツォのはま) 平地・森 昼"
                 },
                 {
                     "groupId": "45\/7\/9\/9\/9\/1\/2",
@@ -2567,13 +2567,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "アユルダーマとう(ツォのはま) ツォの浜を超えた方 常時"
+                    "name": "アユルダーマとう(ツォのはま) 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badboon | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Cyclown | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Badboon | 91.6667 | 100.0000 |\n\n"
         },
         "46": {
-            "position": "アユルダーマとう(ツォのはま) 不明 不明",
+            "position": "アユルダーマとう(ツォのはま) 平地・森 夜",
             "main": [
                 {
                     "groupId": "46\/7\/13\/12\/13\/1\/2",
@@ -2593,7 +2593,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アユルダーマとう(ツォのはま) 不明 不明"
+                    "name": "アユルダーマとう(ツォのはま) 平地・森 夜"
                 },
                 {
                     "groupId": "46\/7\/11\/11\/11\/1\/2",
@@ -2613,7 +2613,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "アユルダーマとう(ツォのはま) 不明 不明"
+                    "name": "アユルダーマとう(ツォのはま) 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Badboon | 53.8462 | 7\/13\/12\/13 | 1 | 2 | 1 |\n| Cyclown | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Badboon | 92.3077 | 100.0000 |\n\n"
@@ -3651,7 +3651,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Salamarauder | 62.5000 | 5\/8\/8\/8 | 1 | 2 | 1 |\n| Knocktopus | 66.6667 | 6\/9\/9\/9 | 1 | 3 | 2 |\n| Chimaera | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n\n"
         },
         "59": {
-            "position": "ベレンのきしべ スポーンポイントによって異なる 常時",
+            "position": "ベレンのきしべ 平地 昼",
             "main": [
                 {
                     "groupId": "59\/6\/10\/10\/10\/1\/3",
@@ -3671,7 +3671,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ベレンのきしべ スポーンポイントによって異なる 常時"
+                    "name": "ベレンのきしべ 平地 昼"
                 },
                 {
                     "groupId": "59\/6\/10\/10\/10\/1\/1",
@@ -3691,13 +3691,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ベレンのきしべ スポーンポイントによって異なる 常時"
+                    "name": "ベレンのきしべ 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 60.0000 | 6\/10\/10\/10 | 1 | 3 | 2 |\n| Bewarewolf | 60.0000 | 6\/10\/10\/10 | 1 | 1 | 0 |\n\n"
         },
         "60": {
-            "position": "ベレンのきしべ 不明 不明",
+            "position": "ベレンのきしべ 平地 夜",
             "main": [
                 {
                     "groupId": "60\/6\/10\/10\/10\/1\/3",
@@ -3717,7 +3717,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ベレンのきしべ 不明 不明"
+                    "name": "ベレンのきしべ 平地 夜"
                 },
                 {
                     "groupId": "60\/6\/10\/10\/10\/1\/1",
@@ -3737,13 +3737,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ベレンのきしべ 不明 不明"
+                    "name": "ベレンのきしべ 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Dread admiral | 60.0000 | 6\/10\/10\/10 | 1 | 3 | 2 |\n| Bewarewolf | 60.0000 | 6\/10\/10\/10 | 1 | 1 | 0 |\n\n"
         },
         "61": {
-            "position": "ベレンのきしべ スポーンポイントによって異なる 常時",
+            "position": "ベレンのきしべ 森 常時",
             "main": [
                 {
                     "groupId": "61\/6\/10\/10\/10\/1\/2",
@@ -3763,7 +3763,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ベレンのきしべ スポーンポイントによって異なる 常時"
+                    "name": "ベレンのきしべ 森 常時"
                 },
                 {
                     "groupId": "61\/7\/7\/7\/7\/3\/5",
@@ -3783,7 +3783,7 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "ベレンのきしべ スポーンポイントによって異なる 常時"
+                    "name": "ベレンのきしべ 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Bud brother | 100.0000 | 7\/7\/7\/7 | 3 | 5 | 2 |\n\n"
@@ -3835,7 +3835,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Zumeanie | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Dread admiral | 50.0000 | 6\/12\/10\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Dread admiral | 83.3333 | 100.0000 |\n\n"
         },
         "63": {
-            "position": "カラコタ地方  日中",
+            "position": "カラコタ地方 平地 昼",
             "main": [
                 {
                     "groupId": "63\/6\/10\/10\/10\/1\/2",
@@ -3855,7 +3855,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  日中"
+                    "name": "カラコタ地方 平地 昼"
                 },
                 {
                     "groupId": "63\/6\/6\/6\/6\/1\/2",
@@ -3875,7 +3875,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "カラコタ地方  日中"
+                    "name": "カラコタ地方 平地 昼"
                 },
                 {
                     "groupId": "63\/6\/10\/10\/10\/1\/2",
@@ -3895,13 +3895,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  日中"
+                    "name": "カラコタ地方 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Restless armour | 100.0000 | 6\/6\/6\/6 | 1 | 2 | 1 |\n| Zumeanie | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n\n"
         },
         "64": {
-            "position": "カラコタ地方  夜",
+            "position": "カラコタ地方 平地 夜",
             "main": [
                 {
                     "groupId": "64\/6\/10\/10\/10\/1\/2",
@@ -3921,7 +3921,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  夜"
+                    "name": "カラコタ地方 平地 夜"
                 },
                 {
                     "groupId": "64\/6\/6\/6\/6\/1\/3",
@@ -3941,7 +3941,7 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "カラコタ地方  夜"
+                    "name": "カラコタ地方 平地 夜"
                 },
                 {
                     "groupId": "64\/6\/10\/10\/10\/1\/2",
@@ -3961,13 +3961,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  夜"
+                    "name": "カラコタ地方 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bewarewolf | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Restless armour | 100.0000 | 6\/6\/6\/6 | 1 | 3 | 2 |\n| Zumeanie | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n\n"
         },
         "65": {
-            "position": "カラコタ地方  不明",
+            "position": "カラコタ地方 森 常時",
             "main": [
                 {
                     "groupId": "65\/6\/10\/10\/10\/1\/2",
@@ -3987,7 +3987,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  不明"
+                    "name": "カラコタ地方 森 常時"
                 },
                 {
                     "groupId": "65\/6\/10\/10\/10\/1\/2",
@@ -4007,13 +4007,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "カラコタ地方  不明"
+                    "name": "カラコタ地方 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Clawcerer | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Rampage | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n\n"
         },
         "66": {
-            "position": "ピタリへいげん  日中",
+            "position": "ピタリへいげん 平地 昼",
             "main": [
                 {
                     "groupId": "66\/6\/6\/6\/6\/1\/2",
@@ -4033,7 +4033,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "ピタリへいげん  日中"
+                    "name": "ピタリへいげん 平地 昼"
                 },
                 {
                     "groupId": "66\/6\/10\/10\/10\/1\/2",
@@ -4053,7 +4053,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん  日中"
+                    "name": "ピタリへいげん 平地 昼"
                 },
                 {
                     "groupId": "66\/6\/10\/10\/10\/1\/2",
@@ -4073,13 +4073,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん  日中"
+                    "name": "ピタリへいげん 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Restless armour | 100.0000 | 6\/6\/6\/6 | 1 | 2 | 1 |\n| Beakon | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n| Clawcerer | 60.0000 | 6\/10\/10\/10 | 1 | 2 | 1 |\n\n"
         },
         "67": {
-            "position": "ピタリへいげん  夜",
+            "position": "ピタリへいげん 平地 夜",
             "main": [
                 {
                     "groupId": "67\/6\/6\/6\/6\/1\/2",
@@ -4099,7 +4099,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "ピタリへいげん  夜"
+                    "name": "ピタリへいげん 平地 夜"
                 },
                 {
                     "groupId": "67\/6\/10\/10\/10\/1\/3",
@@ -4119,7 +4119,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん  夜"
+                    "name": "ピタリへいげん 平地 夜"
                 },
                 {
                     "groupId": "67\/6\/10\/10\/10\/1\/3",
@@ -4139,13 +4139,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん  夜"
+                    "name": "ピタリへいげん 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Restless armour | 100.0000 | 6\/6\/6\/6 | 1 | 2 | 1 |\n| Beakon | 60.0000 | 6\/10\/10\/10 | 1 | 3 | 2 |\n| Clawcerer | 60.0000 | 6\/10\/10\/10 | 1 | 3 | 2 |\n\n"
         },
         "68": {
-            "position": "ピタリへいげん ピタリ山付近 常時",
+            "position": "ピタリへいげん ピタリ山付近(森・荒地) 常時",
             "main": [
                 {
                     "groupId": "68\/6\/10\/10\/10\/1\/1",
@@ -4165,7 +4165,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん ピタリ山付近 常時"
+                    "name": "ピタリへいげん ピタリ山付近(森・荒地) 常時"
                 },
                 {
                     "groupId": "68\/6\/10\/10\/10\/1\/3",
@@ -4185,13 +4185,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ピタリへいげん ピタリ山付近 常時"
+                    "name": "ピタリへいげん ピタリ山付近(森・荒地) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mad moai | 60.0000 | 6\/10\/10\/10 | 1 | 1 | 0 |\n| Beakon | 60.0000 | 6\/10\/10\/10 | 1 | 3 | 2 |\n\n"
         },
         "69": {
-            "position": "ピタリ海岸 (平地) (昼) 日中",
+            "position": "ピタリ海岸 (平地)  昼",
             "main": [
                 {
                     "groupId": "69\/3\/9\/7\/9\/1\/2",
@@ -4211,13 +4211,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (平地) (昼) 日中"
+                    "name": "ピタリ海岸 (平地)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Golem | 33.3333 | 3\/9\/7\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Golem | 77.7778 | 100.0000 |\n\n"
         },
         "70": {
-            "position": "ピタリ海岸 (平地) (夜) 日中",
+            "position": "ピタリ海岸 (平地)  夜",
             "main": [
                 {
                     "groupId": "70\/3\/9\/7\/9\/1\/2",
@@ -4237,13 +4237,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (平地) (夜) 日中"
+                    "name": "ピタリ海岸 (平地)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Golem | 33.3333 | 3\/9\/7\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Golem | 77.7778 | 100.0000 |\n\n"
         },
         "71": {
-            "position": "ピタリ海岸 (森) (常時) 常時",
+            "position": "ピタリ海岸 (森)  常時",
             "main": [
                 {
                     "groupId": "71\/3\/9\/7\/9\/1\/1",
@@ -4263,7 +4263,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (森) (常時) 常時"
+                    "name": "ピタリ海岸 (森)  常時"
                 },
                 {
                     "groupId": "71\/2\/9\/6\/9\/1\/2",
@@ -4283,13 +4283,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (森) (常時) 常時"
+                    "name": "ピタリ海岸 (森)  常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Green dragon | 33.3333 | 3\/9\/7\/9 | 1 | 1 | 0 |\n| Golem | 22.2222 | 2\/9\/6\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Green dragon | 77.7778 | 100.0000 |\n| Golem | 66.6667 | 100.0000 |\n\n"
         },
         "72": {
-            "position": "ピタリ海岸 (海岸) (常時) 常時",
+            "position": "ピタリ海岸 (海岸)  常時",
             "main": [
                 {
                     "groupId": "72\/2\/9\/5\/9\/1\/3",
@@ -4309,7 +4309,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (海岸) (常時) 常時"
+                    "name": "ピタリ海岸 (海岸)  常時"
                 },
                 {
                     "groupId": "72\/2\/9\/5\/9\/1\/2",
@@ -4329,7 +4329,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (海岸) (常時) 常時"
+                    "name": "ピタリ海岸 (海岸)  常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Handsome crab | 22.2222 | 2\/9\/5\/9 | 1 | 3 | 2 |\n| Sail serpent | 22.2222 | 2\/9\/5\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Handsome crab | 55.5556 | 100.0000 |\n| Sail serpent | 55.5556 | 100.0000 |\n\n"
@@ -4671,7 +4671,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Metal slime knight | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n| Hocus chimaera | 66.6667 | 6\/9\/9\/9 | 1 | 3 | 2 |\n| Stone golem | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "81": {
-            "position": "サンマロウ地方 (サンマロウ側)  日中",
+            "position": "サンマロウ地方 (サンマロウ側) 平地 昼",
             "main": [
                 {
                     "groupId": "81\/6\/11\/10\/11\/1\/4",
@@ -4691,7 +4691,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側)  日中"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 昼"
                 },
                 {
                     "groupId": "81\/6\/9\/9\/9\/1\/1",
@@ -4711,7 +4711,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "サンマロウ地方 (サンマロウ側)  日中"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 昼"
                 },
                 {
                     "groupId": "81\/5\/10\/9\/10\/1\/4",
@@ -4731,7 +4731,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側)  日中"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 昼"
                 },
                 {
                     "groupId": "81\/7\/7\/7\/7\/2\/4",
@@ -4751,13 +4751,13 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "サンマロウ地方 (サンマロウ側)  日中"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gum shield | 54.5455 | 6\/11\/10\/11 | 1 | 4 | 3 |\n| Trigertaur | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Pink sanguini | 50.0000 | 5\/10\/9\/10 | 1 | 4 | 3 |\n| Slime | 100.0000 | 7\/7\/7\/7 | 2 | 4 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gum shield | 90.9091 | 100.0000 |\n| Pink sanguini | 90.0000 | 100.0000 |\n\n"
         },
         "82": {
-            "position": "サンマロウ地方 (サンマロウ側)  夜",
+            "position": "サンマロウ地方 (サンマロウ側) 平地 夜",
             "main": [
                 {
                     "groupId": "82\/6\/11\/10\/11\/1\/4",
@@ -4777,7 +4777,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側)  夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 夜"
                 },
                 {
                     "groupId": "82\/6\/9\/9\/9\/1\/1",
@@ -4797,7 +4797,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "サンマロウ地方 (サンマロウ側)  夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 夜"
                 },
                 {
                     "groupId": "82\/5\/10\/9\/10\/1\/4",
@@ -4817,7 +4817,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側)  夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 夜"
                 },
                 {
                     "groupId": "82\/7\/7\/7\/7\/2\/4",
@@ -4837,13 +4837,13 @@
                     "countRand": 2,
                     "has2g": false,
                     "has3g": false,
-                    "name": "サンマロウ地方 (サンマロウ側)  夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gum shield | 54.5455 | 6\/11\/10\/11 | 1 | 4 | 3 |\n| Trigertaur | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Pink sanguini | 50.0000 | 5\/10\/9\/10 | 1 | 4 | 3 |\n| Slime | 100.0000 | 7\/7\/7\/7 | 2 | 4 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gum shield | 90.9091 | 100.0000 |\n| Pink sanguini | 90.0000 | 100.0000 |\n\n"
         },
         "83": {
-            "position": "サンマロウ地方 (サンマロウ側) 洞窟付近 夜",
+            "position": "サンマロウ地方 (サンマロウ側) 洞窟付近(森) 常時",
             "main": [
                 {
                     "groupId": "83\/6\/9\/9\/9\/1\/1",
@@ -4863,7 +4863,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "サンマロウ地方 (サンマロウ側) 洞窟付近 夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 洞窟付近(森) 常時"
                 },
                 {
                     "groupId": "83\/5\/9\/8\/9\/1\/1",
@@ -4883,13 +4883,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側) 洞窟付近 夜"
+                    "name": "サンマロウ地方 (サンマロウ側) 洞窟付近(森) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Big badboon | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Scarewolf | 55.5556 | 5\/9\/8\/9 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Scarewolf | 88.8889 | 100.0000 |\n\n"
         },
         "84": {
-            "position": "サンマロウ地方 (サンマロウ側) 不明 不明",
+            "position": "サンマロウ地方 (サンマロウ側) 荒地(プラチナ鉱石の所) 常時",
             "main": [
                 {
                     "groupId": "84\/6\/10\/9\/10\/1\/1",
@@ -4909,7 +4909,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "サンマロウ地方 (サンマロウ側) 不明 不明"
+                    "name": "サンマロウ地方 (サンマロウ側) 荒地(プラチナ鉱石の所) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Trigertaur | 60.0000 | 6\/10\/9\/10 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Trigertaur | 90.0000 | 100.0000 |\n\n"
@@ -5239,7 +5239,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Riptide | 70.0000 | 7\/10\/10\/10 | 1 | 2 | 1 |\n| Raving lunatick | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n| Hunter mech | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Metal medley | 75.0000 | 6\/8\/8\/8 | 1 | 1 | 0 |\n| Cannibox | 100.0000 | 7\/7\/7\/7 | 1 | 1 | 0 |\n\n"
         },
         "90": {
-            "position": "グビアナ砂漠  日中",
+            "position": "グビアナ砂漠 平地 昼",
             "main": [
                 {
                     "groupId": "90\/7\/12\/11\/12\/1\/1",
@@ -5259,7 +5259,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  日中"
+                    "name": "グビアナ砂漠 平地 昼"
                 },
                 {
                     "groupId": "90\/7\/12\/11\/12\/1\/1",
@@ -5279,7 +5279,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  日中"
+                    "name": "グビアナ砂漠 平地 昼"
                 },
                 {
                     "groupId": "90\/7\/12\/11\/12\/2\/4",
@@ -5299,13 +5299,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  日中"
+                    "name": "グビアナ砂漠 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Power hammer | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Parched peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Axolhotl | 58.3333 | 7\/12\/11\/12 | 2 | 4 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Power hammer | 91.6667 | 100.0000 |\n| Parched peckerel | 91.6667 | 100.0000 |\n| Axolhotl | 91.6667 | 100.0000 |\n\n"
         },
         "91": {
-            "position": "グビアナ砂漠  夜",
+            "position": "グビアナ砂漠 平地 夜",
             "main": [
                 {
                     "groupId": "91\/7\/12\/11\/12\/1\/2",
@@ -5325,7 +5325,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  夜"
+                    "name": "グビアナ砂漠 平地 夜"
                 },
                 {
                     "groupId": "91\/7\/12\/11\/12\/1\/2",
@@ -5345,7 +5345,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  夜"
+                    "name": "グビアナ砂漠 平地 夜"
                 },
                 {
                     "groupId": "91\/7\/12\/11\/12\/2\/4",
@@ -5365,7 +5365,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠  夜"
+                    "name": "グビアナ砂漠 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Power hammer | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Parched peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Axolhotl | 58.3333 | 7\/12\/11\/12 | 2 | 4 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Power hammer | 91.6667 | 100.0000 |\n| Parched peckerel | 91.6667 | 100.0000 |\n| Axolhotl | 91.6667 | 100.0000 |\n\n"
@@ -5715,7 +5715,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n| Mummy | 54.5455 | 6\/11\/11\/11 | 1 | 2 | 1 |\n| Purrestidigitator | 54.5455 | 6\/11\/11\/11 | 2 | 2 | 0 |\n| Lesionnaire | 54.5455 | 6\/11\/11\/11 | 1 | 3 | 2 |\n| Cannibox | 100.0000 | 7\/7\/7\/7 | 1 | 1 | 0 |\n\n"
         },
         "97": {
-            "position": "ルビアナ地下すいどう B2F 日中",
+            "position": "ルビアナ地下すいどう B2F 昼",
             "main": [
                 {
                     "groupId": "97\/7\/9\/9\/9\/1\/2",
@@ -5735,7 +5735,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ルビアナ地下すいどう B2F 日中"
+                    "name": "ルビアナ地下すいどう B2F 昼"
                 },
                 {
                     "groupId": "97\/6\/11\/11\/11\/1\/2",
@@ -5755,13 +5755,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ルビアナ地下すいどう B2F 日中"
+                    "name": "ルビアナ地下すいどう B2F 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Ghoul | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n| Mummy | 54.5455 | 6\/11\/11\/11 | 1 | 2 | 1 |\n\n"
         },
         "98": {
-            "position": "ヤハーンしっち  夜",
+            "position": "ヤハーンしっち 平地・森 昼",
             "main": [
                 {
                     "groupId": "98\/7\/12\/11\/12\/1\/1",
@@ -5781,7 +5781,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  夜"
+                    "name": "ヤハーンしっち 平地・森 昼"
                 },
                 {
                     "groupId": "98\/7\/12\/11\/12\/1\/2",
@@ -5801,7 +5801,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  夜"
+                    "name": "ヤハーンしっち 平地・森 昼"
                 },
                 {
                     "groupId": "98\/7\/12\/11\/12\/1\/2",
@@ -5821,13 +5821,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  夜"
+                    "name": "ヤハーンしっち 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wyrtle | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Mandrake major | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Badja | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Wyrtle | 91.6667 | 100.0000 |\n| Mandrake major | 91.6667 | 100.0000 |\n| Badja | 91.6667 | 100.0000 |\n\n"
         },
         "99": {
-            "position": "ヤハーンしっち  日中",
+            "position": "ヤハーンしっち 平地・森 夜",
             "main": [
                 {
                     "groupId": "99\/7\/12\/11\/12\/1\/1",
@@ -5847,7 +5847,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  日中"
+                    "name": "ヤハーンしっち 平地・森 夜"
                 },
                 {
                     "groupId": "99\/7\/12\/11\/12\/1\/2",
@@ -5867,7 +5867,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  日中"
+                    "name": "ヤハーンしっち 平地・森 夜"
                 },
                 {
                     "groupId": "99\/7\/12\/11\/12\/1\/2",
@@ -5887,13 +5887,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  日中"
+                    "name": "ヤハーンしっち 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wyrtle | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Mandrake major | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Badja | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Wyrtle | 91.6667 | 100.0000 |\n| Mandrake major | 91.6667 | 100.0000 |\n| Badja | 91.6667 | 100.0000 |\n\n"
         },
         "100": {
-            "position": "ヤハーンしっち  不明",
+            "position": "ヤハーンしっち 湿地 常時",
             "main": [
                 {
                     "groupId": "100\/7\/12\/11\/12\/1\/2",
@@ -5913,7 +5913,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  不明"
+                    "name": "ヤハーンしっち 湿地 常時"
                 },
                 {
                     "groupId": "100\/7\/12\/11\/12\/1\/2",
@@ -5933,7 +5933,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  不明"
+                    "name": "ヤハーンしっち 湿地 常時"
                 },
                 {
                     "groupId": "100\/7\/12\/11\/12\/1\/1",
@@ -5953,13 +5953,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ヤハーンしっち  不明"
+                    "name": "ヤハーンしっち 湿地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Crabber dabber doo | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Treevil | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Giddy gastropog | 91.6667 | 100.0000 |\n| Crabber dabber doo | 91.6667 | 100.0000 |\n| Treevil | 91.6667 | 100.0000 |\n\n"
         },
         "101": {
-            "position": "カルバド大そうげん  日中",
+            "position": "カルバド大そうげん (全域) 昼",
             "main": [
                 {
                     "groupId": "101\/7\/12\/11\/12\/1\/2",
@@ -5979,7 +5979,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 },
                 {
                     "groupId": "101\/7\/12\/11\/12\/1\/1",
@@ -5999,7 +5999,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 },
                 {
                     "groupId": "101\/7\/12\/11\/12\/1\/4",
@@ -6019,7 +6019,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 },
                 {
                     "groupId": "101\/7\/12\/11\/12\/1\/2",
@@ -6039,7 +6039,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 },
                 {
                     "groupId": "101\/7\/12\/11\/12\/1\/1",
@@ -6059,7 +6059,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 },
                 {
                     "groupId": "101\/1\/1\/1\/1\/1\/1",
@@ -6079,7 +6079,7 @@
                     "countRand": 0,
                     "has2g": false,
                     "has3g": false,
-                    "name": "カルバド大そうげん  日中"
+                    "name": "カルバド大そうげん (全域) 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Robo-robin | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Battering ram | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Brainy badboon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Goodybag | 100.0000 | 1\/1\/1\/1 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Swinoceros | 91.6667 | 100.0000 |\n| Peckerel | 91.6667 | 100.0000 |\n| Robo-robin | 91.6667 | 100.0000 |\n| Battering ram | 91.6667 | 100.0000 |\n| Brainy badboon | 91.6667 | 100.0000 |\n\n"
@@ -6211,7 +6211,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Robo-robin | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Battering ram | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Brainy badboon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Goodybag | 100.0000 | 1\/1\/1\/1 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Swinoceros | 91.6667 | 100.0000 |\n| Peckerel | 91.6667 | 100.0000 |\n| Robo-robin | 91.6667 | 100.0000 |\n| Battering ram | 91.6667 | 100.0000 |\n| Brainy badboon | 91.6667 | 100.0000 |\n\n"
         },
         "103": {
-            "position": "ダダマルダ山 全域 夜",
+            "position": "ダダマルダ山 (全域) 常時",
             "main": [
                 {
                     "groupId": "103\/0\/9\/6\/9\/1\/2",
@@ -6231,7 +6231,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 },
                 {
                     "groupId": "103\/7\/12\/11\/12\/1\/2",
@@ -6251,7 +6251,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 },
                 {
                     "groupId": "103\/7\/12\/11\/12\/1\/2",
@@ -6271,7 +6271,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 },
                 {
                     "groupId": "103\/7\/12\/11\/12\/1\/4",
@@ -6291,7 +6291,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 },
                 {
                     "groupId": "103\/7\/12\/11\/12\/1\/2",
@@ -6311,7 +6311,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 },
                 {
                     "groupId": "103\/7\/12\/11\/12\/1\/2",
@@ -6331,13 +6331,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ダダマルダ山 全域 夜"
+                    "name": "ダダマルダ山 (全域) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 0.0000 | 0\/9\/6\/9 | 1 | 2 | 1 |\n| Treevil | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Battering ram | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Robo-robin | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Swinoceros | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Rockbomb | 66.6667 | 100.0000 |\n| Treevil | 91.6667 | 100.0000 |\n| Battering ram | 91.6667 | 100.0000 |\n| Robo-robin | 91.6667 | 100.0000 |\n| Peckerel | 91.6667 | 100.0000 |\n| Swinoceros | 91.6667 | 100.0000 |\n\n"
         },
         "104": {
-            "position": "カズチィチィ山  常時",
+            "position": "カズチィチィ山 平地・森 常時",
             "main": [
                 {
                     "groupId": "104\/7\/12\/11\/12\/1\/2",
@@ -6357,7 +6357,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山  常時"
+                    "name": "カズチィチィ山 平地・森 常時"
                 },
                 {
                     "groupId": "104\/7\/12\/11\/12\/1\/2",
@@ -6377,7 +6377,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山  常時"
+                    "name": "カズチィチィ山 平地・森 常時"
                 },
                 {
                     "groupId": "104\/7\/12\/11\/12\/1\/1",
@@ -6397,7 +6397,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山  常時"
+                    "name": "カズチィチィ山 平地・森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Brainy badboon | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Ghoul | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Brainy badboon | 91.6667 | 100.0000 |\n| Ghoul | 91.6667 | 100.0000 |\n| Gruffon | 91.6667 | 100.0000 |\n\n"
@@ -6765,7 +6765,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Infernal armour | 100.0000 | 6\/6\/6\/6 | 1 | 2 | 1 |\n| Troll | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Cheeky tiki | 20.0000 | 2\/10\/7\/10 | 1 | 3 | 2 |\n| Sorcerer | 66.6667 | 6\/9\/9\/9 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Cheeky tiki | 70.0000 | 100.0000 |\n\n"
         },
         "112": {
-            "position": "アシュバル地方  日中",
+            "position": "アシュバル地方 平地 昼",
             "main": [
                 {
                     "groupId": "112\/7\/12\/11\/12\/1\/2",
@@ -6785,7 +6785,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  日中"
+                    "name": "アシュバル地方 平地 昼"
                 },
                 {
                     "groupId": "112\/7\/12\/11\/12\/1\/1",
@@ -6805,7 +6805,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  日中"
+                    "name": "アシュバル地方 平地 昼"
                 },
                 {
                     "groupId": "112\/7\/12\/11\/12\/1\/2",
@@ -6825,13 +6825,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  日中"
+                    "name": "アシュバル地方 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Wyrtle | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Mandrake major | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Manguini | 91.6667 | 100.0000 |\n| Wyrtle | 91.6667 | 100.0000 |\n| Mandrake major | 91.6667 | 100.0000 |\n\n"
         },
         "113": {
-            "position": "アシュバル地方  夜",
+            "position": "アシュバル地方 平地 夜",
             "main": [
                 {
                     "groupId": "113\/7\/12\/11\/12\/1\/2",
@@ -6851,7 +6851,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  夜"
+                    "name": "アシュバル地方 平地 夜"
                 },
                 {
                     "groupId": "113\/7\/12\/11\/12\/1\/1",
@@ -6871,7 +6871,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  夜"
+                    "name": "アシュバル地方 平地 夜"
                 },
                 {
                     "groupId": "113\/7\/12\/11\/12\/1\/2",
@@ -6891,13 +6891,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  夜"
+                    "name": "アシュバル地方 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Manguini | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Wyrtle | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Mandrake major | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Manguini | 91.6667 | 100.0000 |\n| Wyrtle | 91.6667 | 100.0000 |\n| Mandrake major | 91.6667 | 100.0000 |\n\n"
         },
         "114": {
-            "position": "アシュバル地方  常時",
+            "position": "アシュバル地方 森 常時",
             "main": [
                 {
                     "groupId": "114\/7\/12\/11\/12\/1\/3",
@@ -6917,13 +6917,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  常時"
+                    "name": "アシュバル地方 森 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Scourgette | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Scourgette | 91.6667 | 100.0000 |\n\n"
         },
         "115": {
-            "position": "アシュバル地方  不明",
+            "position": "アシュバル地方 海岸 常時",
             "main": [
                 {
                     "groupId": "115\/7\/12\/11\/12\/1\/1",
@@ -6943,7 +6943,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  不明"
+                    "name": "アシュバル地方 海岸 常時"
                 },
                 {
                     "groupId": "115\/7\/12\/11\/12\/1\/1",
@@ -6963,13 +6963,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方  不明"
+                    "name": "アシュバル地方 海岸 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Wyrtle | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Crabber dabber doo | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Wyrtle | 91.6667 | 100.0000 |\n| Crabber dabber doo | 91.6667 | 100.0000 |\n\n"
         },
         "116": {
-            "position": "あめのしま  日中",
+            "position": "あめのしま 全域 昼",
             "main": [
                 {
                     "groupId": "116\/7\/12\/11\/12\/1\/3",
@@ -6989,7 +6989,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 昼"
                 },
                 {
                     "groupId": "116\/7\/9\/9\/9\/1\/2",
@@ -7009,7 +7009,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 昼"
                 },
                 {
                     "groupId": "116\/7\/12\/11\/12\/1\/2",
@@ -7029,13 +7029,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| Slime stack | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n| Handsome crab | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Giddy gastropog | 91.6667 | 100.0000 |\n| Handsome crab | 91.6667 | 100.0000 |\n\n"
         },
         "117": {
-            "position": "あめのしま  日中",
+            "position": "あめのしま 全域 夜",
             "main": [
                 {
                     "groupId": "117\/7\/12\/11\/12\/1\/3",
@@ -7055,7 +7055,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 夜"
                 },
                 {
                     "groupId": "117\/7\/9\/9\/9\/1\/2",
@@ -7075,7 +7075,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 夜"
                 },
                 {
                     "groupId": "117\/7\/12\/11\/12\/1\/2",
@@ -7095,13 +7095,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま  日中"
+                    "name": "あめのしま 全域 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| Slime stack | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n| Handsome crab | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Giddy gastropog | 91.6667 | 100.0000 |\n| Handsome crab | 91.6667 | 100.0000 |\n\n"
         },
         "118": {
-            "position": "エルマニオンせつげん  日中",
+            "position": "エルマニオンせつげん (全域) 昼",
             "main": [
                 {
                     "groupId": "118\/7\/12\/11\/12\/1\/4",
@@ -7121,7 +7121,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  日中"
+                    "name": "エルマニオンせつげん (全域) 昼"
                 },
                 {
                     "groupId": "118\/7\/12\/11\/12\/1\/2",
@@ -7141,7 +7141,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  日中"
+                    "name": "エルマニオンせつげん (全域) 昼"
                 },
                 {
                     "groupId": "118\/7\/12\/11\/12\/1\/1",
@@ -7161,7 +7161,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  日中"
+                    "name": "エルマニオンせつげん (全域) 昼"
                 },
                 {
                     "groupId": "118\/7\/12\/11\/12\/1\/1",
@@ -7181,7 +7181,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  日中"
+                    "name": "エルマニオンせつげん (全域) 昼"
                 },
                 {
                     "groupId": "118\/7\/12\/11\/12\/1\/1",
@@ -7201,13 +7201,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  日中"
+                    "name": "エルマニオンせつげん (全域) 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shivery shrubbery | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Brreatherwarrior | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Apeckalypse | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Tearwolf | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Great gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Shivery shrubbery | 91.6667 | 100.0000 |\n| Brreatherwarrior | 91.6667 | 100.0000 |\n| Apeckalypse | 91.6667 | 100.0000 |\n| Tearwolf | 91.6667 | 100.0000 |\n| Great gruffon | 91.6667 | 100.0000 |\n\n"
         },
         "119": {
-            "position": "エルマニオンせつげん  夜",
+            "position": "エルマニオンせつげん (全域) 夜",
             "main": [
                 {
                     "groupId": "119\/7\/12\/11\/12\/1\/4",
@@ -7227,7 +7227,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  夜"
+                    "name": "エルマニオンせつげん (全域) 夜"
                 },
                 {
                     "groupId": "119\/7\/12\/11\/12\/1\/3",
@@ -7247,7 +7247,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  夜"
+                    "name": "エルマニオンせつげん (全域) 夜"
                 },
                 {
                     "groupId": "119\/7\/12\/11\/12\/1\/2",
@@ -7267,7 +7267,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  夜"
+                    "name": "エルマニオンせつげん (全域) 夜"
                 },
                 {
                     "groupId": "119\/7\/12\/11\/12\/1\/2",
@@ -7287,7 +7287,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  夜"
+                    "name": "エルマニオンせつげん (全域) 夜"
                 },
                 {
                     "groupId": "119\/7\/12\/11\/12\/1\/1",
@@ -7307,13 +7307,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンせつげん  夜"
+                    "name": "エルマニオンせつげん (全域) 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shivery shrubbery | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Brreatherwarrior | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| Apeckalypse | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Tearwolf | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Great gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Shivery shrubbery | 91.6667 | 100.0000 |\n| Brreatherwarrior | 91.6667 | 100.0000 |\n| Apeckalypse | 91.6667 | 100.0000 |\n| Tearwolf | 91.6667 | 100.0000 |\n| Great gruffon | 91.6667 | 100.0000 |\n\n"
         },
         "120": {
-            "position": "エルマニオンかいがん 全域 常時",
+            "position": "エルマニオンかいがん (全域) 常時",
             "main": [
                 {
                     "groupId": "120\/7\/12\/11\/12\/1\/2",
@@ -7333,7 +7333,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンかいがん 全域 常時"
+                    "name": "エルマニオンかいがん (全域) 常時"
                 },
                 {
                     "groupId": "120\/7\/12\/11\/12\/2\/4",
@@ -7353,7 +7353,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンかいがん 全域 常時"
+                    "name": "エルマニオンかいがん (全域) 常時"
                 },
                 {
                     "groupId": "120\/7\/12\/11\/12\/1\/3",
@@ -7373,7 +7373,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンかいがん 全域 常時"
+                    "name": "エルマニオンかいがん (全域) 常時"
                 },
                 {
                     "groupId": "120\/7\/12\/11\/12\/1\/2",
@@ -7393,13 +7393,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "エルマニオンかいがん 全域 常時"
+                    "name": "エルマニオンかいがん (全域) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Tearwolf | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Shivery shrubbery | 58.3333 | 7\/12\/11\/12 | 2 | 4 | 2 |\n| Scourgette | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| Apeckalypse | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Tearwolf | 91.6667 | 100.0000 |\n| Shivery shrubbery | 91.6667 | 100.0000 |\n| Scourgette | 91.6667 | 100.0000 |\n| Apeckalypse | 91.6667 | 100.0000 |\n\n"
         },
         "122": {
-            "position": "アイスバリー海岸 (平地・森) (昼) 常時",
+            "position": "アイスバリー海岸 (平地・森)  昼",
             "main": [
                 {
                     "groupId": "122\/7\/12\/11\/12\/1\/3",
@@ -7419,7 +7419,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (昼) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  昼"
                 },
                 {
                     "groupId": "122\/7\/12\/11\/12\/1\/1",
@@ -7439,7 +7439,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (昼) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  昼"
                 },
                 {
                     "groupId": "122\/7\/12\/11\/12\/1\/1",
@@ -7459,13 +7459,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (昼) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Brreatherwarrior | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| White trigertaur | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Great gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Brreatherwarrior | 91.6667 | 100.0000 |\n| White trigertaur | 91.6667 | 100.0000 |\n| Great gruffon | 91.6667 | 100.0000 |\n\n"
         },
         "123": {
-            "position": "アイスバリー海岸 (平地・森) (夜) 常時",
+            "position": "アイスバリー海岸 (平地・森)  夜",
             "main": [
                 {
                     "groupId": "123\/7\/12\/11\/12\/1\/3",
@@ -7485,7 +7485,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (夜) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  夜"
                 },
                 {
                     "groupId": "123\/7\/12\/11\/12\/1\/1",
@@ -7505,7 +7505,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (夜) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  夜"
                 },
                 {
                     "groupId": "123\/7\/12\/11\/12\/1\/2",
@@ -7525,13 +7525,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (平地・森) (夜) 常時"
+                    "name": "アイスバリー海岸 (平地・森)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Brreatherwarrior | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n| White trigertaur | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Great gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Brreatherwarrior | 91.6667 | 100.0000 |\n| White trigertaur | 91.6667 | 100.0000 |\n| Great gruffon | 91.6667 | 100.0000 |\n\n"
         },
         "124": {
-            "position": "アイスバリー海岸 (海岸) (昼) 常時",
+            "position": "アイスバリー海岸 (海岸)  昼",
             "main": [
                 {
                     "groupId": "124\/0\/9\/6\/9\/1\/1",
@@ -7551,7 +7551,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (海岸) (昼) 常時"
+                    "name": "アイスバリー海岸 (海岸)  昼"
                 },
                 {
                     "groupId": "124\/7\/12\/11\/12\/1\/1",
@@ -7571,13 +7571,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (海岸) (昼) 常時"
+                    "name": "アイスバリー海岸 (海岸)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 0.0000 | 0\/9\/6\/9 | 1 | 1 | 0 |\n| cikiller | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 66.6667 | 100.0000 |\n| cikiller | 91.6667 | 100.0000 |\n\n"
         },
         "125": {
-            "position": "アイスバリー海岸 (海岸) (夜) 常時",
+            "position": "アイスバリー海岸 (海岸)  夜",
             "main": [
                 {
                     "groupId": "125\/0\/9\/6\/9\/1\/2",
@@ -7597,7 +7597,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (海岸) (夜) 常時"
+                    "name": "アイスバリー海岸 (海岸)  夜"
                 },
                 {
                     "groupId": "125\/7\/12\/11\/12\/1\/2",
@@ -7617,7 +7617,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アイスバリー海岸 (海岸) (夜) 常時"
+                    "name": "アイスバリー海岸 (海岸)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 0.0000 | 0\/9\/6\/9 | 1 | 2 | 1 |\n| cikiller | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 66.6667 | 100.0000 |\n| cikiller | 91.6667 | 100.0000 |\n\n"
@@ -7755,7 +7755,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculptrice | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Raving reaper | 63.6364 | 7\/11\/11\/11 | 1 | 3 | 2 |\n| Wight priest | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n\n"
         },
         "128": {
-            "position": "ジャーホジ地方 日中 日中",
+            "position": "ジャーホジ地方  昼",
             "main": [
                 {
                     "groupId": "128\/7\/12\/11\/12\/1\/1",
@@ -7775,7 +7775,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 日中 日中"
+                    "name": "ジャーホジ地方  昼"
                 },
                 {
                     "groupId": "128\/0\/9\/4\/9\/2\/3",
@@ -7795,7 +7795,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 日中 日中"
+                    "name": "ジャーホジ地方  昼"
                 },
                 {
                     "groupId": "128\/7\/12\/11\/12\/1\/1",
@@ -7815,7 +7815,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 日中 日中"
+                    "name": "ジャーホジ地方  昼"
                 },
                 {
                     "groupId": "128\/7\/12\/11\/12\/1\/4",
@@ -7835,13 +7835,13 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 日中 日中"
+                    "name": "ジャーホジ地方  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mega moai | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Bomboulder | 0.0000 | 0\/9\/4\/9 | 2 | 3 | 1 |\n| Drackal | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Ghoul | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Mega moai | 91.6667 | 100.0000 |\n| Bomboulder | 44.4444 | 100.0000 |\n| Drackal | 91.6667 | 100.0000 |\n| Ghoul | 91.6667 | 100.0000 |\n\n"
         },
         "129": {
-            "position": "ジャーホジ地方 夜 日中",
+            "position": "ジャーホジ地方  夜",
             "main": [
                 {
                     "groupId": "129\/7\/12\/11\/12\/1\/1",
@@ -7861,7 +7861,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 夜 日中"
+                    "name": "ジャーホジ地方  夜"
                 },
                 {
                     "groupId": "129\/0\/9\/4\/9\/2\/3",
@@ -7881,7 +7881,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 夜 日中"
+                    "name": "ジャーホジ地方  夜"
                 },
                 {
                     "groupId": "129\/7\/12\/11\/12\/1\/1",
@@ -7901,7 +7901,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 夜 日中"
+                    "name": "ジャーホジ地方  夜"
                 },
                 {
                     "groupId": "129\/7\/12\/11\/12\/1\/4",
@@ -7921,13 +7921,13 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ジャーホジ地方 夜 日中"
+                    "name": "ジャーホジ地方  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Mega moai | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Bomboulder | 0.0000 | 0\/9\/4\/9 | 2 | 3 | 1 |\n| Drackal | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Ghoul | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Mega moai | 91.6667 | 100.0000 |\n| Bomboulder | 44.4444 | 100.0000 |\n| Drackal | 91.6667 | 100.0000 |\n| Ghoul | 91.6667 | 100.0000 |\n\n"
         },
         "130": {
-            "position": "オンゴリのガケ 夜 日中",
+            "position": "オンゴリのガケ  夜",
             "main": [
                 {
                     "groupId": "130\/7\/12\/11\/12\/1\/4",
@@ -7947,7 +7947,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 夜 日中"
+                    "name": "オンゴリのガケ  夜"
                 },
                 {
                     "groupId": "130\/7\/12\/11\/12\/1\/2",
@@ -7967,7 +7967,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 夜 日中"
+                    "name": "オンゴリのガケ  夜"
                 },
                 {
                     "groupId": "130\/7\/12\/11\/12\/1\/4",
@@ -7987,7 +7987,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 夜 日中"
+                    "name": "オンゴリのガケ  夜"
                 },
                 {
                     "groupId": "130\/7\/11\/11\/11\/1\/1",
@@ -8007,13 +8007,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "オンゴリのガケ 夜 日中"
+                    "name": "オンゴリのガケ  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Sculptrice | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Deadcurion | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Troll | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Whirly girly | 91.6667 | 100.0000 |\n| Sculptrice | 91.6667 | 100.0000 |\n| Deadcurion | 91.6667 | 100.0000 |\n\n"
         },
         "131": {
-            "position": "オンゴリのガケ 日中 日中",
+            "position": "オンゴリのガケ  昼",
             "main": [
                 {
                     "groupId": "131\/7\/12\/11\/12\/1\/4",
@@ -8033,7 +8033,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 日中 日中"
+                    "name": "オンゴリのガケ  昼"
                 },
                 {
                     "groupId": "131\/7\/12\/11\/12\/1\/2",
@@ -8053,7 +8053,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 日中 日中"
+                    "name": "オンゴリのガケ  昼"
                 },
                 {
                     "groupId": "131\/7\/12\/11\/12\/1\/4",
@@ -8073,7 +8073,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "オンゴリのガケ 日中 日中"
+                    "name": "オンゴリのガケ  昼"
                 },
                 {
                     "groupId": "131\/7\/11\/11\/11\/1\/1",
@@ -8093,7 +8093,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "オンゴリのガケ 日中 日中"
+                    "name": "オンゴリのガケ  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Sculptrice | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Deadcurion | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Troll | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Whirly girly | 91.6667 | 100.0000 |\n| Sculptrice | 91.6667 | 100.0000 |\n| Deadcurion | 91.6667 | 100.0000 |\n\n"
@@ -8655,7 +8655,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Swinoceros | 63.6364 | 7\/11\/11\/11 | 2 | 3 | 1 |\n| Whirly girly | 63.6364 | 7\/11\/11\/11 | 2 | 3 | 1 |\n| Gigantes | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Stone guardian | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Mimic | 100.0000 | 7\/7\/7\/7 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gigantes | 91.6667 | 100.0000 |\n\n"
         },
         "138": {
-            "position": "東ナザム地方  日中",
+            "position": "東ナザム地方 平地 昼",
             "main": [
                 {
                     "groupId": "138\/7\/12\/11\/12\/1\/4",
@@ -8675,7 +8675,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  日中"
+                    "name": "東ナザム地方 平地 昼"
                 },
                 {
                     "groupId": "138\/7\/12\/11\/12\/1\/1",
@@ -8695,7 +8695,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  日中"
+                    "name": "東ナザム地方 平地 昼"
                 },
                 {
                     "groupId": "138\/4\/12\/11\/12\/1\/2",
@@ -8715,7 +8715,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  日中"
+                    "name": "東ナザム地方 平地 昼"
                 },
                 {
                     "groupId": "138\/7\/11\/11\/11\/1\/2",
@@ -8735,13 +8735,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東ナザム地方  日中"
+                    "name": "東ナザム地方 平地 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim grinner | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Sluggernaut | 33.3333 | 4\/12\/11\/12 | 1 | 2 | 1 |\n| Splatterhorn | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Grim grinner | 91.6667 | 100.0000 |\n| Whirly girly | 91.6667 | 100.0000 |\n| Sluggernaut | 91.6667 | 100.0000 |\n\n"
         },
         "139": {
-            "position": "東ナザム地方  夜",
+            "position": "東ナザム地方 平地 夜",
             "main": [
                 {
                     "groupId": "139\/7\/12\/11\/12\/1\/4",
@@ -8761,7 +8761,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  夜"
+                    "name": "東ナザム地方 平地 夜"
                 },
                 {
                     "groupId": "139\/7\/12\/11\/12\/1\/2",
@@ -8781,7 +8781,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  夜"
+                    "name": "東ナザム地方 平地 夜"
                 },
                 {
                     "groupId": "139\/4\/12\/11\/12\/1\/2",
@@ -8801,7 +8801,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "東ナザム地方  夜"
+                    "name": "東ナザム地方 平地 夜"
                 },
                 {
                     "groupId": "139\/7\/11\/11\/11\/1\/2",
@@ -8821,13 +8821,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東ナザム地方  夜"
+                    "name": "東ナザム地方 平地 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grim grinner | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Sluggernaut | 33.3333 | 4\/12\/11\/12 | 1 | 2 | 1 |\n| Splatterhorn | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Grim grinner | 91.6667 | 100.0000 |\n| Whirly girly | 91.6667 | 100.0000 |\n| Sluggernaut | 91.6667 | 100.0000 |\n\n"
         },
         "140": {
-            "position": "東ナザム地方  常時",
+            "position": "東ナザム地方 森・海岸 常時",
             "main": [
                 {
                     "groupId": "140\/7\/11\/11\/11\/1\/1",
@@ -8847,13 +8847,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "東ナザム地方  常時"
+                    "name": "東ナザム地方 森・海岸 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gramarye gruffon | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n"
         },
         "141": {
-            "position": "西ナザム地方  日中",
+            "position": "西ナザム地方 平地・森 昼",
             "main": [
                 {
                     "groupId": "141\/7\/11\/11\/11\/1\/2",
@@ -8873,7 +8873,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  日中"
+                    "name": "西ナザム地方 平地・森 昼"
                 },
                 {
                     "groupId": "141\/7\/12\/11\/12\/1\/4",
@@ -8893,7 +8893,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ナザム地方  日中"
+                    "name": "西ナザム地方 平地・森 昼"
                 },
                 {
                     "groupId": "141\/7\/11\/11\/11\/1\/1",
@@ -8913,7 +8913,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  日中"
+                    "name": "西ナザム地方 平地・森 昼"
                 },
                 {
                     "groupId": "141\/7\/11\/11\/11\/1\/2",
@@ -8933,13 +8933,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  日中"
+                    "name": "西ナザム地方 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Grim grinner | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Gramarye gruffon | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Skeleton soldier | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Grim grinner | 91.6667 | 100.0000 |\n\n"
         },
         "142": {
-            "position": "西ナザム地方  夜",
+            "position": "西ナザム地方 平地・森 夜",
             "main": [
                 {
                     "groupId": "142\/7\/11\/11\/11\/1\/2",
@@ -8959,7 +8959,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  夜"
+                    "name": "西ナザム地方 平地・森 夜"
                 },
                 {
                     "groupId": "142\/7\/12\/11\/12\/1\/4",
@@ -8979,7 +8979,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ナザム地方  夜"
+                    "name": "西ナザム地方 平地・森 夜"
                 },
                 {
                     "groupId": "142\/7\/11\/11\/11\/1\/2",
@@ -8999,7 +8999,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  夜"
+                    "name": "西ナザム地方 平地・森 夜"
                 },
                 {
                     "groupId": "142\/7\/11\/11\/11\/1\/2",
@@ -9019,13 +9019,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  夜"
+                    "name": "西ナザム地方 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Splatterhorn | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Grim grinner | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n| Gramarye gruffon | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Skeleton soldier | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Grim grinner | 91.6667 | 100.0000 |\n\n"
         },
         "143": {
-            "position": "西ナザム地方  常時",
+            "position": "西ナザム地方 荒地 常時",
             "main": [
                 {
                     "groupId": "143\/7\/11\/11\/11\/1\/1",
@@ -9045,7 +9045,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "西ナザム地方  常時"
+                    "name": "西ナザム地方 荒地 常時"
                 },
                 {
                     "groupId": "143\/7\/12\/11\/12\/1\/1",
@@ -9065,7 +9065,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ナザム地方  常時"
+                    "name": "西ナザム地方 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gramarye gruffon | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Bloody manguini | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Bloody manguini | 91.6667 | 100.0000 |\n\n"
@@ -9495,7 +9495,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sculpture vulture | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n| Drakularge | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Living statue | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Liquid metal slime | 75.0000 | 6\/8\/8\/8 | 1 | 1 | 0 |\n| Mimic | 100.0000 | 7\/7\/7\/7 | 1 | 1 | 0 |\n\n"
         },
         "148": {
-            "position": "竜のもん  日中",
+            "position": "竜のもん 平地・森 昼",
             "main": [
                 {
                     "groupId": "148\/4\/12\/11\/12\/1\/2",
@@ -9515,7 +9515,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  日中"
+                    "name": "竜のもん 平地・森 昼"
                 },
                 {
                     "groupId": "148\/7\/12\/11\/12\/1\/2",
@@ -9535,7 +9535,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  日中"
+                    "name": "竜のもん 平地・森 昼"
                 },
                 {
                     "groupId": "148\/7\/11\/11\/11\/1\/1",
@@ -9555,7 +9555,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のもん  日中"
+                    "name": "竜のもん 平地・森 昼"
                 },
                 {
                     "groupId": "148\/7\/12\/11\/12\/1\/2",
@@ -9575,13 +9575,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  日中"
+                    "name": "竜のもん 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 33.3333 | 4\/12\/11\/12 | 1 | 2 | 1 |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drastic drackal | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Bloody manguini | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sluggernaut | 91.6667 | 100.0000 |\n| Whirly girly | 91.6667 | 100.0000 |\n| Bloody manguini | 91.6667 | 100.0000 |\n\n"
         },
         "149": {
-            "position": "竜のもん  夜",
+            "position": "竜のもん 平地・森 夜",
             "main": [
                 {
                     "groupId": "149\/4\/12\/11\/12\/1\/2",
@@ -9601,7 +9601,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  夜"
+                    "name": "竜のもん 平地・森 夜"
                 },
                 {
                     "groupId": "149\/7\/12\/11\/12\/1\/2",
@@ -9621,7 +9621,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  夜"
+                    "name": "竜のもん 平地・森 夜"
                 },
                 {
                     "groupId": "149\/7\/11\/11\/11\/1\/1",
@@ -9641,7 +9641,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のもん  夜"
+                    "name": "竜のもん 平地・森 夜"
                 },
                 {
                     "groupId": "149\/7\/12\/11\/12\/1\/2",
@@ -9661,13 +9661,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  夜"
+                    "name": "竜のもん 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sluggernaut | 33.3333 | 4\/12\/11\/12 | 1 | 2 | 1 |\n| Whirly girly | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drastic drackal | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Bloody manguini | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sluggernaut | 91.6667 | 100.0000 |\n| Whirly girly | 91.6667 | 100.0000 |\n| Bloody manguini | 91.6667 | 100.0000 |\n\n"
         },
         "150": {
-            "position": "竜のしっぽ地方  日中",
+            "position": "竜のしっぽ地方 平地・森 昼",
             "main": [
                 {
                     "groupId": "150\/7\/11\/11\/11\/1\/2",
@@ -9687,7 +9687,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方  日中"
+                    "name": "竜のしっぽ地方 平地・森 昼"
                 },
                 {
                     "groupId": "150\/7\/11\/11\/11\/1\/1",
@@ -9707,7 +9707,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方  日中"
+                    "name": "竜のしっぽ地方 平地・森 昼"
                 },
                 {
                     "groupId": "150\/7\/12\/11\/12\/1\/2",
@@ -9727,13 +9727,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方  日中"
+                    "name": "竜のしっぽ地方 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Drastic drackal | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Sootheslime | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 91.6667 | 100.0000 |\n\n"
         },
         "151": {
-            "position": "竜のしっぽ地方  夜",
+            "position": "竜のしっぽ地方 平地・森 夜",
             "main": [
                 {
                     "groupId": "151\/7\/11\/11\/11\/1\/2",
@@ -9753,7 +9753,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方  夜"
+                    "name": "竜のしっぽ地方 平地・森 夜"
                 },
                 {
                     "groupId": "151\/7\/11\/11\/11\/1\/1",
@@ -9773,7 +9773,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方  夜"
+                    "name": "竜のしっぽ地方 平地・森 夜"
                 },
                 {
                     "groupId": "151\/7\/12\/11\/12\/1\/2",
@@ -9793,13 +9793,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方  夜"
+                    "name": "竜のしっぽ地方 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Drastic drackal | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Sootheslime | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 91.6667 | 100.0000 |\n\n"
         },
         "152": {
-            "position": "竜のしっぽ地方  不明",
+            "position": "竜のしっぽ地方 荒地 常時",
             "main": [
                 {
                     "groupId": "152\/7\/12\/11\/12\/1\/2",
@@ -9819,7 +9819,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方  不明"
+                    "name": "竜のしっぽ地方 荒地 常時"
                 },
                 {
                     "groupId": "152\/7\/11\/11\/11\/1\/1",
@@ -9839,13 +9839,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方  不明"
+                    "name": "竜のしっぽ地方 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Terrorhawk | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drakularge | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Terrorhawk | 91.6667 | 100.0000 |\n\n"
         },
         "153": {
-            "position": "竜のしっぽ地方 2  日中",
+            "position": "竜のしっぽ地方 2 平地・森 昼",
             "main": [
                 {
                     "groupId": "153\/7\/12\/11\/12\/1\/1",
@@ -9865,7 +9865,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方 2  日中"
+                    "name": "竜のしっぽ地方 2 平地・森 昼"
                 },
                 {
                     "groupId": "153\/7\/11\/11\/11\/1\/1",
@@ -9885,13 +9885,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方 2  日中"
+                    "name": "竜のしっぽ地方 2 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Cumulus rex | 91.6667 | 100.0000 |\n\n"
         },
         "154": {
-            "position": "竜のしっぽ地方 2  夜",
+            "position": "竜のしっぽ地方 2 平地・森 夜",
             "main": [
                 {
                     "groupId": "154\/7\/12\/11\/12\/1\/1",
@@ -9911,7 +9911,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方 2  夜"
+                    "name": "竜のしっぽ地方 2 平地・森 夜"
                 },
                 {
                     "groupId": "154\/7\/11\/11\/11\/1\/1",
@@ -9931,13 +9931,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のしっぽ地方 2  夜"
+                    "name": "竜のしっぽ地方 2 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Cumulus rex | 91.6667 | 100.0000 |\n\n"
         },
         "155": {
-            "position": "竜のしっぽ地方 2  夜",
+            "position": "竜のしっぽ地方 2 荒地 常時",
             "main": [
                 {
                     "groupId": "155\/0\/8\/5\/8\/1\/1",
@@ -9957,13 +9957,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のしっぽ地方 2  夜"
+                    "name": "竜のしっぽ地方 2 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Bomboulder | 0.0000 | 0\/8\/5\/8 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Bomboulder | 62.5000 | 100.0000 |\n\n"
         },
         "156": {
-            "position": "竜のつばさ地方  日中",
+            "position": "竜のつばさ地方 平地・森 昼",
             "main": [
                 {
                     "groupId": "156\/7\/12\/11\/12\/1\/2",
@@ -9983,7 +9983,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方  日中"
+                    "name": "竜のつばさ地方 平地・森 昼"
                 },
                 {
                     "groupId": "156\/7\/11\/11\/11\/1\/1",
@@ -10003,7 +10003,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のつばさ地方  日中"
+                    "name": "竜のつばさ地方 平地・森 昼"
                 },
                 {
                     "groupId": "156\/7\/12\/11\/12\/1\/2",
@@ -10023,13 +10023,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方  日中"
+                    "name": "竜のつばさ地方 平地・森 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drakularge | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Terrorhawk | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 91.6667 | 100.0000 |\n| Terrorhawk | 91.6667 | 100.0000 |\n\n"
         },
         "157": {
-            "position": "竜のつばさ地方  夜",
+            "position": "竜のつばさ地方 平地・森 夜",
             "main": [
                 {
                     "groupId": "157\/7\/12\/11\/12\/1\/2",
@@ -10049,7 +10049,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方  夜"
+                    "name": "竜のつばさ地方 平地・森 夜"
                 },
                 {
                     "groupId": "157\/7\/11\/11\/11\/1\/1",
@@ -10069,7 +10069,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のつばさ地方  夜"
+                    "name": "竜のつばさ地方 平地・森 夜"
                 },
                 {
                     "groupId": "157\/7\/12\/11\/12\/1\/2",
@@ -10089,13 +10089,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方  夜"
+                    "name": "竜のつばさ地方 平地・森 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sootheslime | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drakularge | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Terrorhawk | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sootheslime | 91.6667 | 100.0000 |\n| Terrorhawk | 91.6667 | 100.0000 |\n\n"
         },
         "158": {
-            "position": "竜のつばさ地方 海岸 夜",
+            "position": "竜のつばさ地方 海岸 常時",
             "main": [
                 {
                     "groupId": "158\/7\/11\/11\/11\/1\/1",
@@ -10115,7 +10115,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のつばさ地方 海岸 夜"
+                    "name": "竜のつばさ地方 海岸 常時"
                 },
                 {
                     "groupId": "158\/7\/12\/11\/12\/1\/3",
@@ -10135,13 +10135,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方 海岸 夜"
+                    "name": "竜のつばさ地方 海岸 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Sail serpent | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sail serpent | 91.6667 | 100.0000 |\n\n"
         },
         "159": {
-            "position": "竜のつばさ地方  夜",
+            "position": "竜のつばさ地方 荒地 常時",
             "main": [
                 {
                     "groupId": "159\/7\/11\/11\/11\/1\/1",
@@ -10161,7 +10161,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のつばさ地方  夜"
+                    "name": "竜のつばさ地方 荒地 常時"
                 },
                 {
                     "groupId": "159\/7\/12\/11\/12\/1\/3",
@@ -10181,13 +10181,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のつばさ地方  夜"
+                    "name": "竜のつばさ地方 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Terrorhawk | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Terrorhawk | 91.6667 | 100.0000 |\n\n"
         },
         "160": {
-            "position": "竜のあきと地方  日中",
+            "position": "竜のあきと地方 (全域) 昼",
             "main": [
                 {
                     "groupId": "160\/7\/11\/11\/11\/1\/1",
@@ -10207,7 +10207,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のあきと地方  日中"
+                    "name": "竜のあきと地方 (全域) 昼"
                 },
                 {
                     "groupId": "160\/7\/11\/11\/11\/1\/1",
@@ -10227,7 +10227,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のあきと地方  日中"
+                    "name": "竜のあきと地方 (全域) 昼"
                 },
                 {
                     "groupId": "160\/7\/12\/11\/12\/1\/1",
@@ -10247,7 +10247,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のあきと地方  日中"
+                    "name": "竜のあきと地方 (全域) 昼"
                 },
                 {
                     "groupId": "160\/7\/7\/7\/7\/1\/5",
@@ -10267,7 +10267,7 @@
                     "countRand": 4,
                     "has2g": false,
                     "has3g": false,
-                    "name": "竜のあきと地方  日中"
+                    "name": "竜のあきと地方 (全域) 昼"
                 },
                 {
                     "groupId": "160\/0\/8\/5\/8\/1\/1",
@@ -10287,13 +10287,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のあきと地方  日中"
+                    "name": "竜のあきと地方 (全域) 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Golem | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Cumulus rex | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Bagma | 100.0000 | 7\/7\/7\/7 | 1 | 5 | 4 |\n| Bomboulder | 0.0000 | 0\/8\/5\/8 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Cumulus rex | 91.6667 | 100.0000 |\n| Bomboulder | 62.5000 | 100.0000 |\n\n"
         },
         "161": {
-            "position": "竜のあきと地方  夜",
+            "position": "竜のあきと地方 (全域) 夜",
             "main": [
                 {
                     "groupId": "161\/7\/11\/11\/11\/1\/1",
@@ -10313,7 +10313,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のあきと地方  夜"
+                    "name": "竜のあきと地方 (全域) 夜"
                 },
                 {
                     "groupId": "161\/7\/11\/11\/11\/1\/1",
@@ -10333,7 +10333,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のあきと地方  夜"
+                    "name": "竜のあきと地方 (全域) 夜"
                 },
                 {
                     "groupId": "161\/7\/12\/11\/12\/1\/1",
@@ -10353,7 +10353,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のあきと地方  夜"
+                    "name": "竜のあきと地方 (全域) 夜"
                 },
                 {
                     "groupId": "161\/7\/7\/7\/7\/1\/5",
@@ -10373,7 +10373,7 @@
                     "countRand": 4,
                     "has2g": false,
                     "has3g": false,
-                    "name": "竜のあきと地方  夜"
+                    "name": "竜のあきと地方 (全域) 夜"
                 },
                 {
                     "groupId": "161\/0\/8\/5\/8\/1\/2",
@@ -10393,7 +10393,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のあきと地方  夜"
+                    "name": "竜のあきと地方 (全域) 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cyclops | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Golem | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Cumulus rex | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Bagma | 100.0000 | 7\/7\/7\/7 | 1 | 5 | 4 |\n| Bomboulder | 0.0000 | 0\/8\/5\/8 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Cumulus rex | 91.6667 | 100.0000 |\n| Bomboulder | 62.5000 | 100.0000 |\n\n"
@@ -10947,7 +10947,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Magmalice | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Mandrake marauder | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n| Mega moai | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Green dragon | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n\n"
         },
         "171": {
-            "position": "竜のくび地方(平地・草原・森) (昼) 日中",
+            "position": "竜のくび地方(平地・草原・森)  昼",
             "main": [
                 {
                     "groupId": "171\/4\/7\/7\/7\/1\/1",
@@ -10967,7 +10967,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (昼) 日中"
+                    "name": "竜のくび地方(平地・草原・森)  昼"
                 },
                 {
                     "groupId": "171\/7\/7\/7\/7\/1\/2",
@@ -10987,7 +10987,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (昼) 日中"
+                    "name": "竜のくび地方(平地・草原・森)  昼"
                 },
                 {
                     "groupId": "171\/7\/11\/11\/11\/1\/1",
@@ -11007,7 +11007,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (昼) 日中"
+                    "name": "竜のくび地方(平地・草原・森)  昼"
                 },
                 {
                     "groupId": "171\/7\/11\/11\/11\/1\/1",
@@ -11027,13 +11027,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (昼) 日中"
+                    "name": "竜のくび地方(平地・草原・森)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 57.1429 | 4\/7\/7\/7 | 1 | 1 | 0 |\n| Troll | 100.0000 | 7\/7\/7\/7 | 1 | 2 | 1 |\n| Golem | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Green dragon | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n"
         },
         "172": {
-            "position": "竜のくび地方(平地・草原・森) (夜) 夜",
+            "position": "竜のくび地方(平地・草原・森)  夜",
             "main": [
                 {
                     "groupId": "172\/4\/7\/7\/7\/1\/1",
@@ -11053,7 +11053,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (夜) 夜"
+                    "name": "竜のくび地方(平地・草原・森)  夜"
                 },
                 {
                     "groupId": "172\/7\/7\/7\/7\/1\/2",
@@ -11073,7 +11073,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (夜) 夜"
+                    "name": "竜のくび地方(平地・草原・森)  夜"
                 },
                 {
                     "groupId": "172\/7\/11\/11\/11\/1\/2",
@@ -11093,7 +11093,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (夜) 夜"
+                    "name": "竜のくび地方(平地・草原・森)  夜"
                 },
                 {
                     "groupId": "172\/7\/11\/11\/11\/1\/1",
@@ -11113,7 +11113,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のくび地方(平地・草原・森) (夜) 夜"
+                    "name": "竜のくび地方(平地・草原・森)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Cumulus rex | 57.1429 | 4\/7\/7\/7 | 1 | 1 | 0 |\n| Troll | 100.0000 | 7\/7\/7\/7 | 1 | 2 | 1 |\n| Golem | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Green dragon | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n"
@@ -11145,7 +11145,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Handsome crab | 58.3333 | 7\/12\/11\/12 | 1 | 3 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Handsome crab | 91.6667 | 100.0000 |\n\n"
         },
         "174": {
-            "position": "ガナンていこくりょう  日中",
+            "position": "ガナンていこくりょう  昼",
             "main": [
                 {
                     "groupId": "174\/7\/12\/11\/12\/1\/2",
@@ -11165,7 +11165,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ガナンていこくりょう  日中"
+                    "name": "ガナンていこくりょう  昼"
                 },
                 {
                     "groupId": "174\/7\/7\/7\/7\/1\/2",
@@ -11185,7 +11185,7 @@
                     "countRand": 1,
                     "has2g": false,
                     "has3g": false,
-                    "name": "ガナンていこくりょう  日中"
+                    "name": "ガナンていこくりょう  昼"
                 },
                 {
                     "groupId": "174\/7\/11\/11\/11\/1\/1",
@@ -11205,7 +11205,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ガナンていこくりょう  日中"
+                    "name": "ガナンていこくりょう  昼"
                 },
                 {
                     "groupId": "174\/7\/11\/11\/11\/1\/1",
@@ -11225,7 +11225,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "ガナンていこくりょう  日中"
+                    "name": "ガナンていこくりょう  昼"
                 },
                 {
                     "groupId": "174\/7\/12\/11\/12\/1\/2",
@@ -11245,7 +11245,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ガナンていこくりょう  日中"
+                    "name": "ガナンていこくりょう  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gloomy gastropog | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Lethal armour | 100.0000 | 7\/7\/7\/7 | 1 | 2 | 1 |\n| Killing machine | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Dreadful drackal | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Stenchurion | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gloomy gastropog | 91.6667 | 100.0000 |\n| Stenchurion | 91.6667 | 100.0000 |\n\n"
@@ -20669,7 +20669,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sick trigertaur | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Mushroom mage | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Scourgette | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Drakulard | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Red dragon | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sick trigertaur | 50.0000 | 100.0000 |\n| Mushroom mage | 50.0000 | 100.0000 |\n| Scourgette | 50.0000 | 100.0000 |\n| Drakulard | 50.0000 | 100.0000 |\n| Red dragon | 50.0000 | 100.0000 |\n\n"
         },
         "284": {
-            "position": "ピタリ海岸 (高台) (全域+常時) 常時",
+            "position": "ピタリ海岸 (高台) (全域) 常時",
             "main": [
                 {
                     "groupId": "284\/2\/12\/6\/12\/1\/1",
@@ -20689,7 +20689,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (高台) (全域+常時) 常時"
+                    "name": "ピタリ海岸 (高台) (全域) 常時"
                 },
                 {
                     "groupId": "284\/2\/12\/6\/12\/1\/1",
@@ -20709,7 +20709,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (高台) (全域+常時) 常時"
+                    "name": "ピタリ海岸 (高台) (全域) 常時"
                 },
                 {
                     "groupId": "284\/2\/12\/6\/12\/1\/4",
@@ -20729,7 +20729,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (高台) (全域+常時) 常時"
+                    "name": "ピタリ海岸 (高台) (全域) 常時"
                 },
                 {
                     "groupId": "284\/2\/12\/6\/12\/1\/1",
@@ -20749,7 +20749,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (高台) (全域+常時) 常時"
+                    "name": "ピタリ海岸 (高台) (全域) 常時"
                 },
                 {
                     "groupId": "284\/2\/12\/6\/12\/1\/1",
@@ -20769,7 +20769,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "ピタリ海岸 (高台) (全域+常時) 常時"
+                    "name": "ピタリ海岸 (高台) (全域) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Sick trigertaur | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Slugly betsy | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Scourgette | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Drakulard | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Red dragon | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Sick trigertaur | 50.0000 | 100.0000 |\n| Slugly betsy | 50.0000 | 100.0000 |\n| Scourgette | 50.0000 | 100.0000 |\n| Drakulard | 50.0000 | 100.0000 |\n| Red dragon | 50.0000 | 100.0000 |\n\n"
@@ -20881,7 +20881,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Wishmaster | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Killing machine | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n| Blastoad | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Tearwolf | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Rockbomb | 50.0000 | 100.0000 |\n| Wishmaster | 50.0000 | 100.0000 |\n| Killing machine | 50.0000 | 100.0000 |\n| Blastoad | 50.0000 | 100.0000 |\n| Tearwolf | 50.0000 | 100.0000 |\n\n"
         },
         "286": {
-            "position": "アシュバル地方(高台) (昼) 日中",
+            "position": "アシュバル地方(高台)  昼",
             "main": [
                 {
                     "groupId": "286\/2\/12\/6\/12\/1\/4",
@@ -20901,7 +20901,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (昼) 日中"
+                    "name": "アシュバル地方(高台)  昼"
                 },
                 {
                     "groupId": "286\/2\/12\/6\/12\/1\/2",
@@ -20921,7 +20921,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (昼) 日中"
+                    "name": "アシュバル地方(高台)  昼"
                 },
                 {
                     "groupId": "286\/2\/12\/6\/12\/1\/1",
@@ -20941,7 +20941,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (昼) 日中"
+                    "name": "アシュバル地方(高台)  昼"
                 },
                 {
                     "groupId": "286\/2\/12\/6\/12\/1\/2",
@@ -20961,7 +20961,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (昼) 日中"
+                    "name": "アシュバル地方(高台)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Stone guardian | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n| Blastoad | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Tearwolf | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Rockbomb | 50.0000 | 100.0000 |\n| Stone guardian | 50.0000 | 100.0000 |\n| Blastoad | 50.0000 | 100.0000 |\n| Tearwolf | 50.0000 | 100.0000 |\n\n"
@@ -21497,7 +21497,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Fright knight | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| King crab | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Lethal armour | 100.0000 | 7\/7\/7\/7 | 1 | 3 | 2 |\n| Bomboulder | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n| Bad karmour | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Fright knight | 50.0000 | 100.0000 |\n| King crab | 50.0000 | 100.0000 |\n| Bomboulder | 50.0000 | 100.0000 |\n| Bad karmour | 50.0000 | 100.0000 |\n\n"
         },
         "293": {
-            "position": "エラフィタ地方 お城側の橋付近 (昼) 日中",
+            "position": "エラフィタ地方 お城側の橋付近 昼",
             "main": [
                 {
                     "groupId": "293\/7\/11\/11\/11\/1\/1",
@@ -21517,7 +21517,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (昼) 日中"
+                    "name": "エラフィタ地方 お城側の橋付近 昼"
                 },
                 {
                     "groupId": "293\/7\/11\/11\/11\/1\/2",
@@ -21537,7 +21537,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (昼) 日中"
+                    "name": "エラフィタ地方 お城側の橋付近 昼"
                 },
                 {
                     "groupId": "293\/7\/11\/11\/11\/1\/2",
@@ -21557,7 +21557,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (昼) 日中"
+                    "name": "エラフィタ地方 お城側の橋付近 昼"
                 },
                 {
                     "groupId": "293\/7\/11\/11\/11\/1\/2",
@@ -21577,13 +21577,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (昼) 日中"
+                    "name": "エラフィタ地方 お城側の橋付近 昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Meowgician | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Wooper trooper | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Gastropog | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n| Bubble slime | 63.6364 | 7\/11\/11\/11 | 1 | 2 | 1 |\n\n"
         },
         "294": {
-            "position": "エラフィタ地方 お城側の橋付近 (夜) 夜",
+            "position": "エラフィタ地方 お城側の橋付近 夜",
             "main": [
                 {
                     "groupId": "294\/5\/9\/9\/9\/1\/1",
@@ -21603,7 +21603,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (夜) 夜"
+                    "name": "エラフィタ地方 お城側の橋付近 夜"
                 },
                 {
                     "groupId": "294\/5\/9\/9\/9\/1\/2",
@@ -21623,7 +21623,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (夜) 夜"
+                    "name": "エラフィタ地方 お城側の橋付近 夜"
                 },
                 {
                     "groupId": "294\/5\/9\/9\/9\/1\/2",
@@ -21643,7 +21643,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (夜) 夜"
+                    "name": "エラフィタ地方 お城側の橋付近 夜"
                 },
                 {
                     "groupId": "294\/5\/9\/9\/9\/1\/2",
@@ -21663,7 +21663,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "エラフィタ地方 お城側の橋付近 (夜) 夜"
+                    "name": "エラフィタ地方 お城側の橋付近 夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Meowgician | 55.5556 | 5\/9\/9\/9 | 1 | 1 | 0 |\n| Wooper trooper | 55.5556 | 5\/9\/9\/9 | 1 | 2 | 1 |\n| Gastropog | 55.5556 | 5\/9\/9\/9 | 1 | 2 | 1 |\n| Bubble slime | 55.5556 | 5\/9\/9\/9 | 1 | 2 | 1 |\n\n"
@@ -21787,7 +21787,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Grinade | 66.6667 | 6\/9\/9\/9 | 1 | 3 | 2 |\n| Toxic zombie | 66.6667 | 6\/9\/9\/9 | 1 | 3 | 2 |\n\n"
         },
         "298": {
-            "position": "グビアナ砂漠 北西の小島 (昼) 日中",
+            "position": "グビアナ砂漠 北西の小島  昼",
             "main": [
                 {
                     "groupId": "298\/7\/12\/11\/12\/1\/2",
@@ -21807,7 +21807,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (昼) 日中"
+                    "name": "グビアナ砂漠 北西の小島  昼"
                 },
                 {
                     "groupId": "298\/7\/12\/11\/12\/1\/2",
@@ -21827,7 +21827,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (昼) 日中"
+                    "name": "グビアナ砂漠 北西の小島  昼"
                 },
                 {
                     "groupId": "298\/7\/12\/11\/12\/2\/4",
@@ -21847,13 +21847,13 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (昼) 日中"
+                    "name": "グビアナ砂漠 北西の小島  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shocktopus | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Parched peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Axolhotl | 58.3333 | 7\/12\/11\/12 | 2 | 4 | 2 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Shocktopus | 91.6667 | 100.0000 |\n| Parched peckerel | 91.6667 | 100.0000 |\n| Axolhotl | 91.6667 | 100.0000 |\n\n"
         },
         "299": {
-            "position": "グビアナ砂漠 北西の小島 (夜) 日中",
+            "position": "グビアナ砂漠 北西の小島  夜",
             "main": [
                 {
                     "groupId": "299\/7\/12\/11\/12\/1\/2",
@@ -21873,7 +21873,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (夜) 日中"
+                    "name": "グビアナ砂漠 北西の小島  夜"
                 },
                 {
                     "groupId": "299\/7\/12\/11\/12\/1\/2",
@@ -21893,7 +21893,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (夜) 日中"
+                    "name": "グビアナ砂漠 北西の小島  夜"
                 },
                 {
                     "groupId": "299\/7\/12\/11\/12\/1\/4",
@@ -21913,7 +21913,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "グビアナ砂漠 北西の小島 (夜) 日中"
+                    "name": "グビアナ砂漠 北西の小島  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Shocktopus | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Parched peckerel | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Axolhotl | 58.3333 | 7\/12\/11\/12 | 1 | 4 | 3 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Shocktopus | 91.6667 | 100.0000 |\n| Parched peckerel | 91.6667 | 100.0000 |\n| Axolhotl | 91.6667 | 100.0000 |\n\n"
@@ -22031,7 +22031,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Killing machine | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Drakulard | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n| Gigantes | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Stone guardian | 63.6364 | 7\/11\/11\/11 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Killing machine | 91.6667 | 100.0000 |\n| Gigantes | 91.6667 | 100.0000 |\n\n"
         },
         "303": {
-            "position": "西ベクセリア地方 (小島) (昼) 日中",
+            "position": "西ベクセリア地方 (小島)  昼",
             "main": [
                 {
                     "groupId": "303\/3\/10\/8\/10\/1\/1",
@@ -22051,7 +22051,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方 (小島) (昼) 日中"
+                    "name": "西ベクセリア地方 (小島)  昼"
                 },
                 {
                     "groupId": "303\/1\/9\/5\/9\/1\/2",
@@ -22071,13 +22071,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方 (小島) (昼) 日中"
+                    "name": "西ベクセリア地方 (小島)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 30.0000 | 3\/10\/8\/10 | 1 | 1 | 0 |\n| Diethon | 11.1111 | 1\/9\/5\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Genie sanguini | 80.0000 | 100.0000 |\n| Diethon | 55.5556 | 100.0000 |\n\n"
         },
         "304": {
-            "position": "西ベクセリア地方 (小島) (夜) 夜",
+            "position": "西ベクセリア地方 (小島)  夜",
             "main": [
                 {
                     "groupId": "304\/3\/10\/8\/10\/1\/2",
@@ -22097,7 +22097,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方 (小島) (夜) 夜"
+                    "name": "西ベクセリア地方 (小島)  夜"
                 },
                 {
                     "groupId": "304\/1\/9\/5\/9\/1\/2",
@@ -22117,7 +22117,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "西ベクセリア地方 (小島) (夜) 夜"
+                    "name": "西ベクセリア地方 (小島)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Genie sanguini | 30.0000 | 3\/10\/8\/10 | 1 | 2 | 1 |\n| Diethon | 11.1111 | 1\/9\/5\/9 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Genie sanguini | 80.0000 | 100.0000 |\n| Diethon | 55.5556 | 100.0000 |\n\n"
@@ -22335,7 +22335,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gruffon | 42.8571 | 6\/14\/11\/14 | 1 | 1 | 0 |\n| Crabber dabber doo | 42.8571 | 6\/14\/11\/14 | 1 | 2 | 1 |\n| Mandrake major | 42.8571 | 6\/14\/11\/14 | 1 | 2 | 1 |\n| Scourgette | 42.8571 | 6\/14\/11\/14 | 1 | 3 | 2 |\n| Wyrtle | 42.8571 | 6\/14\/11\/14 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gruffon | 78.5714 | 100.0000 |\n| Crabber dabber doo | 78.5714 | 100.0000 |\n| Mandrake major | 78.5714 | 100.0000 |\n| Scourgette | 78.5714 | 100.0000 |\n| Wyrtle | 78.5714 | 100.0000 |\n\n"
         },
         "307": {
-            "position": "あめのしま (小島) (昼) 常時",
+            "position": "あめのしま (小島)  昼",
             "main": [
                 {
                     "groupId": "307\/7\/9\/9\/9\/1\/3",
@@ -22355,7 +22355,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "あめのしま (小島) (昼) 常時"
+                    "name": "あめのしま (小島)  昼"
                 },
                 {
                     "groupId": "307\/7\/9\/9\/9\/1\/3",
@@ -22375,7 +22375,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": false,
-                    "name": "あめのしま (小島) (昼) 常時"
+                    "name": "あめのしま (小島)  昼"
                 },
                 {
                     "groupId": "307\/7\/9\/9\/9\/1\/2",
@@ -22395,13 +22395,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "あめのしま (小島) (昼) 常時"
+                    "name": "あめのしま (小島)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 77.7778 | 7\/9\/9\/9 | 1 | 3 | 2 |\n| Slime stack | 77.7778 | 7\/9\/9\/9 | 1 | 3 | 2 |\n| Handsome crab | 77.7778 | 7\/9\/9\/9 | 1 | 2 | 1 |\n\n"
         },
         "308": {
-            "position": "あめのしま (小島) (夜) 常時",
+            "position": "あめのしま (小島)  夜",
             "main": [
                 {
                     "groupId": "308\/6\/15\/12\/15\/1\/3",
@@ -22421,7 +22421,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま (小島) (夜) 常時"
+                    "name": "あめのしま (小島)  夜"
                 },
                 {
                     "groupId": "308\/6\/15\/12\/15\/1\/3",
@@ -22441,7 +22441,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま (小島) (夜) 常時"
+                    "name": "あめのしま (小島)  夜"
                 },
                 {
                     "groupId": "308\/6\/15\/12\/15\/1\/2",
@@ -22461,13 +22461,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "あめのしま (小島) (夜) 常時"
+                    "name": "あめのしま (小島)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Giddy gastropog | 40.0000 | 6\/15\/12\/15 | 1 | 3 | 2 |\n| Slime stack | 40.0000 | 6\/15\/12\/15 | 1 | 3 | 2 |\n| Handsome crab | 40.0000 | 6\/15\/12\/15 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Giddy gastropog | 80.0000 | 100.0000 |\n| Slime stack | 80.0000 | 100.0000 |\n| Handsome crab | 80.0000 | 100.0000 |\n\n"
         },
         "309": {
-            "position": "南ナザム地方 (小島) (昼) 日中",
+            "position": "南ナザム地方 (小島)  昼",
             "main": [
                 {
                     "groupId": "309\/6\/14\/11\/14\/1\/1",
@@ -22487,7 +22487,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "南ナザム地方 (小島) (昼) 日中"
+                    "name": "南ナザム地方 (小島)  昼"
                 },
                 {
                     "groupId": "309\/6\/11\/11\/11\/1\/1",
@@ -22507,7 +22507,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "南ナザム地方 (小島) (昼) 日中"
+                    "name": "南ナザム地方 (小島)  昼"
                 },
                 {
                     "groupId": "309\/6\/11\/11\/11\/1\/2",
@@ -22527,13 +22527,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "南ナザム地方 (小島) (昼) 日中"
+                    "name": "南ナザム地方 (小島)  昼"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gramarye gruffon | 42.8571 | 6\/14\/11\/14 | 1 | 1 | 0 |\n| Cyclops | 54.5455 | 6\/11\/11\/11 | 1 | 1 | 0 |\n| Moosifer | 54.5455 | 6\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gramarye gruffon | 78.5714 | 100.0000 |\n\n"
         },
         "310": {
-            "position": "南ナザム地方 (小島) (夜) 夜",
+            "position": "南ナザム地方 (小島)  夜",
             "main": [
                 {
                     "groupId": "310\/6\/14\/11\/14\/1\/1",
@@ -22553,7 +22553,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "南ナザム地方 (小島) (夜) 夜"
+                    "name": "南ナザム地方 (小島)  夜"
                 },
                 {
                     "groupId": "310\/6\/11\/11\/11\/1\/1",
@@ -22573,7 +22573,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "南ナザム地方 (小島) (夜) 夜"
+                    "name": "南ナザム地方 (小島)  夜"
                 },
                 {
                     "groupId": "310\/6\/11\/11\/11\/1\/2",
@@ -22593,7 +22593,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": false,
-                    "name": "南ナザム地方 (小島) (夜) 夜"
+                    "name": "南ナザム地方 (小島)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Gramarye gruffon | 42.8571 | 6\/14\/11\/14 | 1 | 1 | 0 |\n| Cyclops | 54.5455 | 6\/11\/11\/11 | 1 | 1 | 0 |\n| Moosifer | 54.5455 | 6\/11\/11\/11 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Gramarye gruffon | 78.5714 | 100.0000 |\n\n"
@@ -22665,7 +22665,7 @@
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Slime | 100.0000 | 7\/7\/7\/7 | 3 | 5 | 2 |\n| Stone golem | 66.6667 | 6\/9\/9\/9 | 1 | 1 | 0 |\n| Hocus chimaera | 66.6667 | 6\/9\/9\/9 | 1 | 2 | 1 |\n\n"
         },
         "312": {
-            "position": "アシュバル地方(高台) (夜) 日中",
+            "position": "アシュバル地方(高台)  夜",
             "main": [
                 {
                     "groupId": "312\/2\/12\/6\/12\/1\/4",
@@ -22685,7 +22685,7 @@
                     "countRand": 3,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (夜) 日中"
+                    "name": "アシュバル地方(高台)  夜"
                 },
                 {
                     "groupId": "312\/2\/12\/6\/12\/1\/2",
@@ -22705,7 +22705,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (夜) 日中"
+                    "name": "アシュバル地方(高台)  夜"
                 },
                 {
                     "groupId": "312\/7\/7\/7\/7\/1\/1",
@@ -22725,7 +22725,7 @@
                     "countRand": 0,
                     "has2g": false,
                     "has3g": false,
-                    "name": "アシュバル地方(高台) (夜) 日中"
+                    "name": "アシュバル地方(高台)  夜"
                 },
                 {
                     "groupId": "312\/2\/12\/6\/12\/1\/1",
@@ -22745,7 +22745,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (夜) 日中"
+                    "name": "アシュバル地方(高台)  夜"
                 },
                 {
                     "groupId": "312\/2\/12\/6\/12\/1\/2",
@@ -22765,13 +22765,13 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "アシュバル地方(高台) (夜) 日中"
+                    "name": "アシュバル地方(高台)  夜"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Rockbomb | 16.6667 | 2\/12\/6\/12 | 1 | 4 | 3 |\n| Stone guardian | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n| Hunter mech | 100.0000 | 7\/7\/7\/7 | 1 | 1 | 0 |\n| Blastoad | 16.6667 | 2\/12\/6\/12 | 1 | 1 | 0 |\n| Tearwolf | 16.6667 | 2\/12\/6\/12 | 1 | 2 | 1 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Rockbomb | 50.0000 | 100.0000 |\n| Stone guardian | 50.0000 | 100.0000 |\n| Blastoad | 50.0000 | 100.0000 |\n| Tearwolf | 50.0000 | 100.0000 |\n\n"
         },
         "313": {
-            "position": "カズチィチィ山 主にばくだん岩がスポーンする地点 常時",
+            "position": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時",
             "main": [
                 {
                     "groupId": "313\/6\/14\/11\/14\/1\/1",
@@ -22791,7 +22791,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点 常時"
+                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時"
                 },
                 {
                     "groupId": "313\/0\/9\/6\/9\/1\/3",
@@ -22811,7 +22811,7 @@
                     "countRand": 2,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点 常時"
+                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時"
                 },
                 {
                     "groupId": "313\/7\/12\/11\/12\/1\/2",
@@ -22831,7 +22831,7 @@
                     "countRand": 1,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点 常時"
+                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時"
                 },
                 {
                     "groupId": "313\/7\/12\/11\/12\/1\/1",
@@ -22851,13 +22851,13 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点 常時"
+                    "name": "カズチィチィ山 主にばくだん岩がスポーンする地点(荒地) 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Drackal | 42.8571 | 6\/14\/11\/14 | 1 | 1 | 0 |\n| Rockbomb | 0.0000 | 0\/9\/6\/9 | 1 | 3 | 2 |\n| Ghoul | 58.3333 | 7\/12\/11\/12 | 1 | 2 | 1 |\n| Gruffon | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Drackal | 78.5714 | 100.0000 |\n| Rockbomb | 66.6667 | 100.0000 |\n| Ghoul | 91.6667 | 100.0000 |\n| Gruffon | 91.6667 | 100.0000 |\n\n"
         },
         "314": {
-            "position": "竜のもん  常時",
+            "position": "竜のもん 荒地 常時",
             "main": [
                 {
                     "groupId": "314\/7\/12\/11\/12\/1\/1",
@@ -22877,7 +22877,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": true,
-                    "name": "竜のもん  常時"
+                    "name": "竜のもん 荒地 常時"
                 },
                 {
                     "groupId": "314\/6\/8\/8\/8\/1\/1",
@@ -22897,7 +22897,7 @@
                     "countRand": 0,
                     "has2g": true,
                     "has3g": false,
-                    "name": "竜のもん  常時"
+                    "name": "竜のもん 荒地 常時"
                 }
             ],
             "toString": "\n\n| Monster | Percentage\/Chance | Detailed value | 1G min value | 1G max value | RNG range | \n| --- | --- | --- | --- | --- | --- |\n| Moosifer | 58.3333 | 7\/12\/11\/12 | 1 | 1 | 0 |\n| Drastic drackal | 75.0000 | 6\/8\/8\/8 | 1 | 1 | 0 |\n\n| Monster | Probability of the first 3G (or more) | Probability of the second 3G ( below) | \n| --- | --- | --- |\n| Moosifer | 91.6667 | 100.0000 |\n\n"
