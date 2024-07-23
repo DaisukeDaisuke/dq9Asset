@@ -1378,6 +1378,10 @@ foreach($table34 as $tableId => $item){
 		//var_dump(s::get($id), $rand." ".$r1_1, $expectedValueMinus100);
 		//$result[$tableId][] = [$id, s::get($id), number_format($expectedValueMinus100, 4), $rand."/".$r1_1."/".$g31."/".$r1, $test3, $test2, $test2-$test3];
 		$data = index::get1($tableId);
+		$trap = false;
+		if($id === 0x26||$id === 0x27||$id === 0x28){
+			$trap = true;
+		}
 		$result[$tableId]["position"] = $data === null ? null : ($data[0]." ".$data[2]." ".$data[3]);
 		$result[$tableId]["main"][] = [
 			"groupId" => $tableId."/".$rand."/".$r1_1."/".$g31."/".$r1."/".$test3."/".$test2,
@@ -1397,6 +1401,7 @@ foreach($table34 as $tableId => $item){
 			"countRand" => $test2 - $test3,
 			"has2g" => !(number_format($expectedValueMinus100, 4) === "100.0000"),
 			"has3g" => $bool,
+			"trapMonster" => $trap,
 
 			"name" => $data === null ? null : ($data[0]." ".$data[2]." ".$data[3]),
 		];
@@ -1479,7 +1484,7 @@ ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("2Gappear.json", json_encode([
-	"version" => "4.1.0",
+	"version" => "4.2.0",
 	"explanation" => "This is a list of probabilities that the monster 2G or 3G will appear",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));

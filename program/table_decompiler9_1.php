@@ -1289,6 +1289,11 @@ foreach($table0 as $tableId => $item){
 		$tmp11 = $info << 0xb & 0xFFFFFFFF; //0209cf00 82 25 a0 e1     mov        r2,r2, lsl #0xb
 		$max = $tmp11 >> 0x1d; //多分最大数
 
+		$trap = false;
+		if($id === 0x26||$id === 0x27||$id === 0x28){
+			$trap = true;
+		}
+
 		//var_dump($totalrand." => ".dechex($id));
 		$result[$tableId]["main"][] = [
 			"rand" => $totalrand,
@@ -1296,7 +1301,8 @@ foreach($table0 as $tableId => $item){
 			"displayName" => s::get($id),
 			"min" => $min,
 			"max" => $max,
-			"countRand" => $max - $min
+			"countRand" => $max - $min,
+			"trapMonster" => $trap,
 		];
 		$result1[] = [$totalrand, $id, $min, $max, $max - $min];
 	}
@@ -1387,7 +1393,7 @@ ksort($result);
 var_dump($result);
 //exit();
 file_put_contents("companion.json", json_encode([
-	"version" => "1.1.0",
+	"version" => "1.2.0",
 	"explanation" => "2G and 3G companion list. \nIf implemented correctly this won't happen, but you need to be careful of trap monsters.",
 	"main" => $result,
 ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
