@@ -313,10 +313,10 @@ local monsters = {
 	[0x13a] = "Hootingham-Gore",
 	[0x13b] = "Goresby-Purrvis",
 	[0x15a] = "Goresby-Purrvis",
-	[0x13c] = "King Godwym",
-	[0x13d] = "King Godwym",
-	[0x2ec] = "King Godwym",
-	[0x2ed] = "King Godwym",
+	[0x13c] = "King Godwyn",
+	[0x13d] = "King Godwyn",
+	[0x2ec] = "King Godwyn",
+	[0x2ed] = "King Godwyn",
 	[0x13e] = "Barbarus",
 	[0x2ee] = "Barbarus",
 	[0x13f] = "Corvus",
@@ -1786,9 +1786,9 @@ function calculateRelativeDistance(playerX, playerZ, monsterX, monsterZ, chunkDi
     end
 
     if chunkDiffZ > 1 then
-        basetestZ = basetestZ + 16*(diffchunkz-1)
+        basetestZ = basetestZ + 16*(-diffchunkz-1)
     elseif chunkDiffZ < -1 then
-       basetestZ = basetestZ + 16*(diffchunkz+1)
+       basetestZ = basetestZ + 16*(-diffchunkz+1)
     end
 
     return basetestX, basetestZ
@@ -2020,7 +2020,7 @@ function main()
         -- Flag to keep off-screen or on-screen
         outofRange = false
         -- Only monsters in the surrounding 8 chunks are processed. For some reason removing this causes a bug.
-        if (diffchunkx == 0 and diffchunkz == 0) or (math.abs(diffchunkx) == 1 or math.abs(diffchunkz) == 1) then
+        --if (diffchunkx == 0 and diffchunkz == 0) or (math.abs(diffchunkx) == 1 or math.abs(diffchunkz) == 1) then
             diffx = relativeDistanceX
             diffz = relativeDistanceZ
 
@@ -2152,7 +2152,7 @@ function main()
                 gui.text(x, y, i..": "..string,"#CCCCCC", "clear")
                 y = y + addY
             end
-        end
+        --end
     end
 end
 
